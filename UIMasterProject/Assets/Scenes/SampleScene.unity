@@ -468,10 +468,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4F58\u8BD7\u66FC<sprite=3>"
+  m_text: "\u53EF\u4EE5\u7684\uFF0C\u8FD9\u662F\u9759\u6001\u7684\u7684\n\u6211\u4E0D\u6253\u591A\u5C11\uFF0C\u4ED6\u5C31\u4E0D\u4F1A\u751F\u6210\u591A\u5C11"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 691f0deb6b9d5f74aa0820ee4713b74a, type: 2}
-  m_sharedMaterial: {fileID: -2160911614751202497, guid: 691f0deb6b9d5f74aa0820ee4713b74a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb5649ed28e511146a5389f2990b564c, type: 2}
+  m_sharedMaterial: {fileID: 7136138581506691951, guid: cb5649ed28e511146a5389f2990b564c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 2194
+  m_TextStyleHashCode: -1416319268
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2

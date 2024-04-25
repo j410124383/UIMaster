@@ -1558,6 +1558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1178819416346760366, guid: 16af2baafb784c842bb63eff7b489eb7, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 8541209559040
+      objectReference: {fileID: 0}
     - target: {fileID: 3224688153015631584, guid: 16af2baafb784c842bb63eff7b489eb7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1585,6 +1589,10 @@ PrefabInstance:
     - target: {fileID: 3224688153015631585, guid: 16af2baafb784c842bb63eff7b489eb7, type: 3}
       propertyPath: m_text
       value: "\u67E5\u770B\u8BE5\u6B21\u4FE1\u606F\u5427\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665323253046565940, guid: 16af2baafb784c842bb63eff7b489eb7, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 8618154065920
       objectReference: {fileID: 0}
     - target: {fileID: 6547329973150972256, guid: 16af2baafb784c842bb63eff7b489eb7, type: 3}
       propertyPath: m_RootOrder
@@ -2178,6 +2186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_RankingListPanel Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1938365405810670821, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4492640845824
+      objectReference: {fileID: 0}
     - target: {fileID: 2772550340510652074, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_text
       value: "\u6765\u89D2\u9010\u6700\u9AD8\u6210\u7EE9\u5427\uFF01"
@@ -2205,6 +2217,10 @@ PrefabInstance:
     - target: {fileID: 2772550340510652075, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064409630426494079, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 7535323185152
       objectReference: {fileID: 0}
     - target: {fileID: 5793527950452248875, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_RootOrder
@@ -2317,6 +2333,10 @@ PrefabInstance:
     - target: {fileID: 8055512581788334200, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8836453505823170426, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 7535323185152
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}

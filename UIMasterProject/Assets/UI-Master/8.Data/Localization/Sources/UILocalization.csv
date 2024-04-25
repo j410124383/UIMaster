@@ -1,0 +1,18 @@
+﻿Key,Id,Chinese (Simplified)(zh),Chinese (Traditional)(zh-TW),English (United States)(en-US),French(fr),Japanese(ja)
+id_开始,3.4814E+12,开始游戏,開始遊戲,Start Game,Démarrer le jeu,ゲームを開始
+id_设置,4.03201E+12,设置,設置,Settings,Paramètres,設定
+id_成就,4.45019E+12,成就,成就,Achievements,Réalisations,実績
+id_排行榜,4.49264E+12,排行榜,排行榜,Leaderboard,Classements,リーダーボード
+id_开发日志,4.54914E+12,开发日志,開發日誌,Update Log,Journal des mises à jour,アップデートログ
+id_制作团队,4.61688E+12,制作团队,製作團隊,Credits,Crédits,クレジット
+id_退出,5.25269E+12,退出,退出,Quit,Quitter,終了
+id_成就描述,6.72458E+12,完成成就，领取奖励,完成成就，領取獎勵,"Complete Achievements, Claim Rewards","Accomplir des réalisations, Réclamer des récompenses",実績達成、報酬受け取り
+id_日志描述,7.39405E+12,查看开发组的更新进程,查看開發組的更新進程,View Development Team's Update Progress,Voir la progression de l'équipe de développement,開発チームの進捗状況を見る
+id_排行榜描述,7.53532E+12,不断挑战更高名词吧！,不斷挑戰更高名詞吧！,Keep Challenging Higher Levels!,Poursuivre les défis de niveaux supérieurs !,より高いレベルに挑戦し続けよう！
+id_统计数据,8.54121E+12,统计数据,統計數據,Statistics,Statistiques,統計データ
+id_查看成绩,8.61815E+12,查看该次成绩,查看該次成績,View This Score,Voir ce score,このスコアを見る
+id_设置_通用,9.94445E+12,通用,通用,General,Général,一般
+id_设置_图形,9.99368E+12,图形,圖形,Graphics,Graphiques,グラフィック
+id_设置_音频,1.00186E+13,音频,音頻,Audio,Audio,オーディオ
+id_设置_控制,1.00587E+13,控制,控制,Controls,Contrôles,コントロール
+id_设置_游戏内,1.00883E+13,游戏内,遊戲內,In-Game,Dans le jeu,ゲーム内

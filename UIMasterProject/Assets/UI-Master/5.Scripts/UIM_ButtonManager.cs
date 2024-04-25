@@ -70,10 +70,8 @@ public class UIM_ButtonManager : MonoBehaviour
 
         }
 
-
-
-
-
     }
+
+
 
 }

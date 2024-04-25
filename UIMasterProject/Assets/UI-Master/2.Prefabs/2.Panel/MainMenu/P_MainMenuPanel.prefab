@@ -454,6 +454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3829639971478832662, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_Navigation.m_WrapAround
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -588,6 +592,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3207427693306081232, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4450190295040
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -729,6 +737,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3207427693306081232, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4492640845824
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -886,6 +898,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3207427693306081232, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4616880324608
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1146,6 +1162,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3207427693306081232, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 5252694867968
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1276,6 +1296,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3207427693306081232, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4032009797632
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1417,6 +1441,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4158879322747866788}
     m_Modifications:
+    - target: {fileID: 3207427693306081232, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4549138120704
+      objectReference: {fileID: 0}
     - target: {fileID: 3829639971478832663, guid: 52c1b2e82b876f44892895bfe20e398a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1938365405810670821, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4549138120704
+      objectReference: {fileID: 0}
     - target: {fileID: 2772550340510652074, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_text
       value: "\u8FD9\u91CC\u4F1A\u653E\u65E5\u5FD7\uFF0C\u65E5\u5FD7\u81EA\u52A8\u8BFB\u53D6unity\u5185\u7684data\u4E0B\u7684text\u3002"
@@ -142,6 +146,10 @@ PrefabInstance:
     - target: {fileID: 2772550340510652075, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840100650366751440, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 4549138120704
       objectReference: {fileID: 0}
     - target: {fileID: 5793527950452248875, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_RootOrder

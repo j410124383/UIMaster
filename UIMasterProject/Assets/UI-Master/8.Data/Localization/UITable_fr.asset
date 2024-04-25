@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UITable_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 51f5245bc279b9c40a2a4dbf73a9fa58, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3481402540032
+    m_Localized: "D\xE9marrer le jeu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4032009797632
+    m_Localized: "Param\xE8tres"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4450190295040
+    m_Localized: "R\xE9alisations"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4492640845824
+    m_Localized: Classements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4549138120704
+    m_Localized: "Journal des mises \xE0 jour"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616880324608
+    m_Localized: "Cr\xE9dits"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5252694867968
+    m_Localized: Quitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6724580999168
+    m_Localized: "Accomplir des r\xE9alisations, R\xE9clamer des r\xE9compenses"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7394054832128
+    m_Localized: "Voir la progression de l'\xE9quipe de d\xE9veloppement"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7535323185152
+    m_Localized: "Poursuivre les d\xE9fis de niveaux sup\xE9rieurs !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8541209559040
+    m_Localized: Statistiques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8618154065920
+    m_Localized: Voir ce score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9944447516672
+    m_Localized: "G\xE9n\xE9ral"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9993676062720
+    m_Localized: Graphiques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10018594422784
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10058666803200
+    m_Localized: "Contr\xF4les"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10088295366656
+    m_Localized: Dans le jeu
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

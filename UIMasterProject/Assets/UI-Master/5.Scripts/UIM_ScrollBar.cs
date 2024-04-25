@@ -19,12 +19,17 @@ public class UIM_ScrollBar : MonoBehaviour
         lastInputTime = Time.time;
         scrollView = GetComponent<ScrollRect>();
         content = scrollView.content;
-        
+
+
+
     }
 
     private void OnEnable()
     {
         scrollView.verticalScrollbar.value = 1f;
+        var v = content.GetComponent<HorizontalOrVerticalLayoutGroup>();
+        v.CalculateLayoutInputVertical();
+        v.SetLayoutVertical();
     }
 
     void Update()

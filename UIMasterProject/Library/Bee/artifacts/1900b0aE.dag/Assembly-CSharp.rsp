@@ -379,6 +379,7 @@
 "Assets/UI-Master/5.Scripts/UIM_ButtonManager.cs"
 "Assets/UI-Master/5.Scripts/UIM_MainMenu.cs"
 "Assets/UI-Master/5.Scripts/UIM_ScrollBar.cs"
+"Assets/UIT_LogsLoad.cs"
 -langversion:9.0
 
 /deterministic

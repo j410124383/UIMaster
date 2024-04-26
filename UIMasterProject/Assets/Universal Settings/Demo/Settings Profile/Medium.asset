@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62663802e2ec24540a504c20ba52033a, type: 3}
+  m_Name: Medium
+  m_EditorClassIdentifier: 
+  fpsIndex: 4
+  resolutionIndex: 9999
+  refreshRateIndex: 0
+  antiAliasingIndex: 0
+  shadowModeIndex: 1
+  shadowDistanceIndex: 1
+  shadowResolutionIndex: 1
+  textureResolutionIndex: 0
+  brightness: 0.5
+  fullscreen: 0
+  vsync: 0
+  postProcessing: 0
+  postProcessingEffect: 0000000000000000000000
+  rendererFeatures: 00010101010101010101
+  masterVolume: 1
+  audioMixerVolume:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  customBoolean: 01000000000000000000
+  customFloat:
+  - 0.1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  customInteger: 01000000000000000000000000000000000000000000000000000000000000000000000000000000

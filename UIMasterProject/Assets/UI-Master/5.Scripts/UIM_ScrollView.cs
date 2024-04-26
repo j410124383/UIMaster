@@ -20,22 +20,14 @@ public class UIM_ScrollView : MonoBehaviour
         scrollView = GetComponent<ScrollRect>();
         content = scrollView.content;
 
-        // 刷新当前对象及其所有子对象中的布局组件
-        RefreshLayoutsRecursively(transform);
 
-    }
 
-    private void Start()
-    {
-        RefreshLayoutsRecursively(transform);
     }
 
     private void OnEnable()
     {
         scrollView.verticalScrollbar.value = 1f;
-
-        // 刷新当前对象及其所有子对象中的布局组件
-        RefreshLayoutsRecursively(transform);
+        UIM_UIManager.Instance.RefreshLayoutsRecursively(transform);
 
     }
 
@@ -84,25 +76,5 @@ public class UIM_ScrollView : MonoBehaviour
     }
 
 
-    /// <summary>
-    /// 刷新对象上的layout组件
-    /// </summary>
-    /// <param 父对象="parent"></param>
-    public static void RefreshLayoutsRecursively(Transform parent)
-    {
 
-        var list = parent.GetComponentsInChildren<HorizontalOrVerticalLayoutGroup>();
-
-        foreach (var item in list)
-        {
-            //item.CalculateLayoutInputVertical();
-            //item.SetLayoutVertical();
-            //item.CalculateLayoutInputHorizontal();
-            //item.SetLayoutHorizontal();
-            LayoutRebuilder.ForceRebuildLayoutImmediate(item.transform.GetComponent<RectTransform>());
-            //print("vertical刷新了:" + item.gameObject.name);
-        }
-
-
-    }
 }

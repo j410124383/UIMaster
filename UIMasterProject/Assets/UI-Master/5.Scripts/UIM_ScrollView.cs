@@ -47,8 +47,8 @@ public class UIM_ScrollView : MonoBehaviour
         }
 
 
-
         // 如果 Content 滚动到底部，则重置滚动位置
+        if (!gradientStrip.gameObject.activeInHierarchy) return;
         if (IsDown())
         {
             gradientStrip.SetBool("ISSWITCH", true);

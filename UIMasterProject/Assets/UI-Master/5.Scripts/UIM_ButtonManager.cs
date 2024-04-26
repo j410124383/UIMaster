@@ -55,16 +55,8 @@ public class UIM_ButtonManager : MonoBehaviour
             }
             else
             {
-                StartCoroutine(DeactivatePanel());
-            }
-
-            //item.GetComponent<Animation>().clip;
-             IEnumerator DeactivatePanel()
-            {
                 anim.SetBool("ISSWITCH", true);
-                yield return new WaitForSeconds(anim.GetCurrentAnimatorClipInfo(0).Length);
-                item.SetActive(false);
-                
+
             }
 
 
@@ -72,6 +64,12 @@ public class UIM_ButtonManager : MonoBehaviour
 
     }
 
+
+    public void DeactivatePanel()
+    {
+
+        gameObject.SetActive(false);
+    }
 
 
 }

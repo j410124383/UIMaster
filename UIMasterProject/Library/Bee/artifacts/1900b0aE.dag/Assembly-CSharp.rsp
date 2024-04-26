@@ -384,10 +384,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.CacheServer.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/UI-Master/5.Scripts/SO/SO_AudioData.cs"
 "Assets/UI-Master/5.Scripts/UIM_ButtonManager.cs"
+"Assets/UI-Master/5.Scripts/UIM_LogsLoad.cs"
 "Assets/UI-Master/5.Scripts/UIM_MainMenu.cs"
 "Assets/UI-Master/5.Scripts/UIM_ScrollView.cs"
-"Assets/UI-Master/5.Scripts/UIT_LogsLoad.cs"
+"Assets/UI-Master/5.Scripts/UIM_SoundManager.cs"
+"Assets/UIM_SoundPlay.cs"
 -langversion:9.0
 
 /deterministic

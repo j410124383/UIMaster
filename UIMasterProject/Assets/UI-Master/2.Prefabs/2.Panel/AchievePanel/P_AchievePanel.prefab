@@ -907,11 +907,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8055512581144424720, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_Size
-      value: 0.83341545
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8055512581144424720, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8055512581144424721, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_AnchoredPosition.x

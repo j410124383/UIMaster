@@ -86,6 +86,66 @@ MonoBehaviour:
     m_Localized: Dans le jeu
     m_Metadata:
       m_Items: []
+  - m_Id: 254637521436672
+    m_Localized: Quitter le jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254908595109888
+    m_Localized: Continuer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255015004602368
+    m_Localized: "Red\xE9marrer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280290916499456
+    m_Localized: Continuer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280397141442560
+    m_Localized: Retour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050046934220800
+    m_Localized: Langue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050106937933824
+    m_Localized: "Qualit\xE9 graphique"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050159270264832
+    m_Localized: "Anticr\xE9nelage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050239876399104
+    m_Localized: "R\xE9solution"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050313704538112
+    m_Localized: Volume principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050356880703488
+    m_Localized: Volume de la musique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050443421777920
+    m_Localized: Volume des effets sonores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054394833633280
+    m_Localized: "Plein \xE9cran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054462823301120
+    m_Localized: Synchronisation verticale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095181931839488
+    m_Localized: "R\xE9tablir les param\xE8tres par d\xE9faut"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

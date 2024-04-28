@@ -2,10 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - SO_AudioData
+    - SO_SettingData
     - UIM_ButtonManager
     - UIM_LogsLoad
     - UIM_MainMenu
     - UIM_ScrollView
+    - UIM_SettingManager
     - UIM_SoundManager
     - UIM_SoundPlay
     - UIM_TwoHead
@@ -41,6 +43,10 @@ ScriptsOnlyBuild:
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
+    Unity.Localization.Editor.dll:
+    - UnityEditor.Localization.AssetTableCollection
+    - UnityEditor.Localization.StringTableCollection
+    - UnityEditor.Localization.UI.LocalizationTablesWindow
     Unity.Localization.dll:
     - UnityEngine.Localization.Components.LocalizeStringEvent
     - UnityEngine.Localization.Locale
@@ -86,15 +92,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.ToggleGroup
     - UnityEngine.UI.VerticalLayoutGroup
-    UniversalSettings.dll:
-    - UniversalSettings.AntiAliasingController
-    - UniversalSettings.ApplySettingsButton
-    - UniversalSettings.QualitySettingsController
-    - UniversalSettings.ResetSettingsButton
-    - UniversalSettings.ResolutionController
-    - UniversalSettings.SettingsProfile
-    - UniversalSettings.UndoSettingsButton
-    - UniversalSettings.UniversalSettingsRunner
   serializedClasses:
     Assembly-CSharp:
     - AudioClipEntry
@@ -385,6 +382,51 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
   sceneClasses:
     Assets/UI-Master/6.Scenes/MainMenu.unity:
     - Class: 1
@@ -426,73 +468,61 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1596}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2512}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3450}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3906}
     - Class: 114
-      Script: {instanceID: 3884}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5962}
     - Class: 114
-      Script: {instanceID: 5898}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 6450}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 7008}
+      Script: {instanceID: 6356}
     - Class: 114
-      Script: {instanceID: 7454}
+      Script: {instanceID: 6546}
     - Class: 114
-      Script: {instanceID: 7630}
+      Script: {instanceID: 6992}
     - Class: 114
-      Script: {instanceID: 7950}
+      Script: {instanceID: 7110}
     - Class: 114
-      Script: {instanceID: 8086}
+      Script: {instanceID: 7562}
+    - Class: 114
+      Script: {instanceID: 7742}
+    - Class: 114
+      Script: {instanceID: 8070}
     - Class: 114
       Script: {instanceID: 8206}
     - Class: 114
-      Script: {instanceID: 8742}
+      Script: {instanceID: 8326}
     - Class: 114
-      Script: {instanceID: 8756}
+      Script: {instanceID: 8852}
     - Class: 114
-      Script: {instanceID: 9106}
+      Script: {instanceID: 8868}
     - Class: 114
-      Script: {instanceID: 9256}
+      Script: {instanceID: 8882}
     - Class: 114
-      Script: {instanceID: 9420}
+      Script: {instanceID: 9242}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 9396}
     - Class: 114
-      Script: {instanceID: 10740}
+      Script: {instanceID: 9566}
     - Class: 114
-      Script: {instanceID: 64198}
+      Script: {instanceID: 10790}
     - Class: 114
-      Script: {instanceID: 64230}
-    - Class: 114
-      Script: {instanceID: 64234}
-    - Class: 114
-      Script: {instanceID: 64242}
-    - Class: 114
-      Script: {instanceID: 64266}
-    - Class: 114
-      Script: {instanceID: 64284}
-    - Class: 114
-      Script: {instanceID: 64310}
-    - Class: 114
-      Script: {instanceID: 64320}
-    - Class: 114
-      Script: {instanceID: 72262}
-    - Class: 114
-      Script: {instanceID: 132810}
+      Script: {instanceID: 10908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -513,6 +543,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -522,10 +558,10 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+      Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: HorizontalLayoutGroup
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -546,16 +582,16 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_UIManager
   - hash:
       serializedVersion: 2
       Hash: 61f2059db36c32396c3d12077855592b
@@ -600,10 +636,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: abc0ca0d82dc32cf657bdd90058155f4
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: UniversalSettingsRunner
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: be2116003beb2582bf010b5b6db30847
+    assemblyName: UniversalSettings.Demo.dll
+    namespaceName: UniversalSettings.Demo
+    className: CustomSettings
   - hash:
       serializedVersion: 2
       Hash: 9ba0a7138d2b6a81941060b1c93ed0d7
@@ -684,10 +732,22 @@ ScriptsOnlyBuild:
     className: SkeletonAsset
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: UniversalSettings.Demo.dll
+    namespaceName: UniversalSettings.Demo
+    className: PulseScale
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: FullscreenController
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -718,6 +778,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b23b717f7381fdfcad63e097890c172a
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: SettingsProfile
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -792,6 +858,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: ResolutionController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -822,6 +894,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: ShadowDistanceController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -841,9 +919,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: QualitySettingsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9d5d4677c107535016ef32cee23cdfe1
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: CustomIntegerController
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1014,6 +1104,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: ResetSettingsButton
+  - hash:
+      serializedVersion: 2
       Hash: 82da9a261e8c0b497ac9b2d720c52902
     assemblyName: Unity.Localization.dll
     namespaceName: UnityEngine.Localization.Tables
@@ -1038,10 +1134,22 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: RefreshRateController
+  - hash:
+      serializedVersion: 2
       Hash: ab6a2fed0a3d86e42cbaa680bbf9bfac
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
     className: AnimatedTile
+  - hash:
+      serializedVersion: 2
+      Hash: 64a63e97084189ad89fac604f6d08ab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_TwoHead
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1050,10 +1158,22 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: MasterVolumeController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8db39e30050029c2bd0012bc2ffc4d6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_SettingManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1140,6 +1260,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1194,16 +1320,34 @@ ScriptsOnlyBuild:
     className: LocalizeStringEvent
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: PostProcessingController
+  - hash:
+      serializedVersion: 2
       Hash: 324e02d91d6d40f67c4200c3822bbd77
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_LogsLoad
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: TextureResolutionController
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: VsyncController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1260,6 +1404,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 98568c26db5e219068cc6547bf876ab9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SO_SettingData
+  - hash:
+      serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1276,6 +1426,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: aa87817237a7c569cc6690ced30ad262
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: AudioMixerVolumeController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1302,6 +1458,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: AntiAliasingController
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1318,6 +1480,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Localization.dll
     namespaceName: UnityEngine.Localization.PropertyVariants
     className: GameObjectLocalizer
+  - hash:
+      serializedVersion: 2
+      Hash: 69c275968eb327966f0220a9ad9156b5
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: CustomFloatController
   - hash:
       serializedVersion: 2
       Hash: 8ea2f0770ecce9b4ff92ede20156a5b7
@@ -1348,6 +1516,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: ffa318330c340876b8fa777a57ae3454
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: CustomBooleanController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1416,6 +1590,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: ShadowModeController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1426,6 +1606,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: ApplySettingsButton
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1488,10 +1674,22 @@ ScriptsOnlyBuild:
     className: CompatibilityAssetBundleManifest
   - hash:
       serializedVersion: 2
+      Hash: 3227ab2119a50fa9040448d59b656dd6
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: RendererFeatureController
+  - hash:
+      serializedVersion: 2
       Hash: f4e045a104503dcd3aaa474e94755354
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_ButtonManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: UndoSettingsButton
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1548,6 +1746,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: ShadowResolutionController
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1560,10 +1764,28 @@ ScriptsOnlyBuild:
     className: SpriteLibrarySourceAsset
   - hash:
       serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: BrightnessController
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0201aff5f7c8fdf5c302817075359230
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: PostProcessingEffectController
+  - hash:
+      serializedVersion: 2
+      Hash: 14b59e2f3572fa2b9c8362e02089df83
+    assemblyName: UniversalSettings.dll
+    namespaceName: UniversalSettings
+    className: FpsController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1600,180 +1822,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b23b717f7381fdfcad63e097890c172a
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: SettingsProfile
-  - hash:
-      serializedVersion: 2
-      Hash: aa87817237a7c569cc6690ced30ad262
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: AudioMixerVolumeController
-  - hash:
-      serializedVersion: 2
-      Hash: 9d5d4677c107535016ef32cee23cdfe1
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: CustomIntegerController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: ShadowModeController
-  - hash:
-      serializedVersion: 2
-      Hash: 0201aff5f7c8fdf5c302817075359230
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: PostProcessingEffectController
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: UniversalSettings.Demo.dll
-    namespaceName: UniversalSettings.Demo
-    className: PulseScale
-  - hash:
-      serializedVersion: 2
-      Hash: 69c275968eb327966f0220a9ad9156b5
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: CustomFloatController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: ApplySettingsButton
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: FpsController
-  - hash:
-      serializedVersion: 2
-      Hash: abc0ca0d82dc32cf657bdd90058155f4
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: UniversalSettingsRunner
-  - hash:
-      serializedVersion: 2
-      Hash: be2116003beb2582bf010b5b6db30847
-    assemblyName: UniversalSettings.Demo.dll
-    namespaceName: UniversalSettings.Demo
-    className: CustomSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: ResetSettingsButton
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: ShadowDistanceController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: TextureResolutionController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: FullscreenController
-  - hash:
-      serializedVersion: 2
-      Hash: 3227ab2119a50fa9040448d59b656dd6
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: RendererFeatureController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: BrightnessController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: AntiAliasingController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: VsyncController
-  - hash:
-      serializedVersion: 2
-      Hash: ffa318330c340876b8fa777a57ae3454
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: CustomBooleanController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: ResolutionController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: MasterVolumeController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: PostProcessingController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: UndoSettingsButton
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: RefreshRateController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: QualitySettingsController
-  - hash:
-      serializedVersion: 2
-      Hash: 14b59e2f3572fa2b9c8362e02089df83
-    assemblyName: UniversalSettings.dll
-    namespaceName: UniversalSettings
-    className: ShadowResolutionController
-  - hash:
-      serializedVersion: 2
-      Hash: 64a63e97084189ad89fac604f6d08ab4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIM_TwoHead
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIM_UIManager
   platform: 19
   scenePathNames:
   - Assets/UI-Master/6.Scenes/MainMenu.unity

@@ -328,14 +328,16 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UniversalSettings.Demo.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UniversalSettings.ref.dll"
 "Assets/UI-Master/5.Scripts/SO/SO_AudioData.cs"
+"Assets/UI-Master/5.Scripts/SO/SO_SettingData.cs"
 "Assets/UI-Master/5.Scripts/UIM_ButtonManager.cs"
 "Assets/UI-Master/5.Scripts/UIM_LogsLoad.cs"
 "Assets/UI-Master/5.Scripts/UIM_MainMenu.cs"
 "Assets/UI-Master/5.Scripts/UIM_ScrollView.cs"
 "Assets/UI-Master/5.Scripts/UIM_SoundManager.cs"
 "Assets/UI-Master/5.Scripts/UIM_SoundPlay.cs"
-"Assets/UIM_TwoHead.cs"
-"Assets/UIM_UIManager.cs"
+"Assets/UI-Master/5.Scripts/UIM_TwoHead.cs"
+"Assets/UI-Master/5.Scripts/UIM_UIManager.cs"
+"Assets/UIM_SettingManager.cs"
 -langversion:9.0
 
 /deterministic

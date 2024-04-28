@@ -15,4 +15,16 @@ id_设置_通用,9.94445E+12,通用,通用,General,Général,一般
 id_设置_图形,9.99368E+12,图形,圖形,Graphics,Graphiques,グラフィック
 id_设置_音频,1.00186E+13,音频,音頻,Audio,Audio,オーディオ
 id_设置_控制,1.00587E+13,控制,控制,Controls,Contrôles,コントロール
-id_设置_游戏内,1.00883E+13,游戏内,遊戲內,In-Game,Dans le jeu,ゲーム内
+id_设置_游戏玩法,1.00883E+13,游戏玩法,遊戲玩法,Gameplay,Dans le jeu,ゲームプレイ
+id_退出游戏,2.54638E+14,退出游戏,退出遊戲,Quit Game,Quitter le jeu,ゲームを終了
+id_继续,2.54909E+14,继续,繼續,Continue,Continuer,続ける
+id_重新开始,2.55015E+14,重新开始,重新開始,Restart,Redémarrer,再開始
+id_按钮_继续,2.80291E+14,继续,繼續,Continue,Continuer,続ける
+id_按钮_返回,2.80397E+14,返回,返回,Back,Retour,戻る
+id_语言,1.05005E+15,语言,語言,Language,Langue,言語
+id_图像质量,1.05011E+15,图像质量,圖像質量,Graphics Quality,Qualité graphique,グラフィック品質
+id_抗锯齿,1.05016E+15,抗锯齿,抗鋸齒,Anti-aliasing,Anticrénelage,アンチエイリアシング
+id_分辨率,1.05024E+15,分辨率,解析度,Resolution,Résolution,解像度
+id_主音量,1.05031E+15,主音量,主音量,Master Volume,Volume principal,マスターボリューム
+id_音乐音量,1.05036E+15,音乐音量,音樂音量,Music Volume,Volume de la musique,音楽の音量
+id_音效音量,1.05044E+15,音效音量,音效音量,Sound Volume,Volume des effets sonores,効果音の音量

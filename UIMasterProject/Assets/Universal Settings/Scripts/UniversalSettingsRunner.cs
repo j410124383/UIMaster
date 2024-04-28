@@ -285,10 +285,8 @@ namespace UniversalSettings {
 		}
 
 		private void UpdateUI() {
-			
 			UpdateComponents();
 			UpdateButtons();
-			
 		}
 
 		private void ComputeResolutions() {
@@ -323,7 +321,6 @@ namespace UniversalSettings {
 			supportedRefreshRateFallback = Screen.currentResolution.refreshRate;
 		}
 
-		///
 		/// <summary>
 		/// Return the current settings that have not been applied.
 		/// </summary>

@@ -129,8 +129,8 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_ANIMATION_BURST
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --compilation-defines=ENABLE_ASYNC_ASSETBUNDLE_UWR
---compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=TEXTMESHPRO_2_0_0_OR_NEWER
+--compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="UIMasterProject_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
 --output=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
@@ -140,6 +140,7 @@ Library: lib_burst_generated
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Localization.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Burst.dll
@@ -150,7 +151,9 @@ Library: lib_burst_generated
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.ResourceManager.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
+--root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.Demo.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.ScriptableBuildPipeline.dll
@@ -165,10 +168,7 @@ Library: lib_burst_generated
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
---root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.013.dll
---root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.dll
---root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.Demo.dll
 --assembly-folder=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -306,8 +306,8 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_ANIMATION_BURST
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --compilation-defines=ENABLE_ASYNC_ASSETBUNDLE_UWR
---compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=TEXTMESHPRO_2_0_0_OR_NEWER
+--compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="UIMasterProject_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
 --output=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
@@ -317,6 +317,7 @@ Library: lib_burst_generated
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Localization.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Burst.dll
@@ -327,7 +328,9 @@ Library: lib_burst_generated
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.ResourceManager.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
+--root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.Demo.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.ScriptableBuildPipeline.dll
@@ -342,10 +345,7 @@ Library: lib_burst_generated
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
---root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.013.dll
---root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.dll
---root-assembly=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\UniversalSettings.Demo.dll
 --assembly-folder=F:\Project\0423_UI大师\UIMaster\UIMasterProject\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10

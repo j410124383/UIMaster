@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1129218042534364360}
   - component: {fileID: 1129218042534364362}
   - component: {fileID: 1129218042534364361}
-  - component: {fileID: 1129218042534364363}
+  - component: {fileID: 7948511021578074945}
   m_Layer: 5
   m_Name: T_OptionName
   m_TagString: Untagged
@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 616.18, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1129218042534364362
 CanvasRenderer:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u8BED\u8A00"
+  m_text: "\u9879\u76EE\u540D\u79F0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 443fffacc37fb9a4e8998539fe7710cd, type: 2}
   m_sharedMaterial: {fileID: -225126080445076005, guid: 443fffacc37fb9a4e8998539fe7710cd, type: 2}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_fontSize: 60
   m_fontSizeBase: 60
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 15
   m_fontSizeMax: 60
   m_fontStyle: 0
@@ -130,13 +130,13 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 2.6472776, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1129218042534364363
+--- !u!114 &7948511021578074945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,11 +145,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 1129218042534364367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:51f5245bc279b9c40a2a4dbf73a9fa58
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1129218042534364361}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1129218043701248046
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2798000827030319680, guid: 0967b2c8bfd73f348b69ca07e052501a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 160.005
+      value: 140.005
       objectReference: {fileID: 0}
     - target: {fileID: 2798000827030319680, guid: 0967b2c8bfd73f348b69ca07e052501a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -427,7 +453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2798000827620673064, guid: 0967b2c8bfd73f348b69ca07e052501a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 600
+      value: 722
       objectReference: {fileID: 0}
     - target: {fileID: 2798000827620673064, guid: 0967b2c8bfd73f348b69ca07e052501a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -499,7 +525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8723814197821632151, guid: 0967b2c8bfd73f348b69ca07e052501a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 280.01
+      value: 240.01001
       objectReference: {fileID: 0}
     - target: {fileID: 8723814197821632151, guid: 0967b2c8bfd73f348b69ca07e052501a, type: 3}
       propertyPath: m_AnchoredPosition.y

@@ -59,7 +59,7 @@ public class UIM_ButtonManager : MonoBehaviour
 
             }
 
-            UIM_UIManager.Instance.RefreshLayoutsRecursively(item.transform);
+            UIM_UIManager.Instance.RefreshLayoutsRecursively();
         }
 
     }

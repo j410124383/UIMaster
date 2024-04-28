@@ -83,7 +83,67 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10088295366656
-    m_Localized: GamePlay
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254637521436672
+    m_Localized: Quit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254908595109888
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255015004602368
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280290916499456
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280397141442560
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050046934220800
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050106937933824
+    m_Localized: Graphics Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050159270264832
+    m_Localized: Anti-aliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050239876399104
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050313704538112
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050356880703488
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050443421777920
+    m_Localized: Sound Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054394833633280
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1054462823301120
+    m_Localized: Vertical Sync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1095181931839488
+    m_Localized: Restore Default Settings
     m_Metadata:
       m_Items: []
   references:

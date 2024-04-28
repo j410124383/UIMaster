@@ -29,7 +29,7 @@ public class UIM_SoundPlay : MonoBehaviour
     {
         var sm = UIM_SoundManager.Instance;
         var au = sm. GetAduio(key);
-        SFPlayer = sm.BGMPlyaer;
+        SFPlayer = sm.SFPlayer;
         if (!au) return;
 
         //SFPlayer.volume = sm.so_AudioData.SFVolume;

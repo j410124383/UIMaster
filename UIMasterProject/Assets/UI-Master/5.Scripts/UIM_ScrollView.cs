@@ -27,7 +27,7 @@ public class UIM_ScrollView : MonoBehaviour
     private void OnEnable()
     {
         scrollView.verticalScrollbar.value = 1f;
-        UIM_UIManager.Instance.RefreshLayoutsRecursively(transform);
+        UIM_UIManager.Instance.RefreshLayoutsRecursively();
 
     }
 

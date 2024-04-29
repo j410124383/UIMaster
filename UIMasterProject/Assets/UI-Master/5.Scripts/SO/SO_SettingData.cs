@@ -21,19 +21,19 @@ public class SO_SettingData : ScriptableObject
 
 
 
-    public SO_SettingData(int i01,int i02,int i03,int i04,int i05,int i06,int i07,int i08,int i09)
-    {
-        num_Language = i01;
-        num_Quality = i02;
-        num_MasterVol = i03;
-        num_BGMVol = i04;
-        num_SEVol = i05;
-        num_FullScreen = i06;
-        num_AntiAliasing = i07;
-        num_vSync = i08;
-        num_Resoulution = i09;
+    //public SO_SettingData(int i01,int i02,int i03,int i04,int i05,int i06,int i07,int i08,int i09)
+    //{
+    //    num_Language = i01;
+    //    num_Quality = i02;
+    //    num_MasterVol = i03;
+    //    num_BGMVol = i04;
+    //    num_SEVol = i05;
+    //    num_FullScreen = i06;
+    //    num_AntiAliasing = i07;
+    //    num_vSync = i08;
+    //    num_Resoulution = i09;
   
-    }
+    //}
 
 
     public void CopyNewData(SO_SettingData s)

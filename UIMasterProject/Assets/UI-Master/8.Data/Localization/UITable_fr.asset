@@ -143,7 +143,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1095181931839488
-    m_Localized: "R\xE9tablir les param\xE8tres par d\xE9faut"
+    m_Localized: "Restaurer par d\xE9faut"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420052943536128
+    m_Localized: Guide de terrain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420139782406144
+    m_Localized: Explication du guide de terrain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1421490587369472
+    m_Localized: Sauvegarder et revenir
     m_Metadata:
       m_Items: []
   references:

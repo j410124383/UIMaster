@@ -1,14 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - LoadTest
     - SO_AudioData
     - SO_SettingData
+    - SO_SetttingOptions
     - UIM_ButtonManager
+    - UIM_GoldFingerPanel
     - UIM_LogsLoad
     - UIM_MainMenu
     - UIM_ScrollView
-    - UIM_SettingPanelManager
+    - UIM_SettingPanel
     - UIM_SoundManager
     - UIM_SoundPlay
     - UIM_TwoHead
@@ -46,7 +47,9 @@ ScriptsOnlyBuild:
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
     Unity.Localization.Editor.dll:
-    - UnityEditor.Localization.UI.LocalizationSettingsEditor
+    - UnityEditor.Localization.AssetTableCollection
+    - UnityEditor.Localization.StringTableCollection
+    - UnityEditor.Localization.UI.LocalizationTablesWindow
     Unity.Localization.dll:
     - UnityEngine.Localization.Components.LocalizeStringEvent
     - UnityEngine.Localization.Locale
@@ -430,12 +433,69 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadTest
-    methodName: ButLoad
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadTest
-    methodName: ButSave
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
   sceneClasses:
     Assets/UI-Master/6.Scenes/MainMenu.unity:
     - Class: 1
@@ -467,8 +527,6 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1586}
-    - Class: 114
       Script: {instanceID: 1588}
     - Class: 114
       Script: {instanceID: 1590}
@@ -477,67 +535,71 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1670}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 3196}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 3206}
+      Script: {instanceID: 3198}
     - Class: 114
-      Script: {instanceID: 3494}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 3906}
+      Script: {instanceID: 3496}
     - Class: 114
-      Script: {instanceID: 3934}
+      Script: {instanceID: 3908}
     - Class: 114
-      Script: {instanceID: 4782}
+      Script: {instanceID: 3936}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5544}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5966}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 5982}
     - Class: 114
-      Script: {instanceID: 6356}
+      Script: {instanceID: 6126}
     - Class: 114
-      Script: {instanceID: 6546}
+      Script: {instanceID: 6360}
     - Class: 114
-      Script: {instanceID: 6956}
+      Script: {instanceID: 6550}
     - Class: 114
-      Script: {instanceID: 6994}
+      Script: {instanceID: 6960}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 6998}
     - Class: 114
-      Script: {instanceID: 7564}
+      Script: {instanceID: 7116}
     - Class: 114
-      Script: {instanceID: 7744}
+      Script: {instanceID: 7568}
     - Class: 114
-      Script: {instanceID: 8072}
+      Script: {instanceID: 7748}
     - Class: 114
-      Script: {instanceID: 8208}
+      Script: {instanceID: 8076}
     - Class: 114
-      Script: {instanceID: 8328}
+      Script: {instanceID: 8212}
     - Class: 114
-      Script: {instanceID: 8854}
+      Script: {instanceID: 8332}
     - Class: 114
-      Script: {instanceID: 8870}
+      Script: {instanceID: 8858}
     - Class: 114
-      Script: {instanceID: 8884}
+      Script: {instanceID: 8874}
     - Class: 114
-      Script: {instanceID: 9244}
+      Script: {instanceID: 8888}
     - Class: 114
-      Script: {instanceID: 9398}
+      Script: {instanceID: 9248}
     - Class: 114
-      Script: {instanceID: 9568}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 10792}
+      Script: {instanceID: 9572}
     - Class: 114
-      Script: {instanceID: 10910}
+      Script: {instanceID: 10796}
     - Class: 114
-      Script: {instanceID: 205864}
+      Script: {instanceID: 10914}
+    - Class: 114
+      Script: {instanceID: 139990}
+    - Class: 114
+      Script: {instanceID: 141230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1131,7 +1193,7 @@ ScriptsOnlyBuild:
     className: AssetTable
   - hash:
       serializedVersion: 2
-      Hash: 6fac7ae94905a681aab2f1d67b684ce9
+      Hash: 11f19e66d4f633ec76c07b40f7a5b2e8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_ScrollView
@@ -1188,7 +1250,7 @@ ScriptsOnlyBuild:
       Hash: 9f1e5bdac8c008801ae739b93fc81266
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIM_SettingPanelManager
+    className: UIM_SettingPanel
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1263,7 +1325,7 @@ ScriptsOnlyBuild:
     className: CCDSolver2D
   - hash:
       serializedVersion: 2
-      Hash: f535e2f03964fbcbb380f3a8be539b94
+      Hash: 6a9e90cbac24989449d37938fc009314
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_UniversalSetting
@@ -1719,7 +1781,7 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
-      Hash: dbf5a62f45c97acc6e2af1d2a917749d
+      Hash: 33f59dcf17adcb032058a41c1f5bd36b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_MainMenu
@@ -1845,11 +1907,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3437af3d1b8ff2e9669e34d3400b1e9f
+      Hash: ec1f67f1406cad74f9d03bdf3daabb12
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: LoadTest
+    className: SO_SetttingOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_GoldFingerPanel
   platform: 19
   scenePathNames:
   - Assets/UI-Master/6.Scenes/MainMenu.unity
-  playerPath: "F:/Project/0423_UI\u5927\u5E08/UIMaster/exe/20240426/UIMasterProject.exe"
+  playerPath: "F:/Project/0423_UI\u5927\u5E08/UIMaster/exe/20240429/UIMaster.exe"

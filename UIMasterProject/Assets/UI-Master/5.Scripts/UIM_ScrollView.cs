@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class UIM_ScrollView : MonoBehaviour
 {
     private ScrollRect scrollView;
+    private Scrollbar scrollbar;
+
     public bool isAuto;
     private RectTransform content;
     public float scrollSpeed = 30f;
@@ -13,14 +15,16 @@ public class UIM_ScrollView : MonoBehaviour
 
     private float lastInputTime;
 
-    public Animator gradientStrip;
+    public Animator gradientStrip_Down, gradientStrip_Up;
+    
+
     void Awake()
     {
         lastInputTime = Time.time;
         scrollView = GetComponent<ScrollRect>();
         content = scrollView.content;
-
-
+        scrollbar = scrollView.verticalScrollbar;
+        scrollbar.onValueChanged.AddListener(delegate { SwitchGrandientStrip(); });
 
     }
 
@@ -39,16 +43,18 @@ public class UIM_ScrollView : MonoBehaviour
         }
 
 
+
+    }
+
+    public void SwitchGrandientStrip()
+    {
+
         // 如果 Content 滚动到底部，则重置滚动位置
-        if (!gradientStrip.gameObject.activeInHierarchy) return;
-        if (IsDown())
-        {
-            gradientStrip.SetBool("ISSWITCH", true);
-        }
-        else
-        {
-            gradientStrip.SetBool("ISSWITCH", false);
-        }
+        if (!gradientStrip_Down.gameObject.activeInHierarchy) return;
+        gradientStrip_Down.SetBool("ISSWITCH", IsDown());
+
+        if (!gradientStrip_Up.gameObject.activeInHierarchy) return;
+        gradientStrip_Up.SetBool("ISSWITCH", IsTop());
 
     }
 
@@ -72,9 +78,12 @@ public class UIM_ScrollView : MonoBehaviour
 
      bool IsDown()
     {
-        return scrollView.verticalScrollbar.value <= 0 ? true : false;
+        return scrollbar.value <= 0.1f ? true : false;
     }
 
-
+    bool IsTop()
+    {
+        return scrollbar.value >= 0.9f ? true : false;
+    }
 
 }

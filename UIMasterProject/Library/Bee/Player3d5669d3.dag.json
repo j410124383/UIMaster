@@ -442,57 +442,57 @@
       "DebugActionIndex": 22
     },
     {
-      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(simplified)(zh)_assets_all.bundle",
+      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english_assets_all.bundle",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-chinese(simplified)(zh)_assets_all.bundle"
+        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-english_assets_all.bundle"
       ],
       "Outputs": [
-        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(simplified)(zh)_assets_all.bundle"
+        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english_assets_all.bundle"
       ],
       "DebugActionIndex": 23
     },
     {
-      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(traditional)(zh-tw)_assets_all.bundle",
+      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-français_assets_all.bundle",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-chinese(traditional)(zh-tw)_assets_all.bundle"
+        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-français_assets_all.bundle"
       ],
       "Outputs": [
-        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(traditional)(zh-tw)_assets_all.bundle"
+        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-français_assets_all.bundle"
       ],
       "DebugActionIndex": 24
     },
     {
-      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(unitedstates)(en-us)_assets_all.bundle",
+      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-日本語_assets_all.bundle",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-english(unitedstates)(en-us)_assets_all.bundle"
+        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-日本語_assets_all.bundle"
       ],
       "Outputs": [
-        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(unitedstates)(en-us)_assets_all.bundle"
+        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-日本語_assets_all.bundle"
       ],
       "DebugActionIndex": 25
     },
     {
-      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-french(fr)_assets_all.bundle",
+      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-简体中文_assets_all.bundle",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-french(fr)_assets_all.bundle"
+        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-简体中文_assets_all.bundle"
       ],
       "Outputs": [
-        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-french(fr)_assets_all.bundle"
+        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-简体中文_assets_all.bundle"
       ],
       "DebugActionIndex": 26
     },
     {
-      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-japanese(ja)_assets_all.bundle",
+      "Annotation": "CopyFiles F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-繁體中文_assets_all.bundle",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-japanese(ja)_assets_all.bundle"
+        "Library/com.unity.addressables/aa/Windows/StandaloneWindows64/localization-string-tables-繁體中文_assets_all.bundle"
       ],
       "Outputs": [
-        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-japanese(ja)_assets_all.bundle"
+        "F:/Project/0423_UI大师/UIMaster/exe/20240426/UIMasterProject_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-繁體中文_assets_all.bundle"
       ],
       "DebugActionIndex": 27
     },

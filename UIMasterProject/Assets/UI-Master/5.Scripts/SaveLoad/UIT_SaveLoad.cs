@@ -18,7 +18,7 @@ public static class UIT_SaveLoad
         string json = JsonUtility.ToJson(myScriptableObject);
         File.WriteAllText(path, json);
         //打开
-        System.Diagnostics.Process.Start(path);
+        //System.Diagnostics.Process.Start(path);
 
         Debug.Log("<color=green>[SUCCESS]</color>存储数据成功！");
     }
@@ -36,7 +36,7 @@ public static class UIT_SaveLoad
             string json = File.ReadAllText(path);
             SO_SettingData data = JsonConvert.DeserializeObject<SO_SettingData>(json) ;
             myScriptableObject.CopyNewData(data);
-            Debug.Log(myScriptableObject.num_Language);
+           // Debug.Log(myScriptableObject.num_Language);
             Debug.Log("<color=green>[SUCCESS]</color>加载数据成功！");
         }
         else

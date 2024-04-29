@@ -146,6 +146,18 @@ MonoBehaviour:
     m_Localized: Restore Default Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 1420052943536128
+    m_Localized: Field Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420139782406144
+    m_Localized: Field Guide Explanation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1421490587369472
+    m_Localized: Save and Return
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -76,6 +76,7 @@ public class UIM_UIManager : MonoBehaviour
     {
         // 启动一个协程，延迟1秒后退出应用程序
         StartCoroutine(DelayQuit(1f));
+        UIM_MainMenu.Instance.frameOptionsAC.SetTrigger("ISSWITCH");
     }
 
 
@@ -85,6 +86,7 @@ public class UIM_UIManager : MonoBehaviour
     IEnumerator DelayQuit(float f)
     {
         yield return new WaitForSeconds(f);
+
         // 调用 Application.Quit() 方法退出应用程序
         Application.Quit();
     }

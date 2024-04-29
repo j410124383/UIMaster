@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: UIMasterProject
+  companyName: SANHANYA
+  productName: UIMaster
   defaultCursor: {fileID: 2800000, guid: 209b5669443006240bd2271b10af2a54, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -29,10 +29,10 @@ PlayerSettings:
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
-    x: 0.125
-    y: 0.375
-    width: 0.125
-    height: 0.125
+    x: 0
+    y: 0
+    width: 1
+    height: 1
   m_SplashScreenBackgroundPortraitUvs:
     serializedVersion: 2
     x: 0
@@ -150,7 +150,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: V1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 98c315a232af42c4285c612b80f4c62e, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1

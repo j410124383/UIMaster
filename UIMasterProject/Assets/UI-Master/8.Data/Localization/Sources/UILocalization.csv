@@ -1,30 +1,36 @@
-﻿Key,Id,Chinese (Simplified)(zh),Chinese (Traditional)(zh-TW),English (United States)(en-US),French(fr),Japanese(ja)
-id_开始,3.4814E+12,开始游戏,開始遊戲,Start Game,Démarrer le jeu,ゲームを開始
-id_设置,4.03201E+12,设置,設置,Settings,Paramètres,設定
-id_成就,4.45019E+12,成就,成就,Achievements,Réalisations,実績
-id_排行榜,4.49264E+12,排行榜,排行榜,Leaderboard,Classements,リーダーボード
-id_开发日志,4.54914E+12,开发日志,開發日誌,Update Log,Journal des mises à jour,アップデートログ
-id_制作团队,4.61688E+12,制作团队,製作團隊,Credits,Crédits,クレジット
-id_退出,5.25269E+12,退出,退出,Quit,Quitter,終了
-id_成就描述,6.72458E+12,完成成就，领取奖励,完成成就，領取獎勵,"Complete Achievements, Claim Rewards","Accomplir des réalisations, Réclamer des récompenses",実績達成、報酬受け取り
-id_日志描述,7.39405E+12,查看开发组的更新进程,查看開發組的更新進程,View Development Team's Update Progress,Voir la progression de l'équipe de développement,開発チームの進捗状況を見る
-id_排行榜描述,7.53532E+12,不断挑战更高名词吧！,不斷挑戰更高名詞吧！,Keep Challenging Higher Levels!,Poursuivre les défis de niveaux supérieurs !,より高いレベルに挑戦し続けよう！
-id_统计数据,8.54121E+12,统计数据,統計數據,Statistics,Statistiques,統計データ
-id_查看成绩,8.61815E+12,查看该次成绩,查看該次成績,View This Score,Voir ce score,このスコアを見る
-id_设置_通用,9.94445E+12,通用,通用,General,Général,一般
-id_设置_图形,9.99368E+12,图形,圖形,Graphics,Graphiques,グラフィック
-id_设置_音频,1.00186E+13,音频,音頻,Audio,Audio,オーディオ
-id_设置_控制,1.00587E+13,控制,控制,Controls,Contrôles,コントロール
-id_设置_游戏玩法,1.00883E+13,游戏玩法,遊戲玩法,Gameplay,Dans le jeu,ゲームプレイ
-id_退出游戏,2.54638E+14,退出游戏,退出遊戲,Quit Game,Quitter le jeu,ゲームを終了
-id_继续,2.54909E+14,继续,繼續,Continue,Continuer,続ける
-id_重新开始,2.55015E+14,重新开始,重新開始,Restart,Redémarrer,再開始
-id_按钮_继续,2.80291E+14,继续,繼續,Continue,Continuer,続ける
-id_按钮_返回,2.80397E+14,返回,返回,Back,Retour,戻る
-id_语言,1.05005E+15,语言,語言,Language,Langue,言語
-id_图像质量,1.05011E+15,图像质量,圖像質量,Graphics Quality,Qualité graphique,グラフィック品質
-id_抗锯齿,1.05016E+15,抗锯齿,抗鋸齒,Anti-aliasing,Anticrénelage,アンチエイリアシング
-id_分辨率,1.05024E+15,分辨率,解析度,Resolution,Résolution,解像度
-id_主音量,1.05031E+15,主音量,主音量,Master Volume,Volume principal,マスターボリューム
-id_音乐音量,1.05036E+15,音乐音量,音樂音量,Music Volume,Volume de la musique,音楽の音量
-id_音效音量,1.05044E+15,音效音量,音效音量,Sound Volume,Volume des effets sonores,効果音の音量
+﻿Key,Id,English (United States)(en-US),French(fr),Japanese(ja),Chinese (Simplified)(zh),Chinese (Traditional)(zh-TW)
+id_开始,3.4814E+12,Start Game,Démarrer le jeu,ゲームを開始,开始游戏,開始遊戲
+id_设置,4.03201E+12,Settings,Paramètres,設定,设置,設置
+id_成就,4.45019E+12,Achievements,Réalisations,実績,成就,成就
+id_排行榜,4.49264E+12,Leaderboard,Classements,リーダーボード,排行榜,排行榜
+id_开发日志,4.54914E+12,Update Log,Journal des mises à jour,アップデートログ,开发日志,開發日誌
+id_制作团队,4.61688E+12,Credits,Crédits,クレジット,制作团队,製作團隊
+id_退出,5.25269E+12,Quit,Quitter,終了,退出,退出
+id_成就描述,6.72458E+12,"Complete Achievements, Claim Rewards","Accomplir des réalisations, Réclamer des récompenses",実績達成、報酬受け取り,完成成就，领取奖励,完成成就，領取獎勵
+id_日志描述,7.39405E+12,View Development Team's Update Progress,Voir la progression de l'équipe de développement,開発チームの進捗状況を見る,查看开发组的更新进程,查看開發組的更新進程
+id_排行榜描述,7.53532E+12,Keep Challenging Higher Levels!,Poursuivre les défis de niveaux supérieurs !,より高いレベルに挑戦し続けよう！,不断挑战更高名词吧！,不斷挑戰更高名詞吧！
+id_统计数据,8.54121E+12,Statistics,Statistiques,統計データ,统计数据,統計數據
+id_查看成绩,8.61815E+12,View This Score,Voir ce score,このスコアを見る,查看该次成绩,查看該次成績
+id_设置_通用,9.94445E+12,General,Général,一般,通用,通用
+id_设置_图形,9.99368E+12,Graphics,Graphiques,グラフィック,图形,圖形
+id_设置_音频,1.00186E+13,Audio,Audio,オーディオ,音频,音頻
+id_设置_控制,1.00587E+13,Controls,Contrôles,コントロール,控制,控制
+id_设置_游戏玩法,1.00883E+13,Gameplay,Dans le jeu,ゲームプレイ,游戏玩法,遊戲玩法
+id_退出游戏,2.54638E+14,Quit Game,Quitter le jeu,ゲームを終了,退出游戏,退出遊戲
+id_继续,2.54909E+14,Continue,Continuer,続ける,继续,繼續
+id_重新开始,2.55015E+14,Restart,Redémarrer,再開始,重新开始,重新開始
+id_按钮_继续,2.80291E+14,Continue,Continuer,続ける,继续,繼續
+id_按钮_返回,2.80397E+14,Back,Retour,戻る,返回,返回
+id_语言,1.05005E+15,Language,Langue,言語,语言,語言
+id_图像质量,1.05011E+15,Graphics Quality,Qualité graphique,グラフィック品質,图像质量,圖像質量
+id_抗锯齿,1.05016E+15,Anti-aliasing,Anticrénelage,アンチエイリアシング,抗锯齿,抗鋸齒
+id_分辨率,1.05024E+15,Resolution,Résolution,解像度,分辨率,解析度
+id_主音量,1.05031E+15,Master Volume,Volume principal,マスターボリューム,主音量,主音量
+id_音乐音量,1.05036E+15,Music Volume,Volume de la musique,音楽の音量,音乐音量,音樂音量
+id_音效音量,1.05044E+15,Sound Volume,Volume des effets sonores,効果音の音量,音效音量,音效音量
+id_全屏,1.05439E+15,Full Screen,Plein écran,フルスクリーン,全屏,全螢幕
+id_垂直同步,1.05446E+15,Vertical Sync,Synchronisation verticale,垂直同期,垂直同步,垂直同步
+id_恢复默认,1.09518E+15,Restore Default Settings,Rétablir les paramètres par défaut,デフォルト設定に戻す,恢复默认设置,恢復預設設定
+id_图鉴,1.42005E+15,Field Guide,Guide de terrain,フィールドガイド,场地指南,地圖說明
+id_图鉴说明,1.42014E+15,Field Guide Explanation,Explication du guide de terrain,フィールドガイドの説明,场地指南说明,地圖說明說明
+id_保存并返回,1.42149E+15,Save and ReturnSauvegarder et revenir保存して戻る保存并返回儲存並返回,,,,

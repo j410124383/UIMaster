@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num_Language: 0
   num_Quality: 1
-  num_MasterVol: 7
-  num_BGMVol: 7
-  num_SEVol: 7
+  num_MasterVol: 8
+  num_BGMVol: 8
+  num_SEVol: 8
   num_FullScreen: 0
   num_AntiAliasing: 0
   num_vSync: 0
-  num_Resoulution: 9
+  num_Resoulution: 10

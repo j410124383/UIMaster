@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textVersion: {fileID: 195889493411446716}
+  butQuit: {fileID: 0}
 --- !u!114 &195889493484042605
 MonoBehaviour:
   m_ObjectHideFlags: 0

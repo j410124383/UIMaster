@@ -1,17 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - LoadTest
     - SO_AudioData
     - SO_SettingData
     - UIM_ButtonManager
     - UIM_LogsLoad
     - UIM_MainMenu
     - UIM_ScrollView
-    - UIM_SettingManager
+    - UIM_SettingPanelManager
     - UIM_SoundManager
     - UIM_SoundPlay
     - UIM_TwoHead
     - UIM_UIManager
+    - UIM_UniversalSetting
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -44,9 +46,7 @@ ScriptsOnlyBuild:
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
     Unity.Localization.Editor.dll:
-    - UnityEditor.Localization.AssetTableCollection
-    - UnityEditor.Localization.StringTableCollection
-    - UnityEditor.Localization.UI.LocalizationTablesWindow
+    - UnityEditor.Localization.UI.LocalizationSettingsEditor
     Unity.Localization.dll:
     - UnityEngine.Localization.Components.LocalizeStringEvent
     - UnityEngine.Localization.Locale
@@ -55,6 +55,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.Tables.SharedTableData
     - UnityEngine.Localization.Tables.StringTable
     - UnityEngine.Localization.VariantsPropertyDriver
+    Unity.ResourceManager.dll:
+    - MonoBehaviourCallbackHooks
+    - UnityEngine.ResourceManagement.Util.DelayedActionManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -427,6 +430,12 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadTest
+    methodName: ButLoad
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadTest
+    methodName: ButSave
   sceneClasses:
     Assets/UI-Master/6.Scenes/MainMenu.unity:
     - Class: 1
@@ -482,6 +491,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3934}
     - Class: 114
+      Script: {instanceID: 4782}
+    - Class: 114
       Script: {instanceID: 5540}
     - Class: 114
       Script: {instanceID: 5962}
@@ -494,35 +505,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6546}
     - Class: 114
-      Script: {instanceID: 6992}
+      Script: {instanceID: 6956}
     - Class: 114
-      Script: {instanceID: 7110}
+      Script: {instanceID: 6994}
     - Class: 114
-      Script: {instanceID: 7562}
+      Script: {instanceID: 7112}
     - Class: 114
-      Script: {instanceID: 7742}
+      Script: {instanceID: 7564}
     - Class: 114
-      Script: {instanceID: 8070}
+      Script: {instanceID: 7744}
     - Class: 114
-      Script: {instanceID: 8206}
+      Script: {instanceID: 8072}
     - Class: 114
-      Script: {instanceID: 8326}
+      Script: {instanceID: 8208}
     - Class: 114
-      Script: {instanceID: 8852}
+      Script: {instanceID: 8328}
     - Class: 114
-      Script: {instanceID: 8868}
+      Script: {instanceID: 8854}
     - Class: 114
-      Script: {instanceID: 8882}
+      Script: {instanceID: 8870}
     - Class: 114
-      Script: {instanceID: 9242}
+      Script: {instanceID: 8884}
     - Class: 114
-      Script: {instanceID: 9396}
+      Script: {instanceID: 9244}
     - Class: 114
-      Script: {instanceID: 9566}
+      Script: {instanceID: 9398}
     - Class: 114
-      Script: {instanceID: 10790}
+      Script: {instanceID: 9568}
     - Class: 114
-      Script: {instanceID: 10908}
+      Script: {instanceID: 10792}
+    - Class: 114
+      Script: {instanceID: 10910}
+    - Class: 114
+      Script: {instanceID: 205864}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1170,10 +1185,10 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
-      Hash: 8db39e30050029c2bd0012bc2ffc4d6e
+      Hash: 9f1e5bdac8c008801ae739b93fc81266
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIM_SettingManager
+    className: UIM_SettingPanelManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1246,6 +1261,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: f535e2f03964fbcbb380f3a8be539b94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_UniversalSetting
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1404,7 +1425,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 98568c26db5e219068cc6547bf876ab9
+      Hash: 8c723180d75a0c1d3f4cd1605ff25c2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SO_SettingData
@@ -1698,7 +1719,7 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e6cf3bfdc1ea55ad2c25a61805c7c245
+      Hash: dbf5a62f45c97acc6e2af1d2a917749d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_MainMenu
@@ -1822,6 +1843,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3437af3d1b8ff2e9669e34d3400b1e9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadTest
   platform: 19
   scenePathNames:
   - Assets/UI-Master/6.Scenes/MainMenu.unity

@@ -1,11 +1,13 @@
 
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
+
 
 public class UIM_UniversalSetting : MonoBehaviour
 {
@@ -36,6 +38,7 @@ public class UIM_UniversalSetting : MonoBehaviour
 
     private void Start()
     {
+        UIT_SaveLoad.LoadData(curSetData, "/test.json"); //游戏开始时，先读取设置数据
         RefreshSetting();
     }
 
@@ -147,33 +150,13 @@ public class UIM_UniversalSetting : MonoBehaviour
 
     public void RestoreSetting()
     {
-        //curSetData = new SO_SettingData(
-        //    orignSettingData.num_Language,
-        //    orignSettingData.num_Quality,
-        //    orignSettingData.num_MasterVol,
-        //    orignSettingData.num_BGMVol,
-        //    orignSettingData.num_SEVol,
-        //    orignSettingData.num_FullScreen,
-        //    orignSettingData.num_AntiAliasing,
-        //    orignSettingData.num_vSync,
-        //    orignSettingData.num_Resoulution
-        //    );
-
-
-        curSetData.num_Language= orignSettingData.num_Language;
-        curSetData.num_Quality= orignSettingData.num_Quality;
-        curSetData.num_MasterVol=orignSettingData.num_MasterVol;
-        curSetData.num_BGMVol=orignSettingData.num_BGMVol;
-        curSetData.num_SEVol=orignSettingData.num_SEVol;
-        curSetData.num_FullScreen=orignSettingData.num_FullScreen;
-        curSetData.num_AntiAliasing=orignSettingData.num_AntiAliasing;
-        curSetData.num_vSync= orignSettingData.num_vSync;
-        curSetData.num_Resoulution=orignSettingData.num_Resoulution;
-            
+        curSetData.CopyNewData(orignSettingData);
         UIM_SettingPanelManager.Instance.DropdownReadData();
         print("已恢复为初始默认值");
-        //ReadData();
+
     }
+
+
 
 
 }

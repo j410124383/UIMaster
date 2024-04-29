@@ -12,19 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1332459dfd0c7e04ab97f3cb8d1ee69d, type: 3}
   m_Name: CurentSettingData
   m_EditorClassIdentifier: 
-  initial_Language: 0
-  initial_Quality: 1
-  initial_MasterVol: 7
-  initial_BGMVol: 7
-  initial_SEVol: 7
-  initial_FullScreen: 0
-  initial_AntiAliasing: 0
-  initial_vSync: 0
-  initial_Resoulution: 9
-  num_Language: 3
+  num_Language: 0
   num_Quality: 1
-  num_MasterVol: 8
-  num_BGMVol: 8
+  num_MasterVol: 7
+  num_BGMVol: 7
   num_SEVol: 7
   num_FullScreen: 0
   num_AntiAliasing: 0

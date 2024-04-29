@@ -36,7 +36,19 @@ public class SO_SettingData : ScriptableObject
     }
 
 
+    public void CopyNewData(SO_SettingData s)
+    {
+        num_Language = s.num_Language;
+        num_Quality = s.num_Quality;
+        num_MasterVol = s.num_MasterVol;
+        num_BGMVol = s.num_BGMVol;
+        num_SEVol = s.num_SEVol;
+        num_FullScreen = s.num_FullScreen;
+        num_AntiAliasing = s.num_AntiAliasing;
+        num_vSync = s.num_vSync;
+        num_Resoulution = s.num_Resoulution;
 
+    }
 
 
 }

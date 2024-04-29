@@ -387,6 +387,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UniversalSettings.Demo.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UniversalSettings.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UniversalSettings.ref.dll"
+"Assets/LoadTest.cs"
+"Assets/UI-Master/5.Scripts/SaveLoad/UIT_SaveLoad.cs"
 "Assets/UI-Master/5.Scripts/SO/SO_AudioData.cs"
 "Assets/UI-Master/5.Scripts/SO/SO_SettingData.cs"
 "Assets/UI-Master/5.Scripts/UIM_ButtonManager.cs"

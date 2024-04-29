@@ -34,7 +34,6 @@ public class UIM_SettingPanelManager : MonoBehaviour
     {
         Instance = this;
 
-
     }
 
     private void Start()
@@ -61,7 +60,7 @@ public class UIM_SettingPanelManager : MonoBehaviour
         bdResolution.onValueChanged.AddListener(delegate { us.OnChangeResolustion(bdResolution.value); });
 
         butRestore.onClick.AddListener(us.RestoreSetting);
-        butSave.onClick.AddListener(WriteData);
+        butSave.onClick.AddListener(DropdownWriteData);
 
         //添加下拉选项
         InitiabdLanguage();
@@ -180,7 +179,7 @@ public class UIM_SettingPanelManager : MonoBehaviour
     /// </summary>
     public void DropdownReadData()
     {
-        //LoadData();
+
         bdLanguage.value = sdata.num_Language;
         bdMasterVol.value = sdata.num_MasterVol;
         bdSE.value = sdata.num_SEVol;
@@ -198,7 +197,7 @@ public class UIM_SettingPanelManager : MonoBehaviour
     /// <summary>
     /// 写入数据
     /// </summary>
-    public void WriteData()
+    public void DropdownWriteData()
     {
         sdata.num_Language = bdLanguage.value;
         sdata.num_MasterVol = bdMasterVol.value;
@@ -210,7 +209,8 @@ public class UIM_SettingPanelManager : MonoBehaviour
         sdata.num_AntiAliasing = bdAntiAliasing.value;
         sdata.num_Resoulution = bdResolution.value;
         FreshTwoHead();
-        print("设置数据存储成功");
+        UIT_SaveLoad.SaveData(sdata, "/test.json"); //写入本地json数据中
+        //print("设置数据存储成功");
     }
 
     public enum DPmod

@@ -6,21 +6,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New SettingData", menuName = "SettingData")]
 public class SO_SettingData : ScriptableObject
 {
-    //public List<int> antiAliasingList;
-
-    //public List<Vector2> resolutionList;
-
-    //public int sliderStep=11;
-    [Header("初始值")]
-    public int initial_Language;
-    public int initial_Quality;
-    public int initial_MasterVol;
-    public int initial_BGMVol;
-    public int initial_SEVol;
-    public int initial_FullScreen;
-    public int initial_AntiAliasing;
-    public int initial_vSync;
-    public int initial_Resoulution;
 
 
     [Header("当前值")]
@@ -47,27 +32,10 @@ public class SO_SettingData : ScriptableObject
         num_AntiAliasing = i07;
         num_vSync = i08;
         num_Resoulution = i09;
-        ResetToInitialValues();
+  
     }
 
-    /// <summary>
-    /// 充值化初始值
-    /// </summary>
-    public void ResetToInitialValues()
-    {
-        num_Language = initial_Language;
-        num_Quality = initial_Quality;
-        num_MasterVol = initial_MasterVol;
-        num_BGMVol = initial_BGMVol;
-        num_SEVol = initial_SEVol;
-        num_FullScreen = initial_FullScreen;
-        num_AntiAliasing = initial_AntiAliasing;
-        num_vSync = initial_vSync;
-        num_Resoulution = initial_Resoulution;
 
-
-
-    }
 
 
 

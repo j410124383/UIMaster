@@ -8,11 +8,12 @@ public class UIM_UIManager : MonoBehaviour
 {
     public static UIM_UIManager Instance;
 
+
+
     private void Awake()
     {
         Instance = this;
-        // 刷新当前对象及其所有子对象中的布局组件
-        RefreshLayoutsRecursively();
+      
     }
 
     public void Start()
@@ -21,20 +22,37 @@ public class UIM_UIManager : MonoBehaviour
         RefreshLayoutsRecursively();
     }
 
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            RefreshLayoutsRecursively();
+        }
+    }
+
     /// <summary>
     /// 刷新对象上的layout组件
     /// </summary>
     public  void RefreshLayoutsRecursively(Transform parent=null)
     {
-
         StartCoroutine(refreshRecursively(parent));
-
+        StartCoroutine(refreshRecursively(parent, true));
     }
 
-
-    IEnumerator refreshRecursively(Transform parent = null)
+    IEnumerator refreshRecursively(Transform parent = null,bool Again=false)
     {
-        yield return new WaitForEndOfFrame();
+        if (!Again)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.3f);
+
+        }
+      
+
         if (parent == null) parent = transform;
 
         var list = parent.GetComponentsInChildren<HorizontalOrVerticalLayoutGroup>();
@@ -51,6 +69,24 @@ public class UIM_UIManager : MonoBehaviour
             LayoutRebuilder.ForceRebuildLayoutImmediate(item.transform.GetComponent<RectTransform>());
         }
 
+    }
+
+
+    public void StartQuit()
+    {
+        // 启动一个协程，延迟1秒后退出应用程序
+        StartCoroutine(DelayQuit(1f));
+    }
+
+
+    /// <summary>
+    /// 延迟1秒后退出应用程序的方法
+    /// </summary>
+    IEnumerator DelayQuit(float f)
+    {
+        yield return new WaitForSeconds(f);
+        // 调用 Application.Quit() 方法退出应用程序
+        Application.Quit();
     }
 
 

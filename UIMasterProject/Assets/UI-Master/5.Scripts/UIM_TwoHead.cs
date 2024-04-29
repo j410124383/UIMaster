@@ -24,22 +24,27 @@ public class UIM_TwoHead : MonoBehaviour
        
         targetDrop.value += i;
         targetDrop.GetComponent<TMP_Text>().text = targetDrop.options[targetDrop.value].text;
+        FreshButton();
+
+    }
+
+    public void FreshButton()
+    {
+
         leftBut.interactable = true;
         rightBut.interactable = true;
         if (targetDrop.value == 0)
         {
             leftBut.interactable = false;
-            
+
         }
-        if (targetDrop.value== targetDrop.options.Count-1)
+        if (targetDrop.value == targetDrop.options.Count - 1)
         {
             rightBut.interactable = false;
-         
-        }
-        UIM_UIManager.Instance.RefreshLayoutsRecursively();
 
-        //print(targetDrop.value);
-        
+        }
+
+        UIM_UIManager.Instance.RefreshLayoutsRecursively();
 
     }
 

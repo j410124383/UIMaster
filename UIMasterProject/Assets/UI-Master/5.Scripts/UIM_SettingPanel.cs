@@ -26,7 +26,7 @@ public class UIM_SettingPanel : MonoBehaviour
 
     private List<TMP_Dropdown.OptionData> dataListSlider;
 
-    private UIM_UniversalSetting us;
+    private UIM_SettingManager us;
     private SO_SettingData sdata;
     private SO_SetttingOptions sOptions;
 
@@ -39,7 +39,7 @@ public class UIM_SettingPanel : MonoBehaviour
 
     private void Start()
     {
-        us = UIM_UniversalSetting.Instance ? us = UIM_UniversalSetting.Instance : null;
+        us = UIM_SettingManager.Instance ? us = UIM_SettingManager.Instance : null;
         sdata = us.curSetData;
         sOptions =us.settingOtions;
 

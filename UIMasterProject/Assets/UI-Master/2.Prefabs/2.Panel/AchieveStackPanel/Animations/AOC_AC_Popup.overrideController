@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AOC_AC_Popup
+  m_Controller: {fileID: 9100000, guid: fe74fe3696c5eaa44b2feea57fe6e0a8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fece275b0d099674d9d679984cc362ff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b8f892a9acfa3dd4abcc3822677f30fc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 94e95309f6de9864cb14220a389d15a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b18b576da0a8a5468dc246cf58933da, type: 2}

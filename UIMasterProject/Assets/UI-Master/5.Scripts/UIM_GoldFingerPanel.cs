@@ -5,10 +5,11 @@ using UnityEngine;
 public class UIM_GoldFingerPanel : MonoBehaviour
 {
     private bool isOpen;
+    public KeyCode callKey;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1)){
+        if (Input.GetKeyDown(callKey)){
 
             isOpen = !isOpen;
             Switch();

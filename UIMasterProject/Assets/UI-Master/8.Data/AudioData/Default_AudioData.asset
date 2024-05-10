@@ -19,5 +19,9 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 8fc9aa728b4cd0640b1b1cad5a231666, type: 3}
   - key: id_click_03
     audioClip: {fileID: 8300000, guid: 2b3f959fbe39aad4c85a0533089047fd, type: 3}
+  - key: id_ACunlock
+    audioClip: {fileID: 8300000, guid: a7edc8c7ed5352c40a0d9983e0059d59, type: 3}
+  - key: id_ACprogress
+    audioClip: {fileID: 8300000, guid: 744b0ce76e2be0e48ab0609c5748af95, type: 3}
   BGMVolum: 1
   SFVolume: 1

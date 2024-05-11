@@ -392,6 +392,7 @@
 "Assets/UI-Master/5.Scripts/AchievementSystem/DataTypes.cs"
 "Assets/UI-Master/5.Scripts/AchievementSystem/ExampleScript.cs"
 "Assets/UI-Master/5.Scripts/AchievementSystem/SO/SO_AchievementInfo.cs"
+"Assets/UI-Master/5.Scripts/AchievementSystem/SO/SO_AchieveStates.cs"
 "Assets/UI-Master/5.Scripts/AchievementSystem/UIAchievement.cs"
 "Assets/UI-Master/5.Scripts/AchievementSystem/UIM_AchievenManager.cs"
 "Assets/UI-Master/5.Scripts/SaveLoadSystem/UIT_SaveLoad.cs"

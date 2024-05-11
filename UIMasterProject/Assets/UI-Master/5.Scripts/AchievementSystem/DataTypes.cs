@@ -30,7 +30,8 @@ public struct AchievementInfromation
     [Tooltip("A string which will be displayed with a progress achievement e.g. $, KM, Miles etc")]
     [SerializeField] public string ProgressSuffix;
 
-    [SerializeField] public AchievementState State;
+    [SerializeField] public AchieveState State;
+
 
 
 }
@@ -39,16 +40,16 @@ public struct AchievementInfromation
 /// Stores the current progress and achieved state
 /// </summary>
 [System.Serializable]
-public class AchievementState
+public class AchieveState
 {
 
-    public AchievementState() { }
+    public AchieveState() { }
 
     [SerializeField] public float Progress;             //Progress towards goal
     [SerializeField] public int LastProgressUpdate ; //Last achievement notification bracket
     [SerializeField] public bool Achieved ;      //Is the achievement unlocked
 
-    public AchievementState(float NewProgress, bool NewAchieved)
+    public AchieveState(float NewProgress, bool NewAchieved)
     {
         Progress = NewProgress;
         Achieved = NewAchieved;
@@ -60,6 +61,13 @@ public class AchievementState
         Progress = 0;
         LastProgressUpdate = 0;
         Achieved = false;
+    }
+
+    public void CopyState(AchieveState As)
+    {
+        Progress = As.Progress;
+        LastProgressUpdate = As.LastProgressUpdate;
+        Achieved = As.Achieved;
     }
 }
 

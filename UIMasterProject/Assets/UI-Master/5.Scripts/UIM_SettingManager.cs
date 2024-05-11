@@ -31,7 +31,7 @@ public class UIM_SettingManager : MonoBehaviour
 
     private void Start()
     {
-        UIT_SaveLoad.LoadData(curSetData, "/test.json"); //游戏开始时，先读取设置数据
+        UIT_SaveLoad.LoadData(curSetData, "SettingData"); //游戏开始时，先读取设置数据
         RefreshSetting();
     }
 

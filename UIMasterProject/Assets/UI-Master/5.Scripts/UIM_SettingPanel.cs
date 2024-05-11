@@ -178,7 +178,7 @@ public class UIM_SettingPanel : MonoBehaviour
     }
 
     /// <summary>
-    /// 为bropdown的value赋值，ui读取数据
+    /// 为Dropdown的value赋值，ui读取数据
     /// </summary>
     public void DropdownReadData()
     {
@@ -193,7 +193,7 @@ public class UIM_SettingPanel : MonoBehaviour
         bdAntiAliasing.value = sdata.num_AntiAliasing;
         bdResolution.value = sdata.num_Resoulution;
         FreshTwoHead();
-        print("设置数据写入成功，已为bropdown赋值");
+        print("设置数据写入成功，已为Dropdown赋值");
 
     }
 
@@ -212,7 +212,7 @@ public class UIM_SettingPanel : MonoBehaviour
         sdata.num_AntiAliasing = bdAntiAliasing.value;
         sdata.num_Resoulution = bdResolution.value;
         FreshTwoHead();
-        UIT_SaveLoad.SaveData(sdata, "/test.json"); //写入本地json数据中
+        UIT_SaveLoad.SaveData(sdata, "SettingData"); //写入本地json数据中
         //print("设置数据存储成功");
     }
 

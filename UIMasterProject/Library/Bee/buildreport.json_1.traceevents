@@ -1,469 +1,469 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1714387715784801, "dur": 140201, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1714387715784819, "dur": 16292, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1714387715801113, "dur": 111925, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1714387715913040, "dur": 11960, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1714387715926092, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715404382771878, "dur": 133427, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715404382771951, "dur": 10333, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715404382782288, "dur": 110777, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715404382893067, "dur": 12237, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715404382907148, "dur": 8, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1714387715833205, "dur":1792, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715835012, "dur":275, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1714387715835331, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1714387715835363, "dur":449, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1714387715835841, "dur":734, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715836575, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715878984, "dur":153, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879137, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879150, "dur":107, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879258, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879277, "dur":33, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879310, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879315, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879318, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879324, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879325, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879330, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879331, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879336, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879338, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879342, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879343, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879347, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879348, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879353, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879354, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879358, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879359, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879362, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879364, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879368, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879377, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715879400, "dur":2318, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1714387715836339, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715836582, "dur":8404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715844992, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1714387715845625, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715845649, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1714387715845848, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715845861, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UniversalSettings.Demo.dll" }}
-,{ "pid":12345, "tid":1, "ts":1714387715846081, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715846093, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1714387715846417, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715846429, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1714387715846996, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715847008, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.ResourceManager.dll" }}
-,{ "pid":12345, "tid":1, "ts":1714387715847714, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715847729, "dur":1474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1714387715849203, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715849219, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1714387715849447, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1714387715849462, "dur":29523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715836373, "dur":219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715836592, "dur":8392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715844994, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1714387715845676, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715845709, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846025, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846036, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846054, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846064, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846086, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846098, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846112, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846229, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846313, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846323, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846334, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715846348, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847214, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847224, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847837, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847850, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847861, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847871, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847881, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847891, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847903, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847912, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847922, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847931, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847941, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847950, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847959, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847968, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847980, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847989, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715847999, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848007, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848019, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848028, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848038, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848048, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848059, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848069, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848102, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848129, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848150, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848167, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-franais_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848191, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848211, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848233, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848243, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848261, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848277, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-english(unitedstates)(en-us)_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848293, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848303, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-chinese(simplified)(zh)_assets_all.bundle" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848315, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715848336, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/catalog.json" }}
-,{ "pid":12345, "tid":2, "ts":1714387715849160, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715849176, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1714387715849192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1714387715849214, "dur":9924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1714387715859171, "dur":19810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715836365, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715836588, "dur":8401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715844992, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1714387715845610, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715845640, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1714387715845994, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846017, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846035, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846048, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846071, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846082, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846099, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846112, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846128, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846140, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846156, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846170, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846183, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846195, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846210, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846222, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846304, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846320, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846335, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715846346, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715847022, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715847036, "dur":2127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1714387715849163, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715849180, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1714387715849197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1714387715849229, "dur":10010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1714387715859257, "dur":19750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715836397, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715836597, "dur":8442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715845040, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1714387715845681, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715845705, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846034, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846046, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846068, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846079, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846091, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846101, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846120, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846132, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846144, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846155, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846165, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846174, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846185, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846194, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846211, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846225, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846305, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846317, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846328, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715846338, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715847035, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715847056, "dur":1171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Localization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848228, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848242, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848258, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848271, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-japanese(ja)_assets_all.bundle" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848289, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848316, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/settings.json" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848759, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848777, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1714387715848795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1714387715851341, "dur":10991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1714387715862346, "dur":16781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715836418, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715836601, "dur":8384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715844992, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1714387715845431, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715845489, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1714387715845736, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715845789, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UniversalSettings.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846122, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846134, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846150, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846162, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846176, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846187, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846203, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846215, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846403, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846422, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846966, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715846981, "dur":778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715847760, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715847776, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1714387715849191, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715849204, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1714387715849227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1714387715849232, "dur":9961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1714387715859222, "dur":19777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715836437, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715836607, "dur":8494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715845101, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1714387715845683, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715845731, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846041, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846069, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846082, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846094, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846107, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846119, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846136, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846147, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846159, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846171, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846186, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846199, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846215, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846229, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846315, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846327, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846650, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715846661, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715847244, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715847260, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715847271, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715847280, "dur":1429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1714387715848709, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715848724, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1714387715848741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1714387715849868, "dur":9314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1714387715859204, "dur":19808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715836463, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715836611, "dur":8382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715844995, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1714387715845609, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715845635, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1714387715845916, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715845939, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715845988, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846000, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846011, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846023, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846040, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846059, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846074, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846085, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846100, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846112, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846131, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846141, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846162, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846174, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846188, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846200, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846216, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846227, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846313, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846325, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846340, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846350, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846974, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715846990, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715847575, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715847591, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715847603, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715847615, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Addressables.dll" }}
-,{ "pid":12345, "tid":7, "ts":1714387715848335, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715848350, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":7, "ts":1714387715848760, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715848777, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1714387715848795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1714387715850796, "dur":28138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1714387715878953, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":7, "ts":1714387715878954, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715836487, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715836615, "dur":8388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715845003, "dur":1176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846179, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846198, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846304, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846318, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846331, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846343, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846359, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846369, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846964, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715846978, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715847581, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715847593, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715847604, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715847621, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1714387715848356, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715848369, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1714387715848393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1714387715849219, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1714387715852428, "dur":26554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715836510, "dur":109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715836619, "dur":8379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715845000, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1714387715845622, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715845649, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1714387715845990, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846011, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846026, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846037, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846067, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846080, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846093, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846103, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846124, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846143, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846157, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846169, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846182, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846192, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846207, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846223, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846304, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846322, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846340, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846348, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846948, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715846962, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715847573, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715847593, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715847606, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715847616, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":9, "ts":1714387715848130, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715848144, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-_assets_all.bundle" }}
-,{ "pid":12345, "tid":9, "ts":1714387715848281, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715848307, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
-,{ "pid":12345, "tid":9, "ts":1714387715848808, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715848850, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1714387715849172, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715849187, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1714387715849228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1714387715849234, "dur":10931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1714387715860180, "dur":18809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715836538, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715836623, "dur":8365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715844991, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845612, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845643, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845866, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845890, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845917, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845928, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845941, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715845994, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846010, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846021, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846052, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846064, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846080, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846094, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846110, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846120, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846387, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846401, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846965, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715846980, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847576, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847592, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847606, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847822, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847834, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847844, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847853, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847862, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847872, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847881, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847894, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847902, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847911, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847919, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847934, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847943, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847952, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847962, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847972, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847980, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847989, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715847999, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848011, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848021, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848033, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848043, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848052, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848061, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715848785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1714387715850302, "dur":25023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1714387715875343, "dur":3641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715836557, "dur":69, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715836626, "dur":8369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715844997, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1714387715845288, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715845348, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1714387715845738, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715845765, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846045, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846061, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846077, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846089, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846105, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846117, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846131, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846144, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846161, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846173, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846186, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846204, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846217, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846303, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846321, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715846338, "dur":1331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715847669, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715847688, "dur":1111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1714387715848800, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715848812, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1714387715849163, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715849179, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1714387715849196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1714387715849221, "dur":9994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1714387715859229, "dur":19774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715836577, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715836578, "dur":8404, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715844991, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":12, "ts":1714387715844995, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715845037, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/app.info" }}
-,{ "pid":12345, "tid":12, "ts":1714387715845039, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715845051, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1714387715845729, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715845754, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster.exe" }}
-,{ "pid":12345, "tid":12, "ts":1714387715846501, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715846516, "dur":578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":12, "ts":1714387715847094, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715847107, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.InternalAPIEngineBridge.013.dll" }}
-,{ "pid":12345, "tid":12, "ts":1714387715847622, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715847638, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":12, "ts":1714387715848032, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715848050, "dur":1126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1714387715849177, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715849193, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":12, "ts":1714387715849288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1714387715849293, "dur":9863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":12, "ts":1714387715859182, "dur":19818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1714387715883263, "dur":1327, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1714387715926304, "dur": 923, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1714387715926077, "dur": 1172, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1715404382822765, "dur":2531, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382825308, "dur":265, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1715404382825623, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1715404382825669, "dur":466, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1715404382826157, "dur":851, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382827008, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881621, "dur":203, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881824, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881845, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881848, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881855, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881857, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881861, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881862, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881866, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881867, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881872, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881873, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881876, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881878, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881882, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881883, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881888, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881889, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881893, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881895, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881898, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881900, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881904, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881906, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881909, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881922, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382881940, "dur":2553, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1715404382826758, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382827016, "dur":12820, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382839849, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1715404382839853, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382839882, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1715404382839884, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382839902, "dur":1731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1715404382841633, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382841669, "dur":1059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842728, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842776, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842793, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842808, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842824, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842833, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842845, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842859, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842869, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842879, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842890, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842899, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842911, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842921, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842933, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842943, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842953, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842966, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842978, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842988, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382842999, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843010, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843021, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843033, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843102, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843116, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843130, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382843140, "dur":3736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382846877, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382846894, "dur":2079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715404382848973, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382848988, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1715404382849004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715404382856885, "dur":8267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1715404382865167, "dur":16468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382826758, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382827019, "dur":12823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382839849, "dur":1896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1715404382841745, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382841767, "dur":1170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382842937, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382842951, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382842962, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382842980, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382842991, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843002, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843013, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843023, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843034, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843109, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843208, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382843221, "dur":1730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382844952, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382844965, "dur":845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382845811, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382845825, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382846977, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382846994, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847007, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847033, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847045, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847065, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847077, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847095, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847112, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847135, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847146, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382847157, "dur":1884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382849068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715404382849163, "dur":32052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715404382881231, "dur":389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382826798, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382827029, "dur":12811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382839849, "dur":1508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1715404382841357, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382841616, "dur":1090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842706, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842727, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842775, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842789, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842802, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842813, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842826, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842836, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382842847, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382843142, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382843159, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382843170, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382844296, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382844310, "dur":1463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382845773, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382845786, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382845797, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382845806, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382845832, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382845844, "dur":3094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715404382848938, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382848953, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1715404382848969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715404382854174, "dur":12552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1715404382866736, "dur":14885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382826791, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382827024, "dur":12817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382839849, "dur":1536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1715404382841385, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382841505, "dur":915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1715404382842421, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382842439, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UniversalSettings.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382843092, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382843135, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382844299, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382844314, "dur":1416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382845730, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382845744, "dur":1144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.InternalAPIEngineBridge.013.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382846888, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382846905, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382846920, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382846976, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382846991, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847016, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847026, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847036, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847046, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847066, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847076, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847088, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847113, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847122, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847155, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847165, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-_assets_all.bundle" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847193, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847208, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-franais_assets_all.bundle" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847228, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847241, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847264, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847275, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-japanese(ja)_assets_all.bundle" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847308, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382847325, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/catalog.json" }}
+,{ "pid":12345, "tid":4, "ts":1715404382848166, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382848179, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1715404382848937, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382848952, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1715404382848970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715404382855330, "dur":9603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1715404382864948, "dur":16681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382826824, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382827034, "dur":12916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382839954, "dur":1730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1715404382841684, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382841708, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842779, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842798, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842813, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842822, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842835, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842844, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842856, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842866, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842877, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842889, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842900, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842908, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842919, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842927, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842939, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842950, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842962, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842972, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842984, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382842993, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843003, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843015, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843026, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843107, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843121, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843130, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843142, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382843152, "dur":1171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382844323, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382844340, "dur":1384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382845725, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382845742, "dur":2380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Localization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715404382848123, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382848138, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1715404382848163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715404382849157, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1715404382853492, "dur":28124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382826847, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382827039, "dur":12799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382839848, "dur":1492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1715404382841341, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382841399, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1715404382842373, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382842394, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843008, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843022, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843035, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843104, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843118, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843130, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843142, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382843154, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715404382844303, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382844318, "dur":1510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715404382845828, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382845841, "dur":1412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715404382847262, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382847289, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-english(unitedstates)(en-us)_assets_all.bundle" }}
+,{ "pid":12345, "tid":6, "ts":1715404382847302, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382847314, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/AddressablesLink/link.xml" }}
+,{ "pid":12345, "tid":6, "ts":1715404382848143, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382848160, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1715404382848178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715404382850650, "dur":13237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1715404382863913, "dur":17712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382826869, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382827042, "dur":12900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382839945, "dur":1782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1715404382841727, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382841754, "dur":1025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842779, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842792, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842812, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842821, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842833, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842844, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842858, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842869, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842880, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842890, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842900, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842911, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842925, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842935, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842946, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842954, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842967, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842983, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382842994, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843004, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843015, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843027, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843037, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843113, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843128, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382843137, "dur":2603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382845740, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382845756, "dur":2387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715404382848143, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382848172, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1715404382848192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715404382851417, "dur":30161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1715404382881591, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1715404382881593, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382826891, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382827047, "dur":12815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382839865, "dur":2921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842786, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842807, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842822, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842833, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842845, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842859, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842870, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382842880, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715404382843298, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382843313, "dur":3564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715404382846877, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382846893, "dur":1284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715404382848178, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382848194, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1715404382848210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715404382852024, "dur":12048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1715404382864087, "dur":17531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382826921, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382827049, "dur":12807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382839858, "dur":1868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1715404382841726, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382841991, "dur":2321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster.exe" }}
+,{ "pid":12345, "tid":9, "ts":1715404382844312, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382844324, "dur":1410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845735, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845751, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845768, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845782, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845793, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845804, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845815, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382845827, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382846944, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382846959, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382846971, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382846998, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847012, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847035, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847051, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847073, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847086, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847108, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847119, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847137, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847147, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847164, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-_assets_all.bundle" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847194, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847206, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-_assets_all.bundle" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847225, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847236, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english_assets_all.bundle" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847258, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847271, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847285, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847295, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-chinese(simplified)(zh)_assets_all.bundle" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847307, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382847323, "dur":819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/aa/settings.json" }}
+,{ "pid":12345, "tid":9, "ts":1715404382848142, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382848158, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1715404382848176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1715404382849823, "dur":12261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1715404382862105, "dur":19532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382826950, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382827054, "dur":12796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382839853, "dur":1680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1715404382841533, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382841559, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1715404382842587, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382842608, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UniversalSettings.Demo.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382843068, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382843125, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382843135, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382843145, "dur":1231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382844376, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382844392, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382845728, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382845745, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382846948, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382846970, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382846993, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847027, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847038, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847062, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847072, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847088, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847100, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847117, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847129, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382847145, "dur":1810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1715404382848955, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382848966, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1715404382848981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1715404382856053, "dur":9304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1715404382865372, "dur":16260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382826961, "dur":97, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382827058, "dur":12900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382839959, "dur":1612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1715404382841571, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382841616, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842687, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842707, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842730, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842742, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842862, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842872, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842884, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842894, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842905, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842913, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842925, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842936, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842948, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842958, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842972, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842981, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382842992, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843001, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843011, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843021, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843032, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843101, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843118, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843129, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843142, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382843152, "dur":2684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382845836, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382845857, "dur":1609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1715404382847467, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382847481, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1715404382848165, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382848193, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1715404382848936, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382848950, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1715404382848968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1715404382852798, "dur":11278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1715404382864091, "dur":17553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382826981, "dur":81, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382827062, "dur":12782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382839849, "dur":1964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1715404382841813, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382841834, "dur":1133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1715404382842967, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382842979, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382842992, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843003, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843016, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843026, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843037, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843106, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843123, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382843156, "dur":1138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382844295, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382844308, "dur":1409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382845717, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382845731, "dur":3351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1715404382849082, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382849095, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Project/0423_UI/UIMaster/exe/20240429/UIMaster_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1715404382849355, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1715404382849367, "dur":32252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715404382886232, "dur":1377, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1715404382907388, "dur": 888, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1715404382907136, "dur": 1162, "ph": "X", "name": "Write chrome-trace events", "args": {} },

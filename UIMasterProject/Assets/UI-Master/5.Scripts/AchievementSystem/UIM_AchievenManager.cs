@@ -18,19 +18,14 @@ public class UIM_AchievenManager : MonoBehaviour
     [Tooltip("If true, achievement unlocks/progress update notifications will be displayed on the player's screen.")]
     public bool DisplayAchievements;
 
-    [Tooltip("If true, the state of all achievements will be saved without any call to the manual save function (Recommended = true)")]
-    public bool AutoSave;
     [Tooltip("The message which will be displayed on the UI if an achievement is marked as a spoiler.")]
     public string SpoilerAchievementMessage = "Hidden";
 
-    private AudioSource AudioSource;
-
-    //List of achievement states (achieved, progress and last notification)
-    //[SerializeField] public List<AchievementState> States = new List<AchievementState>();
 
     [Tooltip("创建成就系统的列表，改为so引用")]
     public SO_AchievementInfo so_AchievementInfo;
-    [NonSerialized]public List<AchievementInfromation> AchievementList ;  
+    [NonSerialized]public List<AchievementInfromation> AchievementList ;
+    [NonSerialized]public List<AchieveState> AchieveStateList;
 
     [Tooltip("If true, one achievement will be automatically unlocked once all others have been completed")]
     public bool UseFinalAchievement = false;
@@ -51,18 +46,36 @@ public class UIM_AchievenManager : MonoBehaviour
             Destroy(gameObject);
        }
         DontDestroyOnLoad(gameObject);
-        AudioSource = gameObject.GetComponent<AudioSource>();
-       
-        LoadAchievementState();
+
+        Load();
     }
 
     private void Start()
     {
         Stack = AchievenmentStack.instance;
         AchievementList = so_AchievementInfo.AchievementList;
+        AchieveStateList = so_AchievementInfo.so_AchieveStates.achieveStateList;
     }
 
-    # region Miscellaneous
+    #region Svae and Load
+    void Save()
+    {
+        //先将状态转变为so文件
+        so_AchievementInfo.PushData();
+        //再将so文件存储为json
+        UIT_SaveLoad.SaveData(so_AchievementInfo.so_AchieveStates, "AchievementData");
+    }
+
+    void Load()
+    {
+        so_AchievementInfo.PullData();
+        UIT_SaveLoad.LoadData(so_AchievementInfo, "AchievementData");
+    }
+
+    #endregion
+
+
+    #region Miscellaneous
     /// <summary>
     /// Does an achievement exist in the list
     /// </summary>
@@ -86,7 +99,7 @@ public class UIM_AchievenManager : MonoBehaviour
     /// </summary>
     public int GetAchievedCount()
     {
-        int Count = (from AchievementState i in AchievementList
+        int Count = (from AchieveState i in AchievementList
                      where i.Achieved == true
                     select i).Count();
         return Count;
@@ -125,9 +138,9 @@ public class UIM_AchievenManager : MonoBehaviour
             AchievementList[Index].State.Progress = AchievementList[Index].ProgressGoal;
             AchievementList[Index].State.Achieved = true;
             DisplayUnlock(Index);
-            AutoSaveStates();
+            Save();
 
-            if(UseFinalAchievement)
+            if (UseFinalAchievement)
             {
                 int Find = AchievementList.FindIndex(x => !x.State.Achieved);
                 bool CompletedAll = (Find == -1 || AchievementList[Find].Key.Equals(FinalAchievementKey));
@@ -164,7 +177,7 @@ public class UIM_AchievenManager : MonoBehaviour
             {
                 AchievementList[Index].State.Progress = Progress;
                 DisplayUnlock(Index);
-                AutoSaveStates();                
+                Save();
             }
         }
     }
@@ -194,59 +207,27 @@ public class UIM_AchievenManager : MonoBehaviour
             {
                 AchievementList[Index].State.Progress += Progress;
                 DisplayUnlock(Index);
-                AutoSaveStates();
+                Save();
             }
         }
     }
     #endregion
 
-    #region Saving and Loading
-    /// <summary>
-    /// 存储，后面会拜托使用playerprefs的方法
-    /// </summary>
-    public void SaveAchievementState()
-    {
-        for (int i = 0; i < AchievementList.Count; i++)
-        {
-            PlayerPrefs.SetString("AchievementState_" + i, JsonUtility.ToJson(AchievementList[i]));
-        }
-        PlayerPrefs.Save();
-    }
-    /// <summary>
-    /// Loads all progress and achievement states from player prefs. This function is automatically called if the Auto Load setting is set to true.
-    /// </summary>
-    public void LoadAchievementState()
-    {
-        AchievementState NewState;
 
-        //for (int i = 0; i < AchievementList.Count; i++)
-        //{
-        //    //Ensure that new project get default values
-        //    if (PlayerPrefs.HasKey("AchievementState_" + i))
-        //    {
-        //        NewState = JsonUtility.FromJson<AchievementState>(PlayerPrefs.GetString("AchievementState_" + i));
-        //        AchievementList[i].State.Add(NewState);
-        //    }
-        //    else { AchievementList[i].State.Add(new AchievementState()); }
-
-        //}
-    }
     /// <summary>
     /// Clears all saved progress and achieved states.
     /// </summary>
     public void ResetAchievementState()
     {
         //初始化各个成就的状态
-
-        //States.Clear();
         for (int i = 0; i < AchievementList.Count; i++)
         {
-            PlayerPrefs.DeleteKey("AchievementState_" + i);
             AchievementList[i].State.Reset();
         }
-        SaveAchievementState();
+        Save();
+       
     }
-    #endregion
+  
 
     /// <summary>
     /// Find the index of an achievement with a cetain key
@@ -256,16 +237,8 @@ public class UIM_AchievenManager : MonoBehaviour
     {
         return AchievementList.FindIndex(x => x.Key.Equals(Key));
     }
-    /// <summary>
-    /// Test if AutoSave is valid. If true, save list
-    /// </summary>
-    private void AutoSaveStates()
-    {
-        if (AutoSave)
-        {
-            SaveAchievementState();
-        }
-    }
+ 
+
     /// <summary>
     /// Display achievements progress to screen  
     /// </summary>

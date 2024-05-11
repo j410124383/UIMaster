@@ -61,10 +61,10 @@ public class UIM_ScrollView : MonoBehaviour
         if (IsDown()) return;
 
         // 检测鼠标和键盘输入
-        if (Input.anyKeyDown || Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
-        {
-            lastInputTime = Time.time; // 更新最后一次输入时间
-        }
+        //if (Input.anyKeyDown || Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
+        //{
+        //    lastInputTime = Time.time; // 更新最后一次输入时间
+        //}
 
         // 如果在 idleTimeToScroll 内没有输入操作，则自动滚动 Content
         if (Time.time - lastInputTime > idleTimeToScroll)

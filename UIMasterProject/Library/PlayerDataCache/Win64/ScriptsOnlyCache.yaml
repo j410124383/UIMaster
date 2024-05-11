@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - AchievenmentListIngame
     - AchievenmentStack
     - ExampleScript
-    - SO_AchieveStates
     - SO_AchievementInfo
     - SO_AudioData
     - SO_SettingData
@@ -62,10 +61,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Localization.Settings.LocalizationSettings
     - UnityEngine.Localization.Tables.SharedTableData
     - UnityEngine.Localization.Tables.StringTable
-    - UnityEngine.Localization.VariantsPropertyDriver
-    Unity.ResourceManager.dll:
-    - MonoBehaviourCallbackHooks
-    - UnityEngine.ResourceManagement.Util.DelayedActionManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -78,10 +73,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -536,8 +529,6 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
-    - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
       Script: {instanceID: 1592}
@@ -548,83 +539,83 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1674}
+      Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 2310}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 2554}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 3218}
+      Script: {instanceID: 2556}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3220}
     - Class: 114
-      Script: {instanceID: 3448}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 3518}
+      Script: {instanceID: 3450}
     - Class: 114
-      Script: {instanceID: 3930}
+      Script: {instanceID: 3520}
     - Class: 114
-      Script: {instanceID: 3958}
+      Script: {instanceID: 3932}
     - Class: 114
-      Script: {instanceID: 4232}
+      Script: {instanceID: 3960}
     - Class: 114
-      Script: {instanceID: 4808}
+      Script: {instanceID: 4234}
     - Class: 114
-      Script: {instanceID: 5148}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 5150}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5570}
     - Class: 114
-      Script: {instanceID: 6006}
+      Script: {instanceID: 5992}
     - Class: 114
-      Script: {instanceID: 6150}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 6384}
+      Script: {instanceID: 6152}
     - Class: 114
-      Script: {instanceID: 6574}
+      Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 6738}
+      Script: {instanceID: 6576}
     - Class: 114
-      Script: {instanceID: 7022}
+      Script: {instanceID: 6740}
     - Class: 114
-      Script: {instanceID: 7142}
+      Script: {instanceID: 7024}
     - Class: 114
-      Script: {instanceID: 7224}
+      Script: {instanceID: 7144}
     - Class: 114
-      Script: {instanceID: 7594}
+      Script: {instanceID: 7226}
     - Class: 114
-      Script: {instanceID: 7774}
+      Script: {instanceID: 7596}
     - Class: 114
-      Script: {instanceID: 8102}
+      Script: {instanceID: 7776}
     - Class: 114
-      Script: {instanceID: 8238}
+      Script: {instanceID: 8106}
     - Class: 114
-      Script: {instanceID: 8358}
+      Script: {instanceID: 8242}
     - Class: 114
-      Script: {instanceID: 8884}
+      Script: {instanceID: 8362}
     - Class: 114
-      Script: {instanceID: 8900}
+      Script: {instanceID: 8888}
     - Class: 114
-      Script: {instanceID: 8914}
+      Script: {instanceID: 8904}
     - Class: 114
-      Script: {instanceID: 9274}
+      Script: {instanceID: 8918}
     - Class: 114
-      Script: {instanceID: 9428}
+      Script: {instanceID: 9278}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 9432}
     - Class: 114
-      Script: {instanceID: 10120}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 10780}
+      Script: {instanceID: 10124}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 10784}
     - Class: 114
-      Script: {instanceID: 10944}
+      Script: {instanceID: 10830}
     - Class: 114
-      Script: {instanceID: 11880}
+      Script: {instanceID: 10948}
     - Class: 114
-      Script: {instanceID: 234342}
+      Script: {instanceID: 11884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1494,6 +1485,12 @@ ScriptsOnlyBuild:
     className: MonoBehaviourCallbackHooks
   - hash:
       serializedVersion: 2
+      Hash: 0ad191eb23155c027a4646200c26c79d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SO_AchieveStates
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1984,13 +1981,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AchievenmentListIngame
-  - hash:
-      serializedVersion: 2
-      Hash: 0ad191eb23155c027a4646200c26c79d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SO_AchieveStates
   platform: 19
   scenePathNames:
   - Assets/UI-Master/6.Scenes/MainMenu.unity
-  playerPath: "F:/Project/0423_UI\u5927\u5E08/UIMaster/exe/20240429/UIMaster.exe"
+  playerPath: "F:/Project/0423_UI\u5927\u5E08/Build/20240511/UIMaster.exe"

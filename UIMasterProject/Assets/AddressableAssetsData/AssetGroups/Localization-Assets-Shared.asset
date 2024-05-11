@@ -16,15 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: d2be7c290213395489499b28c318ebfb
-  m_SerializeEntries:
-  - m_GUID: dd49381dcf706204b9b6bc38065c26eb
-    m_Address: Assets/UI-Master/8.Data/Localization/AssetTable/New Table Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-  - m_GUID: 51f5245bc279b9c40a2a4dbf73a9fa58
-    m_Address: Assets/UI-Master/8.Data/Localization/New Table 1 Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 10e588bae2575bb42bb794118c243d44, type: 2}
   m_SchemaSet:

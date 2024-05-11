@@ -1,0 +1,40 @@
+{
+    "name": "UIMControls",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "10378d1e-4d78-4563-b3c4-990353855967",
+            "actions": [
+                {
+                    "name": "CallGold",
+                    "type": "Button",
+                    "id": "4cdf4783-0fa4-437c-9db2-4fef10c5010f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "32703407-f914-4480-bfad-ce5d5984bc5e",
+                    "path": "<Keyboard>/f11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CallGold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KEYBOARD",
+            "bindingGroup": "KEYBOARD",
+            "devices": []
+        }
+    ]
+}

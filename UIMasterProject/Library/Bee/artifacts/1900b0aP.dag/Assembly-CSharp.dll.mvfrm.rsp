@@ -6,6 +6,8 @@ Library\Bee\artifacts\mvdfrm\Unity.2D.SpriteShape.Runtime.ref.dll_371409BB7D882E
 Library\Bee\artifacts\mvdfrm\Unity.2D.Tilemap.Extras.ref.dll_A593BB962D7D7DA2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Addressables.ref.dll_1059048E9DD8D528.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_14316E70964BB953.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InputSystem.InGameHints.ref.dll_1B85914404771B63.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_29109081F030768C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEngineBridge.001.ref.dll_9031ADE18CD0CF4E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Localization.ref.dll_151F7BC093EF395C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_14D1A32168A0AD59.mvfrm
@@ -19,6 +21,7 @@ Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.ref.dll_F0190167D28F2F4D.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.InputSystem.Samples.UIvsGameInput.ref.dll_46311AC06761F0B2.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AccessibilityModule.dll_1B6238B0A88D2277.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AIModule.dll_52F1B2727F728453.mvfrm

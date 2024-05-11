@@ -42,8 +42,6 @@ public class UIM_ScrollView : MonoBehaviour
             AutoPlay();
         }
 
-
-
     }
 
     public void SwitchGrandientStrip()

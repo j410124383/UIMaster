@@ -16,7 +16,12 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: dc9b98958ea557c42a97e4886457761d
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 012173b9f86c8444b9fc69dbd8404f0b
+    m_Address: UITable_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 10e588bae2575bb42bb794118c243d44, type: 2}
   m_SchemaSet:

@@ -1,37 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine.InputSystem;
 
 
 public class UIM_GoldFingerPanel : MonoBehaviour
 {
     private bool isOpen;
-    //public KeyCode callKey;
+
     private UIMControls inputActions;
 
     private void Awake()
     {
         inputActions = new UIMControls();
-
+        inputActions.Enable();
     }
 
+    private void OnEnable()
+    {
+      
+    }
 
     void Update()
     {
-        //if (Input.GetKeyDown(callKey))
-        //{
 
-        //    isOpen = !isOpen;
-        //    Switch();
-        //}
-
-        if (inputActions.UI.CallGold.IsPressed())
+        if (inputActions.UI.CallGold.triggered)
         {
             isOpen = !isOpen;
             Switch();
-            print("1");
+           
         }
 
     }

@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.2D.Animation.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:21.9842738Z"
+      "LastWriteTime": "2024-05-11T09:28:40.1768335Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -19,19 +19,19 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.0884194Z"
+      "LastWriteTime": "2024-05-11T09:28:40.2178909Z"
     },
     {
       "FullName": "Unity.2D.Common.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.3176959Z"
+      "LastWriteTime": "2024-05-11T09:28:40.1778383Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.3729686Z"
+      "LastWriteTime": "2024-05-11T09:28:40.2376464Z"
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:21.9733838Z"
+      "LastWriteTime": "2024-05-11T09:28:40.1956522Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -39,23 +39,23 @@
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.2772128Z"
+      "LastWriteTime": "2024-05-11T09:28:40.1788471Z"
     },
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.0333619Z"
+      "LastWriteTime": "2024-05-11T09:28:40.1743607Z"
     },
     {
       "FullName": "Unity.2D.Psdimporter.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.3486881Z"
-    },
-    {
-      "FullName": "PsdPlugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-11T07:13:22.5461815Z"
+      "LastWriteTime": "2024-05-11T09:28:40.187566Z"
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-12-18T05:18:24Z"
+    },
+    {
+      "FullName": "PsdPlugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2024-05-11T09:28:40.1654939Z"
     }
   ],
   "Functions": [
@@ -145,6 +145,7 @@
       "AssemblyDependencyIndices": [
         3,
         11,
+        12,
         2,
         6
       ]
@@ -168,7 +169,6 @@
       "LinkName": "4B57F329150937D0",
       "AssemblyDependencyIndices": [
         3,
-        12,
         13,
         2
       ]
@@ -180,7 +180,7 @@
       "LinkName": "B33AFCD7D8FB6AEB",
       "AssemblyDependencyIndices": [
         3,
-        12,
+        13,
         2
       ]
     },

@@ -49,7 +49,7 @@ public class UIM_SettingManager : MonoBehaviour
         OnChangeAntiAliasing(curSetData.num_AntiAliasing);
         OnChangeResolustion(curSetData.num_Resoulution);
         OnChangeLanguage(curSetData.num_Language);
-        print("设置初始化已调整完毕");
+        //print("设置初始化已调整完毕");
 
     }
 
@@ -64,7 +64,7 @@ public class UIM_SettingManager : MonoBehaviour
         //var l = LocalizationSettings.AvailableLocales.Locales;
        
         LocalizationSettings.Instance.SetSelectedLocale(settingOtions.locales[i]);
-        print(settingOtions.locales[i]);
+        //print(settingOtions.locales[i]);
         UIM_UIManager.Instance.RefreshLayoutsRecursively();
     }
 

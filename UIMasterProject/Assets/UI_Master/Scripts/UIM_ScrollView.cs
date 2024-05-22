@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+[AddComponentMenu("UIMaster/ScrollView")]
+[DisallowMultipleComponent]
 public class UIM_ScrollView : MonoBehaviour
 {
     private ScrollRect scrollView;

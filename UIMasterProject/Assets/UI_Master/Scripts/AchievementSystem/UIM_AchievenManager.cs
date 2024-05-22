@@ -63,13 +63,13 @@ public class UIM_AchievenManager : MonoBehaviour
         //先将状态转变为so文件
         so_AchievementInfo.PushData();
         //再将so文件存储为json
-        UIT_SaveLoad.SaveData(so_AchievementInfo.so_AchieveStates, "AchievementData");
+        UIM_SaveLoad.SaveData(so_AchievementInfo.so_AchieveStates, "AchievementData");
     }
 
     void Load()
     {
         so_AchievementInfo.PullData();
-        UIT_SaveLoad.LoadData(so_AchievementInfo, "AchievementData");
+        UIM_SaveLoad.LoadData(so_AchievementInfo, "AchievementData");
     }
 
     #endregion

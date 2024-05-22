@@ -1982,6 +1982,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
   m_PrefabInstance: {fileID: 4834325566170525180}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5695729781368862914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 873053404668384574, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
+  m_PrefabInstance: {fileID: 4834325566170525180}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6152230579668602769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2167,6 +2172,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 773061207348576746, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: butFirst
+      value: 
+      objectReference: {fileID: 5695729781368862914}
     - target: {fileID: 773061207348576746, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: butContentsList.Array.size
       value: 2

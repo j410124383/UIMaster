@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/UI_Master/Scenes/MainMenu.unity
     guid: ebed3329fa85e4443b513c523f8834a3
+  - enabled: 1
+    path: Assets/UI_Master/Scenes/GameScene.unity
+    guid: 19ca50b63f2b4ae458143649090a0a5f
+  - enabled: 1
+    path: Assets/UI_Master/Scenes/LoadingScene.unity
+    guid: a6d7f9ec4c27e634d8cd1964f0a50774
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 411045a09908afc4ea48d5cbabc1a9c5, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 4fe1494458c9a7144973a3a9c05bfd97, type: 2}

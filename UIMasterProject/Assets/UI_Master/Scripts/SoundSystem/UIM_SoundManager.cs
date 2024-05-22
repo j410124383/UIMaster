@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[AddComponentMenu("UIMaster/Audio/SoundManager")]
+[DisallowMultipleComponent]
 public class UIM_SoundManager : MonoBehaviour
 {
     public static UIM_SoundManager Instance;

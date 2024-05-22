@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -387,6 +387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_But_Option
       objectReference: {fileID: 0}
+    - target: {fileID: 6901001336955162682, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6901001336955162683, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -559,6 +563,10 @@ PrefabInstance:
     - target: {fileID: 6901001336955162676, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_Name
       value: P_But_Option (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901001336955162682, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6901001336955162683, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_Pivot.x

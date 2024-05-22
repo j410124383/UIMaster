@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-[AddComponentMenu("UIM/SoundTrigger")]
+[AddComponentMenu("UIMaster/Audio/SoundTrigger")]
 [DisallowMultipleComponent]
 public class UIM_SoundTrigger : MonoBehaviour
 {

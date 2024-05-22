@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[AddComponentMenu("UIMaster/UIManager")]
 public class UIM_UIManager : MonoBehaviour
 {
     public static UIM_UIManager Instance;

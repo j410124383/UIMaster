@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 [System.Serializable]
 public struct ButContent
@@ -12,14 +13,14 @@ public struct ButContent
     public Button but;
     public List<GameObject> targetObjs;
     public bool isOpen;
-
+    public bool autoCloseSelf;
 
     public  ButContent(Button b,List<GameObject> to,bool o)
     {
         but = b;
         targetObjs = to;
         isOpen = o;
-
+        autoCloseSelf = true;
     }
 
 }
@@ -48,10 +49,9 @@ public class UIM_ButtonManager : MonoBehaviour
             item.but.onClick.AddListener(delegate { Switch(item); });
         }
 
-     
-     
     }
 
+   
 
     void OnEnable()
     {
@@ -62,8 +62,28 @@ public class UIM_ButtonManager : MonoBehaviour
             return;
         }
 
+        RebackFirstBut();
+
+
+    }
+
+    private void Update()
+    {
+        if (Keyboard.current.anyKey.wasReleasedThisFrame)
+        {
+            RebackFirstBut();
+        }
+   
+    }
+
+
+
+
+    void RebackFirstBut()
+    {
         // 设置按钮为第一个选择
         EventSystem.current.firstSelectedGameObject = butFirst.gameObject;
+        Debug.Log("默认已跳转到:" + butFirst.gameObject.name);
 
         // 手动选择按钮
         EventSystem.current.SetSelectedGameObject(butFirst.gameObject);
@@ -104,6 +124,20 @@ public class UIM_ButtonManager : MonoBehaviour
             UIM_UIManager.Instance.RefreshLayoutsRecursively();
         }
 
+        //判断是不是要关闭自身
+        if (butContent.autoCloseSelf)
+        {
+            if (GetComponent<Animator>())
+            {
+                GetComponent<Animator>().SetBool("ISSWITCH", true);
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
+            
+        }
+
     }
 
 
@@ -112,7 +146,6 @@ public class UIM_ButtonManager : MonoBehaviour
 
         gameObject.SetActive(false);
     }
-
 
 
 

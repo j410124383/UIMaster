@@ -2189,6 +2189,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 773061207348576746, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: butContentsList.Array.data[0].autoCloseSelf
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 773061207348576746, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: butContentsList.Array.data[1].autoCloseSelf
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 773061207348576746, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: butContentsList.Array.data[1].targetObjs.Array.size
       value: 1
       objectReference: {fileID: 0}

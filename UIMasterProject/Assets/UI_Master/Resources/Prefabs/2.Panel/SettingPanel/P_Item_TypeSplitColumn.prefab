@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 5139267336916645774}
   - component: {fileID: 5139267336916645775}
   - component: {fileID: 1310766540461180365}
+  - component: {fileID: 3780308176714760272}
   m_Layer: 5
   m_Name: T_TypeName
   m_TagString: Untagged
@@ -269,6 +270,19 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!114 &3780308176714760272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5139267336916645769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 1
 --- !u!1001 &5139267334926558108
 PrefabInstance:
   m_ObjectHideFlags: 0

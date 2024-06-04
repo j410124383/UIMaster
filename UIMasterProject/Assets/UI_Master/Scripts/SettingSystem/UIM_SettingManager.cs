@@ -13,7 +13,7 @@ using UnityEngine.UI;
 [DisallowMultipleComponent]
 public class UIM_SettingManager : MonoBehaviour
 {
-    public static UIM_SettingManager Instance;
+    public static UIM_SettingManager instance;
 
     public AudioMixer mainAudioMixer;
     AsyncOperationHandle m_InitialzeOperation;
@@ -24,7 +24,7 @@ public class UIM_SettingManager : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        instance = this;
         
     }
 
@@ -53,11 +53,20 @@ public class UIM_SettingManager : MonoBehaviour
         OnChangeLanguage(curSetData.num_Language);
         //OnChangeFullScreen(curSetData.num_FullScreen);
         OnChangeFrameRate(curSetData.num_FrameRate);
+        OnChangeChromaticAberration(curSetData.num_ChromaticAberration);
+        OnChangeFlimGrain(curSetData.num_FlimGrain);
+        OnChangeVignette(curSetData.num_Vignette);
+        OnChangeTheme(curSetData.num_Theme);
+        OnChangeAllowedGF(curSetData.num_Theme);
+
+
         //print("设置初始化已调整完毕");
 
     }
 
 
+
+    #region 真正用于设置的方法
     /// <summary>
     /// 改变语言选项
     /// </summary>
@@ -150,6 +159,41 @@ public class UIM_SettingManager : MonoBehaviour
     }
 
 
+    public void OnChangeChromaticAberration(int i)
+    {
+
+    }
+
+    public void OnChangeFlimGrain(int i)
+    {
+
+    }
+
+    public void OnChangeVignette(int i)
+    {
+
+    }
+
+    /// <summary>
+    /// 修改当前主题颜色
+    /// </summary>
+    /// <param name="i"></param>
+    public void OnChangeTheme(int i)
+    {
+        UIM_EventManager.TriggerChangeColor(settingOtions.paletteList[i]);
+    }
+
+    public void OnChangeAllowedGF(int i)
+    {
+
+    }
+
+
+    #endregion
+
+
+
+
 
     public void RefreshDropText(Dropdown dropdown)
     {
@@ -163,7 +207,7 @@ public class UIM_SettingManager : MonoBehaviour
     public void RestoreSetting()
     {
         curSetData.CopyNewData(orignSettingData);
-        UIM_SettingPanel.Instance.DropdownReadData();
+        UIM_SettingPanel.Instance.DropdownWRData(UIM_SettingPanel.WRmod.读取);
         print(UIM_SaveLoad.YellowT()+ "已恢复为初始默认值!");
 
     }

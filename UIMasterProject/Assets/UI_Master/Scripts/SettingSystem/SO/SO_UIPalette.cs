@@ -12,10 +12,11 @@ public class SO_UIPalette : ScriptableObject
     public string paletteName;
 
     //定义UI需要用到的四种颜色
-    public Color c_light, c_Gray, c_Deep, c_Dark;
-    
+    //public Color c_light, c_Gray, c_Deep, c_Dark;
 
 
+    [SerializeField]
+    public Color[] colors = new Color[4];
 
 
 

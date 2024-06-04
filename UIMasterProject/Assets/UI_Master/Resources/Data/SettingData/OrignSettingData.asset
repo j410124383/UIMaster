@@ -21,5 +21,10 @@ MonoBehaviour:
   num_AntiAliasing: 0
   num_vSync: 0
   num_Resoulution: 10
-  num_refreshRate: 1
+  num_RefreshRate: 0
   num_FrameRate: 2
+  num_Theme: 0
+  num_ChromaticAberration: 1
+  num_FlimGrain: 1
+  num_Vignette: 1
+  num_AllowedGF: 1

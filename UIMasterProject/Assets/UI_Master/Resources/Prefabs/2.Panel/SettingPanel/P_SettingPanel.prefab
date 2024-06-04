@@ -49,7 +49,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_OptionSection (6)
+      value: P_Item_AllowedGF
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -598,7 +598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_SE (3)
+      value: P_Item_Vignette
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -791,6 +791,10 @@ PrefabInstance:
     - target: {fileID: 444981515417410120, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_Name
       value: ====Viewport===MaskThis
+      objectReference: {fileID: 0}
+    - target: {fileID: 444981515417410126, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 444981515557516952, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: isAuto
@@ -1140,22 +1144,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52b3fc9b5270b9141910af4dc0eeed9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bdLanguage: {fileID: 7043500771647203655}
-  bdTheme: {fileID: 638545413936817221}
-  bdQuality: {fileID: 7043500771197255395}
-  bdMasterVol: {fileID: 5780195250268280566}
-  bdBGM: {fileID: 7043500770779610724}
-  bdSE: {fileID: 5876197655838200605}
-  bdFullScreen: {fileID: 6637175478532368832}
-  bdAntiAliasing: {fileID: 2189081279644085346}
-  bdvSync: {fileID: 5545246323201178962}
-  bdResolution: {fileID: 3747803076366464977}
-  bdFrameRate: {fileID: 1182866256711291828}
-  bdRefreshRate: {fileID: 7238465801976879486}
-  bdChromaticAberration: {fileID: 4900148875103131498}
-  bdFlimGrain: {fileID: 8610218954547376864}
-  bdVignette: {fileID: 136451400177194315}
-  bdAllowedGF: {fileID: 2460292321536394407}
+  ddLanguage: {fileID: 7043500771647203655}
+  ddTheme: {fileID: 638545413936817221}
+  ddQuality: {fileID: 7043500771197255395}
+  ddMasterVol: {fileID: 5780195250268280566}
+  ddBGM: {fileID: 7043500770779610724}
+  ddSE: {fileID: 5876197655838200605}
+  ddFullScreen: {fileID: 6637175478532368832}
+  ddAntiAliasing: {fileID: 2189081279644085346}
+  ddvSync: {fileID: 5545246323201178962}
+  ddResolution: {fileID: 3747803076366464977}
+  ddFrameRate: {fileID: 1182866256711291828}
+  ddRefreshRate: {fileID: 7238465801976879486}
+  ddChromaticAberration: {fileID: 4900148875103131498}
+  ddFlimGrain: {fileID: 8610218954547376864}
+  ddVignette: {fileID: 136451400177194315}
+  ddAllowedGF: {fileID: 2460292321536394407}
   butRestore: {fileID: 8261312982892392785}
   butSave: {fileID: 8553142670297438800}
 --- !u!114 &7291184124756073210 stripped
@@ -1192,6 +1196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2729470068524019396}
     m_Modifications:
+    - target: {fileID: 69232960741826427, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
       value: Theme
@@ -1234,7 +1242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_OptionSection (5)
+      value: P_Item_Theme
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -1338,7 +1346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3168152346319586597, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
-      value: 10507645219962880
+      value: 14464154740129792
       objectReference: {fileID: 0}
     - target: {fileID: 4482612546384454070, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2183,7 +2191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_OptionSection (4)
+      value: P_Item_Language
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -2874,7 +2882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6901001336955162683, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -5100.1577
+      value: -7180.221
       objectReference: {fileID: 0}
     - target: {fileID: 6901001336955162683, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3373,7 +3381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_refreshRate
+      value: P_Item_RefreshRate
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -3597,7 +3605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_SE (2)
+      value: P_Item_FlimGrain
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -3833,7 +3841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248046, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_Name
-      value: P_Item_SE (1)
+      value: P_Item_ChormaticAberration
       objectReference: {fileID: 0}
     - target: {fileID: 1129218043701248047, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_RootOrder
@@ -4110,7 +4118,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: "\u5782\u76F4\u540C\u6B65"
+      value: vSync
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -4810,7 +4818,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: "\u5168\u5C4F"
+      value: Fullscreen
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba

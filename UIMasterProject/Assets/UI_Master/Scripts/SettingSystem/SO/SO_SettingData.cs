@@ -25,8 +25,8 @@ public class SO_SettingData : ScriptableObject
 
     //urp后处理相关
     public int num_ChromaticAberration;
-      public int num_FimGrain;
-      public int num_Vignette;
+    public int num_FlimGrain;
+    public int num_Vignette;
 
 
     //允许金手指开关
@@ -44,8 +44,16 @@ public class SO_SettingData : ScriptableObject
         num_AntiAliasing = s.num_AntiAliasing;
         num_vSync = s.num_vSync;
         num_Resoulution = s.num_Resoulution;
-        num_FrameRate = s.num_FrameRate;
         num_RefreshRate = s.num_RefreshRate;
+        num_FrameRate = s.num_FrameRate;
+
+        num_Theme = s.num_Theme;
+        num_ChromaticAberration = s.num_ChromaticAberration;
+        num_FlimGrain = s.num_FlimGrain;
+        num_Vignette = s.num_Vignette;
+
+        num_AllowedGF = s.num_AllowedGF;
+
     }
 
 

@@ -182,6 +182,30 @@ MonoBehaviour:
     m_Localized: Resolution Note
     m_Metadata:
       m_Items: []
+  - m_Id: 14406028984778752
+    m_Localized: Post Processing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406165110915072
+    m_Localized: Chromatic Aberration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406312435843072
+    m_Localized: Film Grain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406415468920832
+    m_Localized: Vignette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406998019997696
+    m_Localized: Theme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14464154740129792
+    m_Localized: Switch to different color modes
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

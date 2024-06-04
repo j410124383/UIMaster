@@ -128,7 +128,7 @@ public class UIM_SettingPanel : MonoBehaviour
         //布尔类选项生成
         InitiaOptions(ddFullScreen, DPmod.布尔);
         InitiaOptions(ddvSync, DPmod.布尔);
-        InitiaOptions(ddChromaticAberration,DPmod.布尔);
+        InitiaOptions(ddChromaticAberration, DPmod.布尔);
         InitiaOptions(ddFlimGrain, DPmod.布尔);
         InitiaOptions(ddVignette, DPmod.布尔);
         InitiaOptions(ddAllowedGF, DPmod.布尔);
@@ -324,16 +324,78 @@ public class UIM_SettingPanel : MonoBehaviour
         sData.num_Vignette ,
         sData.num_AllowedGF
         };
+        /// <summary>
+        /// 为Dropdown的value赋值，ui读取数据
+        /// </summary>
+        void DropdownReadData()
+        {
+
+            ddLanguage.value = sData.num_Language;
+            ddQuality.value = sData.num_Quality;
+
+            ddMasterVol.value = sData.num_MasterVol;
+            ddSE.value = sData.num_SEVol;
+            ddBGM.value = sData.num_BGMVol;
+          
+            ddFullScreen.value = sData.num_FullScreen;
+            ddAntiAliasing.value = sData.num_AntiAliasing;
+            ddvSync.value = sData.num_vSync;
+
+            ddResolution.value = sData.num_Resoulution;
+            ddFrameRate.value = sData.num_FrameRate;
+
+            ddTheme.value = sData.num_Theme;
+            ddChromaticAberration.value = sData.num_ChromaticAberration;
+            ddFlimGrain.value = sData.num_FlimGrain;
+            ddVignette.value = sData.num_Vignette;
+            ddAllowedGF.value = sData.num_AllowedGF;
+
+
+
+        }
+
+        /// <summary>
+        /// 写入数据
+        /// </summary>
+        void DropdownWriteData()
+        {
+            sData.num_Language = ddLanguage.value;
+            sData.num_Quality = ddQuality.value;
+
+            sData.num_MasterVol = ddMasterVol.value;
+            sData.num_SEVol = ddSE.value;
+            sData.num_BGMVol = ddBGM.value;
+ 
+            sData.num_FullScreen = ddFullScreen.value;
+            sData.num_AntiAliasing = ddAntiAliasing.value;
+            sData.num_vSync = ddvSync.value;
+
+            sData.num_Resoulution = ddResolution.value;
+            sData.num_FrameRate = ddFrameRate.value;
+
+            sData.num_Theme = ddTheme.value;
+            sData.num_ChromaticAberration = ddChromaticAberration.value;
+            sData.num_FlimGrain = ddFlimGrain.value;
+            sData.num_Vignette = ddVignette.value;
+            sData.num_AllowedGF = ddAllowedGF.value;
+
+        }
+
+
+
+
         #endregion
 
         switch (mod)
         {
             case WRmod.读取:
-                DataCover(bdValues,sDataValues);
+                DropdownReadData();
+                //DataCover(bdValues, sDataValues);
                 print(UIM_SaveLoad.GreenT() + "界面UI已读取完数据并显示！");
                 break;
             case WRmod.写入:
-                DataCover(sDataValues, bdValues);
+                //DataCover(sDataValues, bdValues);
+                DropdownWriteData();
                 UIM_SaveLoad.SaveData(sData, "SettingData"); //写入本地json数据中
                 break;
             default:
@@ -341,7 +403,7 @@ public class UIM_SettingPanel : MonoBehaviour
         }
 
 
-        void DataCover(List<int> target ,List<int> origin)
+        void DataCover(List<int> target, List<int> origin)
         {
             for (int i = 0; i < target.Count; i++)
             {
@@ -356,53 +418,7 @@ public class UIM_SettingPanel : MonoBehaviour
 
 
 
-    /// <summary>
-    /// 为Dropdown的value赋值，ui读取数据
-    /// </summary>
-    public void DropdownReadData()
-    {
 
-        ddLanguage.value = sData.num_Language;
-        ddMasterVol.value = sData.num_MasterVol;
-        ddSE.value = sData.num_SEVol;
-        ddBGM.value = sData.num_BGMVol;
-        ddQuality.value = sData.num_Quality;
-        ddFullScreen.value = sData.num_FullScreen;
-        ddvSync.value = sData.num_vSync;
-        ddAntiAliasing.value = sData.num_AntiAliasing;
-        ddResolution.value = sData.num_Resoulution;
-        ddTheme.value = sData.num_Theme;
-        ddChromaticAberration.value = sData.num_ChromaticAberration;
-        ddFlimGrain.value = sData.num_FlimGrain;
-        ddVignette.value = sData.num_Vignette;
-        ddAllowedGF.value = sData.num_AllowedGF;
-
-        
-
-    }
-
-    /// <summary>
-    /// 写入数据
-    /// </summary>
-    public void DropdownWriteData()
-    {
-        sData.num_Language = ddLanguage.value;
-        sData.num_MasterVol = ddMasterVol.value;
-        sData.num_SEVol = ddSE.value;
-        sData.num_BGMVol = ddBGM.value;
-        sData.num_Quality = ddQuality.value;
-        sData.num_FullScreen = ddFullScreen.value;
-        sData.num_vSync = ddvSync.value;
-        sData.num_AntiAliasing = ddAntiAliasing.value;
-        sData.num_Resoulution = ddResolution.value;
-
-
-
-
-        
-        UIM_SaveLoad.SaveData(sData, "SettingData"); //写入本地json数据中
-        //print("设置数据存储成功");
-    }
 
     public enum DPmod
     {

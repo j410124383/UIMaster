@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: "Goldfinger\r"
+      value: "\u4E3B\u9898"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -313,7 +313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139267336916645775, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
       propertyPath: m_text
-      value: PostProcessing
+      value: "\u540E\u5904\u7406"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
@@ -326,7 +326,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Resolution
+      value: "\u5206\u8FA8\u7387"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -558,7 +558,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Vignette
+      value: "\u6697\u89D2"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -1202,7 +1202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Theme
+      value: "\u4E3B\u9898"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -1678,7 +1678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139267336916645775, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
       propertyPath: m_text
-      value: Audio
+      value: "\u97F3\u9891"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
@@ -1691,7 +1691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: FrameRate
+      value: "\u5E27\u7387"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -1919,7 +1919,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Anti-aliasing
+      value: "\u6297\u952F\u9F7F"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontSize
@@ -2151,7 +2151,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Language
+      value: "\u8BED\u8A00"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -2460,7 +2460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139267336916645775, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
       propertyPath: m_text
-      value: "Contr\xF4les"
+      value: "\u63A7\u5236"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
@@ -2473,7 +2473,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Graphics Quality
+      value: "\u56FE\u50CF\u8D28\u91CF"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -2769,7 +2769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139267336916645775, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
       propertyPath: m_text
-      value: Graphiques
+      value: "\u56FE\u5F62"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
@@ -2882,7 +2882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6901001336955162683, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7180.221
+      value: -8140.2505
       objectReference: {fileID: 0}
     - target: {fileID: 6901001336955162683, guid: 11c7493acaa136a479d82c079cb08803, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2939,7 +2939,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Music Volume
+      value: "\u97F3\u4E50\u97F3\u91CF"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -3324,7 +3324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139267336916645775, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
       propertyPath: m_text
-      value: "G\xE9n\xE9ral"
+      value: "\u901A\u7528"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
@@ -3337,7 +3337,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: refreshRate
+      value: "\u5237\u65B0\u7387"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -3565,7 +3565,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: FlimGrain
+      value: "\u9897\u7C92\u611F"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -3797,11 +3797,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: ChromaticAberration
+      value: "\u8272\u5DEE"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontSize
-      value: 56.65
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -4105,7 +4105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5139267336916645775, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
       propertyPath: m_text
-      value: Dans le jeu
+      value: "\u6E38\u620F\u73A9\u6CD5"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7447e058c79be53478e0b1edfbb4cac8, type: 3}
@@ -4118,7 +4118,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: vSync
+      value: "\u5782\u76F4\u540C\u6B65"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -4350,7 +4350,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Sound Volume
+      value: "\u97F3\u6548\u97F3\u91CF"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -4582,7 +4582,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Master Volume
+      value: "\u4E3B\u97F3\u91CF"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -4818,7 +4818,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_text
-      value: Fullscreen
+      value: "\u5168\u5C4F"
       objectReference: {fileID: 0}
     - target: {fileID: 1129218042534364361, guid: aec08a8a9be37cd4a9900c32c016a3f8, type: 3}
       propertyPath: m_fontColor32.rgba

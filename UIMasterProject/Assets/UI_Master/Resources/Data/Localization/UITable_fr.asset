@@ -79,7 +79,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10058666803200
-    m_Localized: "Contr\xF4les"
+    m_Localized: Contr?les
     m_Metadata:
       m_Items: []
   - m_Id: 10088295366656
@@ -159,7 +159,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10506081658929152
-    m_Localized: "Taux de rafra\xEEchissement"
+    m_Localized: Taux de rafra?chissement
     m_Metadata:
       m_Items: []
   - m_Id: 10506161380065280
@@ -180,6 +180,30 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 10507905518469120
     m_Localized: Note de volume principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406028984778752
+    m_Localized: Post-traitement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406165110915072
+    m_Localized: Aberration chromatique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406312435843072
+    m_Localized: Grain de film
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406415468920832
+    m_Localized: Vignette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14406998019997696
+    m_Localized: "Th\xE8me"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14464154740129792
+    m_Localized: "Passer \xE0 diff\xE9rents modes de couleur"
     m_Metadata:
       m_Items: []
   references:

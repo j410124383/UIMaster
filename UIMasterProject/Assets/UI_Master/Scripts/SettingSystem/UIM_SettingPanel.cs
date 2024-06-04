@@ -14,6 +14,8 @@ public class UIM_SettingPanel : MonoBehaviour
 
     [Header("拖拽对应组件")]
     public TMP_Dropdown bdLanguage;
+    public TMP_Dropdown bdTheme;
+
     public TMP_Dropdown bdQuality;
     public TMP_Dropdown bdMasterVol;
     public TMP_Dropdown bdBGM;
@@ -22,6 +24,14 @@ public class UIM_SettingPanel : MonoBehaviour
     public TMP_Dropdown bdAntiAliasing;
     public TMP_Dropdown bdvSync;
     public TMP_Dropdown bdResolution;
+    public TMP_Dropdown bdFrameRate;
+    public TMP_Dropdown bdRefreshRate;
+    //urp
+    public TMP_Dropdown bdChromaticAberration;
+    public TMP_Dropdown bdFlimGrain;
+    public TMP_Dropdown bdVignette;
+
+    public TMP_Dropdown bdAllowedGF;
 
     [Header("功能按钮")]
     public Button butRestore;
@@ -60,10 +70,17 @@ public class UIM_SettingPanel : MonoBehaviour
         bdMasterVol.onValueChanged.AddListener(delegate { us.OnChangeVolume("MasterVol", bdMasterVol.value); });
         bdBGM.onValueChanged.AddListener(delegate { us.OnChangeVolume("BGMVol", bdBGM.value); });
         bdSE.onValueChanged.AddListener(delegate { us.OnChangeVolume("SFVol", bdSE.value); });
-        bdFullScreen.onValueChanged.AddListener(delegate { us.OnChangeFullScreen(bdFullScreen.value); });
+        //bdFullScreen.onValueChanged.AddListener(delegate { us.OnChangeFullScreen(bdFullScreen.value); });
         bdvSync.onValueChanged.AddListener(delegate { us.OnChangevSync(bdvSync.value); });
         bdAntiAliasing.onValueChanged.AddListener(delegate { us.OnChangeAntiAliasing(bdAntiAliasing.value); });
-        bdResolution.onValueChanged.AddListener(delegate { us.OnChangeResolustion(bdResolution.value); });
+
+        bdFullScreen.onValueChanged.AddListener(delegate { us.OnChangeResolustion(bdResolution.value, bdFullScreen.value, bdRefreshRate.value); });
+        bdResolution.onValueChanged.AddListener(delegate { us.OnChangeResolustion(bdResolution.value, bdFullScreen.value, bdRefreshRate.value); });
+        bdRefreshRate.onValueChanged.AddListener(delegate { us.OnChangeResolustion(bdResolution.value, bdFullScreen.value, bdRefreshRate.value); });
+
+        bdFrameRate.onValueChanged.AddListener(delegate { us.OnChangeFrameRate(bdFrameRate.value); });
+
+
 
         butRestore.onClick.AddListener(us.RestoreSetting);
         butSave.onClick.AddListener(DropdownWriteData);
@@ -71,8 +88,11 @@ public class UIM_SettingPanel : MonoBehaviour
         //添加下拉选项
         InitiabdLanguage();
         InitiabdQuality();
-        initiabdResolution();
-        initiabdAntiAliasing();
+        InitiabdResolution();
+        InitiabdAntiAliasing();
+        InitiabdRefreshRate();
+        InitiabdFrameRate();
+
         InitiaDropDown(bdFullScreen, DPmod.布尔);
         InitiaDropDown(bdvSync, DPmod.布尔);
 
@@ -112,7 +132,7 @@ public class UIM_SettingPanel : MonoBehaviour
     {
         
         bdLanguage.ClearOptions();
-        List<TMP_Dropdown.OptionData> list = new List<TMP_Dropdown.OptionData>();
+        var list = new List<TMP_Dropdown.OptionData>();
         for (int i = 0; i < sOptions.locales.Count; i++)
         {
             list.Add(new TMP_Dropdown.OptionData(sOptions.locales[i].ToString()));
@@ -126,11 +146,11 @@ public class UIM_SettingPanel : MonoBehaviour
     /// <summary>
     /// 初始化解析度选项
     /// </summary>
-    public void initiabdResolution()
+    public void InitiabdResolution()
     {
         bdResolution.ClearOptions();
         var reList = sOptions.resolutionList;
-        List<TMP_Dropdown.OptionData> list = new List<TMP_Dropdown.OptionData>();
+        var list = new List<TMP_Dropdown.OptionData>();
         for (int i = 0; i < reList.Count; i++)
         {
             list.Add(new TMP_Dropdown.OptionData(reList[i].x+"x" + reList[i].y));
@@ -141,10 +161,10 @@ public class UIM_SettingPanel : MonoBehaviour
     /// <summary>
     /// 初始化抗锯齿选项
     /// </summary>
-    public void initiabdAntiAliasing()
+    public void InitiabdAntiAliasing()
     {
         bdAntiAliasing.ClearOptions();
-        List<TMP_Dropdown.OptionData> list = new List<TMP_Dropdown.OptionData>();
+        var list = new List<TMP_Dropdown.OptionData>();
         var antiList = sOptions.antiAliasingList;
         for (int i = 0; i < antiList.Count; i++)
         {
@@ -162,7 +182,7 @@ public class UIM_SettingPanel : MonoBehaviour
     public void InitiabdQuality()
     {
         bdQuality.ClearOptions();
-        List<TMP_Dropdown.OptionData> lsit = new List<TMP_Dropdown.OptionData>();
+        var list = new List<TMP_Dropdown.OptionData>();
         // 获取所有画面质量级别的名称和数量
         string[] qualityNames = QualitySettings.names;
         int qualityCount = QualitySettings.names.Length;
@@ -172,13 +192,56 @@ public class UIM_SettingPanel : MonoBehaviour
         for (int i = 0; i < qualityCount; i++)
         {
             //Debug.Log(qualityNames[i]);
-            lsit.Add(new TMP_Dropdown.OptionData(qualityNames[i]));
+            list.Add(new TMP_Dropdown.OptionData(qualityNames[i]));
         }
         //Debug.Log("Total Quality Levels: " + qualityCount);
 
-        bdQuality.AddOptions(lsit);
+        bdQuality.AddOptions(list);
 
     }
+
+    /// <summary>
+    /// 刷新率选项生成
+    /// </summary>
+    public void InitiabdRefreshRate()
+    {
+        bdRefreshRate.ClearOptions();
+        var list= new List<TMP_Dropdown.OptionData>();
+        var refList = sOptions.refreshRateList;
+        for (int i = 0; i < refList.Count; i++)
+        {
+            list.Add(new TMP_Dropdown.OptionData((float)refList[i]+" Hz"));
+        }
+        bdRefreshRate.AddOptions(list);
+
+    }
+
+
+    /// <summary>
+    /// 帧率选项生成
+    /// </summary>
+    public void InitiabdFrameRate()
+    {
+        bdFrameRate.ClearOptions();
+        var list = new List<TMP_Dropdown.OptionData>();
+        var fList = sOptions.frameRateList;
+        for (int i = 0; i < fList.Count; i++)
+        {
+            list.Add(new TMP_Dropdown.OptionData((float)fList[i] + " FPS"));
+        }
+        bdFrameRate.AddOptions(list);
+
+
+    }
+
+
+
+
+
+
+
+
+
 
     /// <summary>
     /// 为Dropdown的value赋值，ui读取数据
@@ -196,7 +259,7 @@ public class UIM_SettingPanel : MonoBehaviour
         bdAntiAliasing.value = sdata.num_AntiAliasing;
         bdResolution.value = sdata.num_Resoulution;
         FreshTwoHead();
-        print("设置数据写入成功，已为Dropdown赋值");
+        print(UIM_SaveLoad.GreenT()+"界面UI已输入数据并完成显示！");
 
     }
 

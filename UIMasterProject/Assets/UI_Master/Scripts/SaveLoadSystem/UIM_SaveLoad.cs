@@ -42,7 +42,7 @@ public class UIM_SaveLoad :ScriptableObject
         string json = JsonUtility.ToJson(myScriptableObject);
         File.WriteAllText(path, json);
 
-        Debug.Log("<color=green>[SUCCESS]</color>存储数据成功！");
+        Debug.Log(string.Format(YellowT()+"{0}数据存储成功！", myScriptableObject.name));
 
         //打开目前存储的文件
         //System.Diagnostics.Process.Start(path);
@@ -82,14 +82,19 @@ public class UIM_SaveLoad :ScriptableObject
             }
 
 
-            Debug.Log("<color=green>[SUCCESS]</color>加载数据成功！");
+            Debug.Log(string.Format( "{0}{1}数据载入成功！", GreenT(), myScriptableObject.name));
         }
         else
         {
-            Debug.LogWarning("<color=red>[WARRING]</color>路径不存在！");
+            Debug.LogWarning(string.Format("{0}{1}路径并未找到！", RedT(), myScriptableObject.name));
         }
 
     }
 
+    public static string GreenT() => "<color=green>[SUCCESS]</color>";
 
+    public static string RedT() => "<color=red>[WARRING]</color>";
+
+    public static string YellowT() => "<color=yellow>[NOTION]</color>";
 }
+

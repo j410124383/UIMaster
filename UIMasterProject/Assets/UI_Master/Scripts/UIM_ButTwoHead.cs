@@ -22,10 +22,18 @@ public class UIM_ButTwoHead : MonoBehaviour
         rightBut.onClick.AddListener(delegate { ChangeValue(1); });
     }
 
-    public void ChangeValue(int i)
+    public void ChangeValue(int i,bool isLoop=false)
     {
        
-        targetDrop.value += i;
+        int num = targetDrop.value += i;
+        //当模式开了循环，则从最大值调到1
+        if (num >= targetDrop.options.Count && isLoop)
+        {
+            num = 0;
+        }
+        targetDrop.value = num;
+
+        //刷新文字
         targetDrop.GetComponent<TMP_Text>().text = targetDrop.options[targetDrop.value].text;
         FreshButton();
 

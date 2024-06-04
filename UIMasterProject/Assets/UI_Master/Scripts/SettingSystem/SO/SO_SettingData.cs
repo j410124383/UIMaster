@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "New SettingData", menuName = "SettingData")]
+[CreateAssetMenu(fileName = "New SettingData", menuName = "Setting/SettingData")]
 public class SO_SettingData : ScriptableObject
 {
 
@@ -18,22 +18,19 @@ public class SO_SettingData : ScriptableObject
     public int num_AntiAliasing;
     public int num_vSync;
     public int num_Resoulution;
+    public int num_RefreshRate;
+    public int num_FrameRate;
+    //主题
+    public int num_Theme;
+
+    //urp后处理相关
+    public int num_ChromaticAberration;
+      public int num_FimGrain;
+      public int num_Vignette;
 
 
-
-    //public SO_SettingData(int i01,int i02,int i03,int i04,int i05,int i06,int i07,int i08,int i09)
-    //{
-    //    num_Language = i01;
-    //    num_Quality = i02;
-    //    num_MasterVol = i03;
-    //    num_BGMVol = i04;
-    //    num_SEVol = i05;
-    //    num_FullScreen = i06;
-    //    num_AntiAliasing = i07;
-    //    num_vSync = i08;
-    //    num_Resoulution = i09;
-  
-    //}
+    //允许金手指开关
+    public int num_AllowedGF;
 
 
     public void CopyNewData(SO_SettingData s)
@@ -47,7 +44,8 @@ public class SO_SettingData : ScriptableObject
         num_AntiAliasing = s.num_AntiAliasing;
         num_vSync = s.num_vSync;
         num_Resoulution = s.num_Resoulution;
-
+        num_FrameRate = s.num_FrameRate;
+        num_RefreshRate = s.num_RefreshRate;
     }
 
 

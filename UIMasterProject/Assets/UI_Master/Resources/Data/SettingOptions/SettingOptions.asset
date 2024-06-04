@@ -31,4 +31,9 @@ MonoBehaviour:
   - {x: 2560, y: 1440}
   - {x: 3440, y: 1440}
   - {x: 3840, y: 2160}
+  refreshRateList: 3c0000004b0000007800000090000000
+  frameRateList: 1e0000003c00000078000000
+  paletteList:
+  - {fileID: 11400000, guid: fa90a22c687badf4a9578bfc56845a53, type: 2}
+  - {fileID: 11400000, guid: 7e6fd8408b5e0864f89dc3b20a9225df, type: 2}
   sliderStep: 11

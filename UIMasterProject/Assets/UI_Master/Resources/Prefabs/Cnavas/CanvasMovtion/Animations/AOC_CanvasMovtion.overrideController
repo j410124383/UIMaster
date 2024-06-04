@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AOC_CanvasMovtion
+  m_Controller: {fileID: 9100000, guid: 2815130f555a67a41a319270f3aee4ff, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c9413c2cf79180a4cb8963250952af3d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 40ffd9f1a7ba4a740b8d07690def23b6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f0abcf8bddefb2c4bb60f290860e66e1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a4bfb2bb826494a43aa656802c507704, type: 2}

@@ -42,15 +42,17 @@ public class UIM_SettingManager : MonoBehaviour
     /// </summary>
     void RefreshSetting()
     {
-        OnChangeFullScreen(curSetData.num_FullScreen);
+      
         OnChangeQuality(curSetData.num_Quality);
         OnChangeVolume("MasterVol", curSetData.num_MasterVol);
         OnChangeVolume("BGMVol", curSetData.num_BGMVol);
         OnChangeVolume("SFVol", curSetData.num_SEVol);
         OnChangevSync(curSetData.num_vSync);
         OnChangeAntiAliasing(curSetData.num_AntiAliasing);
-        OnChangeResolustion(curSetData.num_Resoulution);
+        OnChangeResolustion(curSetData.num_Resoulution, curSetData.num_FullScreen, curSetData.num_RefreshRate);
         OnChangeLanguage(curSetData.num_Language);
+        //OnChangeFullScreen(curSetData.num_FullScreen);
+        OnChangeFrameRate(curSetData.num_FrameRate);
         //print("设置初始化已调整完毕");
 
     }
@@ -91,13 +93,13 @@ public class UIM_SettingManager : MonoBehaviour
         mainAudioMixer.SetFloat(s, f);
     }
 
-    /// <summary>
-    /// 调整全屏
-    /// </summary>
-    public void OnChangeFullScreen(int i)
-    {
-        Screen.fullScreen = i == 0 ? true : false;
-    }
+    ///// <summary>
+    ///// 调整全屏
+    ///// </summary>
+    //public void OnChangeFullScreen(int i)
+    //{
+    //    Screen.fullScreen = i == 0 ? true : false;
+    //}
 
     /// <summary>
     /// 调整垂直同步
@@ -120,22 +122,34 @@ public class UIM_SettingManager : MonoBehaviour
     }
 
     /// <summary>
-    /// 修改分辨力
+    /// 修改分辨率
     /// </summary>
-    public void OnChangeResolustion(int i)
+    public void OnChangeResolustion(int i,int fs,int y)
     {
         var v2 = settingOtions.resolutionList[i];
-        // 修改分辨率
+   
         SetResolution((int)v2.x, (int)v2.y);
 
-
+       
         void SetResolution(int width, int height)
         {
             // 修改分辨率
-            Screen.SetResolution(width, height, Screen.fullScreen);
+            Screen.SetResolution(width, height, (fs == 0 ? true : false),settingOtions.refreshRateList[y]);
             //Debug.Log("Resolution Set to: " + width + "x" + height);
         }
     }
+
+
+
+    /// <summary>
+    /// 修改帧率
+    /// </summary>
+    public void OnChangeFrameRate(int i)
+    {
+        Application.targetFrameRate = settingOtions.frameRateList[i];
+    }
+
+
 
     public void RefreshDropText(Dropdown dropdown)
     {
@@ -143,11 +157,14 @@ public class UIM_SettingManager : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// 将数据恢复初始化
+    /// </summary>
     public void RestoreSetting()
     {
         curSetData.CopyNewData(orignSettingData);
         UIM_SettingPanel.Instance.DropdownReadData();
-        print("已恢复为初始默认值");
+        print(UIM_SaveLoad.YellowT()+ "已恢复为初始默认值!");
 
     }
 

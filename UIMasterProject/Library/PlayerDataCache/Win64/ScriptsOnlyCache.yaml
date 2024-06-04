@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - GamePadViewUI
+    - InputViewsMenu
     Assembly-CSharp.dll:
     - AchievenmentListIngame
     - AchievenmentStack
@@ -11,16 +14,18 @@ ScriptsOnlyBuild:
     - SO_SetttingOptions
     - UIAchievement
     - UIM_AchievenManager
-    - UIM_ButtonManager
-    - UIM_GoldFingerPanel
+    - UIM_ButEffectTrigger
+    - UIM_ButTwoHead
+    - UIM_ButURL
+    - UIM_CanvasMovtion
+    - UIM_GoldFingerManager
     - UIM_LogsLoad
     - UIM_MainMenu
+    - UIM_PanelManager
     - UIM_ScrollView
     - UIM_SettingManager
     - UIM_SettingPanel
     - UIM_SoundManager
-    - UIM_SoundTrigger
-    - UIM_TwoHead
     - UIM_UIManager
     RainbowFolders.dll:
     - Borodar.RainbowFolders.ProjectRuleset
@@ -66,8 +71,6 @@ ScriptsOnlyBuild:
     Unity.Localization.Editor.dll:
     - UnityEditor.Localization.AssetTableCollection
     - UnityEditor.Localization.StringTableCollection
-    - UnityEditor.Localization.UI.LocalizationSettingsEditor
-    - UnityEditor.Localization.UI.LocalizationTablesWindow
     Unity.Localization.dll:
     - UnityEngine.Localization.Components.LocalizeStringEvent
     - UnityEngine.Localization.Locale
@@ -100,6 +103,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -110,6 +114,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.ToggleGroup
@@ -120,6 +125,7 @@ ScriptsOnlyBuild:
     - AchievementInfromation
     - AudioClipEntry
     - ButContent
+    - URLGroup
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
     - UnityEngine.InputSystem.InputActionMap
@@ -127,6 +133,7 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
     - UnityEngine.InputSystem.InputSettings/iOSSettings
+    - UnityEngine.InputSystem.PlayerInput/ActionEvent
     - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
@@ -203,6 +210,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
@@ -908,7 +916,176 @@ ScriptsOnlyBuild:
   - assembly: Unity.TextMeshPro
     fullTypeName: TMPro.TMP_Text
     methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
   sceneClasses:
+    Assets/UI_Master/Scenes/GameScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 3344}
+    - Class: 114
+      Script: {instanceID: 3652}
+    - Class: 114
+      Script: {instanceID: 4124}
+    - Class: 114
+      Script: {instanceID: 5190}
+    - Class: 114
+      Script: {instanceID: 7412}
+    - Class: 114
+      Script: {instanceID: 7538}
+    - Class: 114
+      Script: {instanceID: 8014}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 8700}
+    - Class: 114
+      Script: {instanceID: 8822}
+    - Class: 114
+      Script: {instanceID: 9808}
+    - Class: 114
+      Script: {instanceID: 9976}
+    - Class: 114
+      Script: {instanceID: 10094}
+    - Class: 114
+      Script: {instanceID: 10156}
+    - Class: 114
+      Script: {instanceID: 11196}
+    - Class: 114
+      Script: {instanceID: 11482}
+    - Class: 114
+      Script: {instanceID: 11612}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/UI_Master/Scenes/LoadingScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 3344}
+    - Class: 114
+      Script: {instanceID: 3652}
+    - Class: 114
+      Script: {instanceID: 7396}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 9404}
+    - Class: 114
+      Script: {instanceID: 290234}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/UI_Master/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -939,113 +1116,121 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1590}
+      Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 2720}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 3410}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 1674}
     - Class: 114
-      Script: {instanceID: 4388}
+      Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 2138}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 2364}
     - Class: 114
-      Script: {instanceID: 4696}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 5138}
+      Script: {instanceID: 3344}
     - Class: 114
-      Script: {instanceID: 5166}
+      Script: {instanceID: 3354}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 3582}
     - Class: 114
-      Script: {instanceID: 5484}
+      Script: {instanceID: 3652}
     - Class: 114
-      Script: {instanceID: 6042}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 6072}
+      Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 6234}
+      Script: {instanceID: 4360}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 4424}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 5030}
     - Class: 114
-      Script: {instanceID: 7298}
+      Script: {instanceID: 5190}
     - Class: 114
-      Script: {instanceID: 7354}
+      Script: {instanceID: 5400}
     - Class: 114
-      Script: {instanceID: 7372}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 7528}
+      Script: {instanceID: 6252}
     - Class: 114
-      Script: {instanceID: 7772}
+      Script: {instanceID: 6308}
     - Class: 114
-      Script: {instanceID: 7972}
+      Script: {instanceID: 6326}
     - Class: 114
-      Script: {instanceID: 8148}
+      Script: {instanceID: 6482}
     - Class: 114
-      Script: {instanceID: 8456}
+      Script: {instanceID: 6726}
     - Class: 114
-      Script: {instanceID: 8582}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 8670}
+      Script: {instanceID: 6928}
     - Class: 114
-      Script: {instanceID: 9056}
+      Script: {instanceID: 7104}
     - Class: 114
-      Script: {instanceID: 9060}
+      Script: {instanceID: 7412}
     - Class: 114
-      Script: {instanceID: 9096}
+      Script: {instanceID: 7538}
     - Class: 114
-      Script: {instanceID: 9244}
+      Script: {instanceID: 7626}
     - Class: 114
-      Script: {instanceID: 9504}
+      Script: {instanceID: 8014}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8050}
     - Class: 114
-      Script: {instanceID: 9748}
+      Script: {instanceID: 8198}
     - Class: 114
-      Script: {instanceID: 9870}
+      Script: {instanceID: 8458}
     - Class: 114
-      Script: {instanceID: 9916}
+      Script: {instanceID: 8550}
     - Class: 114
-      Script: {instanceID: 10434}
+      Script: {instanceID: 8700}
     - Class: 114
-      Script: {instanceID: 10466}
+      Script: {instanceID: 8822}
     - Class: 114
-      Script: {instanceID: 10852}
+      Script: {instanceID: 8868}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 9388}
     - Class: 114
-      Script: {instanceID: 11140}
+      Script: {instanceID: 9420}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 9808}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 12242}
+      Script: {instanceID: 10094}
     - Class: 114
-      Script: {instanceID: 12292}
+      Script: {instanceID: 10156}
     - Class: 114
-      Script: {instanceID: 12474}
+      Script: {instanceID: 10718}
     - Class: 114
-      Script: {instanceID: 12526}
+      Script: {instanceID: 11196}
     - Class: 114
-      Script: {instanceID: 12656}
+      Script: {instanceID: 11288}
     - Class: 114
-      Script: {instanceID: 12858}
+      Script: {instanceID: 11430}
     - Class: 114
-      Script: {instanceID: 13654}
+      Script: {instanceID: 11482}
+    - Class: 114
+      Script: {instanceID: 11612}
+    - Class: 114
+      Script: {instanceID: 11814}
+    - Class: 114
+      Script: {instanceID: 12608}
+    - Class: 114
+      Script: {instanceID: 236568}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1081,16 +1266,40 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UIElements
-    className: PanelRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
   - hash:
       serializedVersion: 2
       Hash: c24a778d9aa393e11e54bff320ca63de
@@ -1133,12 +1342,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: 3d063c70a4fe91402cf5b0bb147a8a6f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleController_UsingActions
   - hash:
       serializedVersion: 2
       Hash: 1f2cec8b8db2240187e9e28372d46fa4
@@ -1291,12 +1494,6 @@ ScriptsOnlyBuild:
     className: FullscreenController
   - hash:
       serializedVersion: 2
-      Hash: a5adfc6f991179333438072d6341baeb
-    assemblyName: Unity.InputSystem.RebindingUI.dll
-    namespaceName: 
-    className: RebindSaveLoad
-  - hash:
-      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1387,12 +1584,6 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: eaf0a2fe8000d0f8b2046e31c301b7bf
-    assemblyName: Unity.InputSystem.RebindingUI.dll
-    namespaceName: UnityEngine.InputSystem.Samples.RebindUI
-    className: RebindActionUI
-  - hash:
-      serializedVersion: 2
       Hash: 9b2d72155209a515197b0788f9f11a91
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -1433,6 +1624,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Localization.dll
     namespaceName: UnityEngine.Localization.Components
     className: LocalizedGameObjectEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_PersistentSceneManager
   - hash:
       serializedVersion: 2
       Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
@@ -1495,6 +1692,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c76bc8cdca002bb4fe375af55150444a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: InputViewsMenu
+  - hash:
+      serializedVersion: 2
       Hash: 9d5d4677c107535016ef32cee23cdfe1
     assemblyName: UniversalSettings.dll
     namespaceName: UniversalSettings
@@ -1505,12 +1708,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_AchievenManager
-  - hash:
-      serializedVersion: 2
-      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1633,12 +1830,6 @@ ScriptsOnlyBuild:
     className: InputActionDebuggerWindow
   - hash:
       serializedVersion: 2
-      Hash: aba7b2852ef61d175dd9602e7723d5e5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Mask
-  - hash:
-      serializedVersion: 2
       Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: 
@@ -1667,12 +1858,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: TrackedDeviceRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 6ac3afe6b55c8a55acf8ed7944983d86
-    assemblyName: UnityEngine.InputSystem.Samples.UIvsGameInput.dll
-    namespaceName: 
-    className: UIvsGameInputHandler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1792,7 +1977,7 @@ ScriptsOnlyBuild:
       Hash: 64a63e97084189ad89fac604f6d08ab4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIM_TwoHead
+    className: UIM_ButTwoHead
   - hash:
       serializedVersion: 2
       Hash: 739bf1716f5febbd3901b28879eb76a1
@@ -1829,6 +2014,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIM_SettingPanel
+  - hash:
+      serializedVersion: 2
+      Hash: bb4aa406b4c50698d594ab44e013fa55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_ButURL
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1897,6 +2088,12 @@ ScriptsOnlyBuild:
     className: LocalizationBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 9591b03adb95bc4c3576b9daab78d6dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_LoadingScreenManager
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1951,10 +2148,10 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 81b52d74634e8ec6d23310be682b637f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIM_GoldFingerPanel
+    className: UIM_GoldFingerManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1985,12 +2182,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: f6f8da509924ed4e5a8ce5d2d86938a2
@@ -2059,12 +2250,6 @@ ScriptsOnlyBuild:
     className: SO_AchieveStates
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIM_PersistentSceneManager
-  - hash:
-      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -2077,10 +2262,10 @@ ScriptsOnlyBuild:
     className: AnimatorMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 6859fc72b0d19e051273f301ded9ac27
+      Hash: 703c6209d87edb769bfe7049e8322322
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIM_SoundTrigger
+    className: UIM_ButEffectTrigger
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -2105,12 +2290,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Localization.dll
     namespaceName: UnityEngine.Localization.Settings
     className: LocalizationSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 783de892feb944c7d25236bcb5397199
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleController_UsingActionAsset
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2227,12 +2406,6 @@ ScriptsOnlyBuild:
     className: DownloadableSample
   - hash:
       serializedVersion: 2
-      Hash: 783de892feb944c7d25236bcb5397199
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleController_UsingPlayerInput
-  - hash:
-      serializedVersion: 2
       Hash: 69c275968eb327966f0220a9ad9156b5
     assemblyName: UniversalSettings.dll
     namespaceName: UniversalSettings
@@ -2309,12 +2482,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine
     className: RuleTile
-  - hash:
-      serializedVersion: 2
-      Hash: 0e9eeb09dd4473ecb56fe47cda138afc
-    assemblyName: Unity.InputSystem.InGameHints.dll
-    namespaceName: UnityEngine.InputSystem.Samples.InGameHints
-    className: InGameHintsExample
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -2449,10 +2616,10 @@ ScriptsOnlyBuild:
     className: InputSystemUIInputModule
   - hash:
       serializedVersion: 2
-      Hash: 040dd48e3a027d5424519a5fa2009df4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ScrollRect
+      Hash: e051a3639c7e278a178d200501844792
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: GamePadViewUI
   - hash:
       serializedVersion: 2
       Hash: 54a5082489fad547766d3d4d7635df12
@@ -2473,16 +2640,10 @@ ScriptsOnlyBuild:
     className: SO_AchievementInfo
   - hash:
       serializedVersion: 2
-      Hash: f4e045a104503dcd3aaa474e94755354
+      Hash: 80da2453e2c032886d11089fa4628daf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIM_ButtonManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.InputSystem.RebindingUI.dll
-    namespaceName: UnityEngine.InputSystem.Samples.RebindUI
-    className: RebindActionUIEditor
+    className: UIM_PanelManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2539,12 +2700,6 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: ced3cb52767a6ccf07742832d5d08eb3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleController_UsingState
-  - hash:
-      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -2555,12 +2710,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Localization.dll
     namespaceName: UnityEngine.Localization.Tables
     className: StringTable
-  - hash:
-      serializedVersion: 2
-      Hash: cdd49d6a6e2c3c2cea8d0d70a5b2cdd7
-    assemblyName: Unity.InputSystem.RebindingUI.dll
-    namespaceName: UnityEngine.InputSystem.Samples.RebindUI
-    className: GamepadIconsExample
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2650,7 +2799,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UIT_SaveLoad
+    className: UIM_SaveLoad
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2663,7 +2812,15 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AchievenmentListIngame
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIM_CanvasMovtion
   platform: 19
   scenePathNames:
   - Assets/UI_Master/Scenes/MainMenu.unity
+  - Assets/UI_Master/Scenes/GameScene.unity
+  - Assets/UI_Master/Scenes/LoadingScene.unity
   playerPath: "F:/Project/0423_UI\u5927\u5E08/Build/20240511/UIMaster.exe"

@@ -199,6 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: id_click_01
+  isShake: 1
 --- !u!1 &3829639971633934401
 GameObject:
   m_ObjectHideFlags: 0

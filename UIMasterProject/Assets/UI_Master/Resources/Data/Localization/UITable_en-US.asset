@@ -158,6 +158,30 @@ MonoBehaviour:
     m_Localized: Save and Return
     m_Metadata:
       m_Items: []
+  - m_Id: 10507905518469120
+    m_Localized: Master Volume Note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10506081658929152
+    m_Localized: Refresh Rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10506161380065280
+    m_Localized: Frame Rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507522779840512
+    m_Localized: Vertical Sync Note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507645219962880
+    m_Localized: Language Note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10507784730902528
+    m_Localized: Resolution Note
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

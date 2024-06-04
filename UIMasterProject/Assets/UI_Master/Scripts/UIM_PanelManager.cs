@@ -15,19 +15,19 @@ public struct ButContent
     public bool isOpen;
     public bool autoCloseSelf;
 
-    public  ButContent(Button b,List<GameObject> to,bool o)
+    public ButContent(Button b, List<GameObject> to, bool o=true,bool close=true)
     {
         but = b;
         targetObjs = to;
         isOpen = o;
-        autoCloseSelf = true;
+        autoCloseSelf = close;
     }
 
 }
 
-[AddComponentMenu("UIMaster/Button/ButtonManager")]
+[AddComponentMenu("UIMaster/Button/PanelManager")]
 [DisallowMultipleComponent]
-public class UIM_ButtonManager : MonoBehaviour
+public class UIM_PanelManager : MonoBehaviour
 {
     public List<ButContent> butContentsList;
     public Button butToStart;
@@ -47,6 +47,7 @@ public class UIM_ButtonManager : MonoBehaviour
         foreach (var item in butContentsList)
         {
             item.but.onClick.AddListener(delegate { Switch(item); });
+            
         }
 
     }
@@ -83,7 +84,7 @@ public class UIM_ButtonManager : MonoBehaviour
     {
         // 设置按钮为第一个选择
         EventSystem.current.firstSelectedGameObject = butFirst.gameObject;
-        Debug.Log("默认已跳转到:" + butFirst.gameObject.name);
+        //Debug.Log("默认已跳转到:" + butFirst.gameObject.name);
 
         // 手动选择按钮
         EventSystem.current.SetSelectedGameObject(butFirst.gameObject);

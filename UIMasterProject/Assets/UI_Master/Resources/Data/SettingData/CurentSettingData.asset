@@ -21,3 +21,5 @@ MonoBehaviour:
   num_AntiAliasing: 0
   num_vSync: 0
   num_Resoulution: 10
+  num_refreshRate: 0
+  num_FrameRate: 1

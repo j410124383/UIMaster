@@ -20,7 +20,10 @@ public class UIM_ColorChange : MonoBehaviour
     {
         // 取消订阅事件
         UIM_EventManager.OnChangeColor -= ChangeColor;
+
+
     }
+
 
     // 响应事件的方法
     private void ChangeColor(SO_UIPalette _UIPalette)
@@ -35,7 +38,7 @@ public class UIM_ColorChange : MonoBehaviour
             var i = GetComponent<Image>() ? GetComponent<Image>() : null;
             if (i) { i.color = targetcolor; };
 
-           // Debug.Log("改变颜色了");
+            Debug.Log(name+"改变颜色了");
 
         }
         else

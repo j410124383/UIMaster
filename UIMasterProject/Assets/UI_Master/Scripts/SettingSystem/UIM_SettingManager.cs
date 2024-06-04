@@ -180,6 +180,7 @@ public class UIM_SettingManager : MonoBehaviour
     /// <param name="i"></param>
     public void OnChangeTheme(int i)
     {
+        Camera.main.backgroundColor = settingOtions.paletteList[i].colors[0];
         UIM_EventManager.TriggerChangeColor(settingOtions.paletteList[i]);
     }
 

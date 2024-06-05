@@ -7,7 +7,8 @@ using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
-
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 [AddComponentMenu("UIMaster/Setting/SettingManager")]
 [DisallowMultipleComponent]
@@ -24,6 +25,8 @@ public class UIM_SettingManager : MonoBehaviour
     [Header("当前主题")]
     public SO_UIPalette curPalette;
 
+    private Volume volume;
+
     private void Awake()
     {
         instance = this;
@@ -36,6 +39,7 @@ public class UIM_SettingManager : MonoBehaviour
     private void Start()
     {
         UIM_SaveLoad.LoadData(curSetData, "SettingData"); //游戏开始时，先读取设置数据
+        volume = GetComponent<Volume>();
         RefreshSetting();
     }
 
@@ -164,16 +168,21 @@ public class UIM_SettingManager : MonoBehaviour
     public void OnChangeChromaticAberration(int i)
     {
 
+        volume.profile.TryGet<ChromaticAberration>(out var x);
+        x.active = i == 0 ? true : false;
+
     }
 
     public void OnChangeFlimGrain(int i)
     {
-
+        volume.profile.TryGet<FilmGrain>(out var x);
+        x.active = i == 0 ? true : false;
     }
 
     public void OnChangeVignette(int i)
     {
-
+        volume.profile.TryGet<Vignette>(out var x);
+        x.active = i == 0 ? true : false;
     }
 
     /// <summary>

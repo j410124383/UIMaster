@@ -24,7 +24,7 @@ MonoBehaviour:
   num_RefreshRate: 3
   num_FrameRate: 2
   num_Theme: 0
-  num_ChromaticAberration: 1
-  num_FlimGrain: 1
-  num_Vignette: 1
+  num_ChromaticAberration: 0
+  num_FlimGrain: 0
+  num_Vignette: 0
   num_AllowedGF: 1

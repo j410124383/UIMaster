@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019197472164786324}
   - component: {fileID: 2019197472164786315}
+  - component: {fileID: 6621199229527061825}
   m_Layer: 0
   m_Name: ==SettingManager==
   m_TagString: Untagged
@@ -48,3 +49,21 @@ MonoBehaviour:
   settingOtions: {fileID: 11400000, guid: dff6ab9046dd6804ebad84a7571a8675, type: 2}
   curSetData: {fileID: 11400000, guid: cfe238c4f14b6ec42a50e7e200755de3, type: 2}
   orignSettingData: {fileID: 11400000, guid: b9a25e9b632fe784f82bf186100d0fcd, type: 2}
+  curPalette: {fileID: 0}
+--- !u!114 &6621199229527061825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019197472164786314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 5eef3a7260be0d74b99e29ee0852ba00, type: 2}

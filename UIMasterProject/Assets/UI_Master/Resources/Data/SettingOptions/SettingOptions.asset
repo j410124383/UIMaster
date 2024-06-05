@@ -38,4 +38,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7e6fd8408b5e0864f89dc3b20a9225df, type: 2}
   - {fileID: 11400000, guid: a61c16b7864151045bb1a88f8b1ffcc8, type: 2}
   - {fileID: 11400000, guid: 98a40d8bacfac324e9f6b3b415804faa, type: 2}
+  - {fileID: 11400000, guid: 540bb33e42d39694f99b1b292ade5eb2, type: 2}
+  - {fileID: 11400000, guid: bb2310ac8fb25cd4f950ab7f8c437474, type: 2}
+  - {fileID: 11400000, guid: 76d4d4cd0bde9be409111cdf426d2b00, type: 2}
   sliderStep: 11

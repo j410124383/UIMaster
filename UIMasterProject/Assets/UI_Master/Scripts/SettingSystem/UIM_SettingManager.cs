@@ -21,6 +21,8 @@ public class UIM_SettingManager : MonoBehaviour
     public SO_SetttingOptions settingOtions;
     public SO_SettingData curSetData;
     public SO_SettingData orignSettingData;
+    [Header("当前主题")]
+    public SO_UIPalette curPalette;
 
     private void Awake()
     {
@@ -181,7 +183,8 @@ public class UIM_SettingManager : MonoBehaviour
     public void OnChangeTheme(int i)
     {
         Camera.main.backgroundColor = settingOtions.paletteList[i].colors[0];
-        UIM_EventManager.TriggerChangeColor(settingOtions.paletteList[i]);
+        curPalette = settingOtions.paletteList[i];
+        UIM_EventManager.TriggerChangeColor(curPalette);
     }
 
     public void OnChangeAllowedGF(int i)

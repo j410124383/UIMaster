@@ -392,6 +392,7 @@
 "Assets/UIM_ButOptionSection.cs"
 "Assets/UIM_CanvasMovtion.cs"
 "Assets/UIM_ColorChange.cs"
+"Assets/UIM_DropdownSet.cs"
 "Assets/UI_Master/Resources/InputSystem/UIMControls.cs"
 "Assets/UI_Master/Scripts/AchievementSystem/AchievenmentListIngame.cs"
 "Assets/UI_Master/Scripts/AchievementSystem/AchievenmentStack.cs"

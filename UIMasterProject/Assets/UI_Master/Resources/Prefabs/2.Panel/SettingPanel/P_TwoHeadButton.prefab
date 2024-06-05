@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2798000827030319682}
   - component: {fileID: 2798000827030319681}
   - component: {fileID: 591941744977042663}
+  - component: {fileID: 606356397568767412}
   m_Layer: 5
   m_Name: T_CurrentOptions
   m_TagString: Untagged
@@ -211,6 +212,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_AlphaFadeSpeed: 0.15
+--- !u!114 &606356397568767412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798000827030319695}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bd1fef572f4bb4992b75550304e74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2798000827620673079
 GameObject:
   m_ObjectHideFlags: 0

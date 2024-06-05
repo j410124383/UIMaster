@@ -14,14 +14,31 @@ public class UIM_ColorChange : MonoBehaviour
 
         // 订阅事件
         UIM_EventManager.OnChangeColor += ChangeColor;
+        new WaitForEndOfFrame();
+        FreshColor();
     }
 
     void OnDestroy()
     {
         // 取消订阅事件
         UIM_EventManager.OnChangeColor -= ChangeColor;
+        //FreshColor();
 
+    }
 
+    private void OnEnable()
+    {
+
+        FreshColor();
+    }
+
+    public void FreshColor()
+    {
+        var i = UIM_SettingManager.instance;
+        if (i != null)
+        {
+            ChangeColor(i.curPalette);
+        }
     }
 
 
@@ -38,7 +55,7 @@ public class UIM_ColorChange : MonoBehaviour
             var i = GetComponent<Image>() ? GetComponent<Image>() : null;
             if (i) { i.color = targetcolor; };
 
-            Debug.Log(name+"改变颜色了");
+            //Debug.Log(name+"改变颜色了");
 
         }
         else

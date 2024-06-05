@@ -36,4 +36,6 @@ MonoBehaviour:
   paletteList:
   - {fileID: 11400000, guid: fa90a22c687badf4a9578bfc56845a53, type: 2}
   - {fileID: 11400000, guid: 7e6fd8408b5e0864f89dc3b20a9225df, type: 2}
+  - {fileID: 11400000, guid: a61c16b7864151045bb1a88f8b1ffcc8, type: 2}
+  - {fileID: 11400000, guid: 98a40d8bacfac324e9f6b3b415804faa, type: 2}
   sliderStep: 11

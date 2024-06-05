@@ -343,6 +343,7 @@ public class UIM_SettingPanel : MonoBehaviour
 
             ddResolution.value = sData.num_Resoulution;
             ddFrameRate.value = sData.num_FrameRate;
+            ddRefreshRate.value= sData.num_RefreshRate ;
 
             ddTheme.value = sData.num_Theme;
             ddChromaticAberration.value = sData.num_ChromaticAberration;
@@ -372,6 +373,7 @@ public class UIM_SettingPanel : MonoBehaviour
 
             sData.num_Resoulution = ddResolution.value;
             sData.num_FrameRate = ddFrameRate.value;
+            sData.num_RefreshRate = ddRefreshRate.value;
 
             sData.num_Theme = ddTheme.value;
             sData.num_ChromaticAberration = ddChromaticAberration.value;

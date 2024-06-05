@@ -790,6 +790,7 @@ GameObject:
   - component: {fileID: 8564895713846109084}
   - component: {fileID: 8564895713846109083}
   - component: {fileID: 407147865821990771}
+  - component: {fileID: 4880541819381031114}
   m_Layer: 5
   m_Name: P_AchieveItem
   m_TagString: Untagged
@@ -880,6 +881,19 @@ MonoBehaviour:
   ProgressBar: {fileID: 8564895712952416784}
   SpoilerOverlay: {fileID: 2492355140299353115}
   SpoilerText: {fileID: 7919182605997143454}
+--- !u!114 &4880541819381031114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564895713846109081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 1
 --- !u!1 &8564895714018589874
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +905,7 @@ GameObject:
   - component: {fileID: 8564895714018589875}
   - component: {fileID: 8564895714018589878}
   - component: {fileID: 8564895714018589877}
+  - component: {fileID: 2259764212119867992}
   m_Layer: 5
   m_Name: T_Title
   m_TagString: Untagged
@@ -1015,6 +1030,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2259764212119867992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564895714018589874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 3
 --- !u!1 &8564895714040777037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1189,7 @@ GameObject:
   - component: {fileID: 8564895714271634454}
   - component: {fileID: 8564895714271634457}
   - component: {fileID: 8564895714271634456}
+  - component: {fileID: 113710880821527897}
   m_Layer: 5
   m_Name: T_AchivevDesc
   m_TagString: Untagged
@@ -1285,3 +1314,16 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &113710880821527897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564895714271634453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 2

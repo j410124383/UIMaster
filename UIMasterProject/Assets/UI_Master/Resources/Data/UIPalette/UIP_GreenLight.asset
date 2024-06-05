@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74e47115213ed8429336546cacbf655, type: 3}
+  m_Name: UIP_GreenLight
+  m_EditorClassIdentifier: 
+  paletteName: GreenLight
+  colors:
+  - {r: 0.8048582, g: 1, b: 0.38364774, a: 1}
+  - {r: 0.49151537, g: 0.7169812, b: 0.69358605, a: 1}
+  - {r: 0.33606264, g: 0.4528302, b: 0.39555073, a: 1}
+  - {r: 0.16349235, g: 0.22881153, b: 0.31132078, a: 1}

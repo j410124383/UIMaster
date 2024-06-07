@@ -18,10 +18,6 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 3481402540032
-    m_Localized: "D\xE9marrer le jeu"
-    m_Metadata:
-      m_Items: []
   - m_Id: 4032009797632
     m_Localized: "Param\xE8tres"
     m_Metadata:
@@ -31,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4492640845824
-    m_Localized: Classements
+    m_Localized: Classement
     m_Metadata:
       m_Items: []
   - m_Id: 4549138120704
@@ -39,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4616880324608
-    m_Localized: "Cr\xE9dits"
+    m_Localized: "\xC9quipe"
     m_Metadata:
       m_Items: []
   - m_Id: 5252694867968
@@ -47,15 +43,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6724580999168
-    m_Localized: "Accomplir des r\xE9alisations, R\xE9clamer des r\xE9compenses"
+    m_Localized: "R\xE9alisation obtenue !"
     m_Metadata:
       m_Items: []
   - m_Id: 7394054832128
-    m_Localized: "Voir la progression de l'\xE9quipe de d\xE9veloppement"
+    m_Localized: "Consultez les mises \xE0 jour des d\xE9veloppeurs !"
     m_Metadata:
       m_Items: []
   - m_Id: 7535323185152
-    m_Localized: "Poursuivre les d\xE9fis de niveaux sup\xE9rieurs !"
+    m_Localized: "Continuez \xE0 viser des rangs plus \xE9lev\xE9s !"
     m_Metadata:
       m_Items: []
   - m_Id: 8541209559040
@@ -63,27 +59,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8618154065920
-    m_Localized: Voir ce score
+    m_Localized: "Voir les r\xE9sultats"
     m_Metadata:
       m_Items: []
   - m_Id: 9944447516672
-    m_Localized: "G\xE9n\xE9ral"
+    m_Localized: "Param\xE8tres g\xE9n\xE9raux"
     m_Metadata:
       m_Items: []
   - m_Id: 9993676062720
-    m_Localized: Graphiques
+    m_Localized: "Param\xE8tres graphiques"
     m_Metadata:
       m_Items: []
   - m_Id: 10018594422784
-    m_Localized: Audio
+    m_Localized: "Param\xE8tres audio"
     m_Metadata:
       m_Items: []
   - m_Id: 10058666803200
-    m_Localized: Contr?les
+    m_Localized: "Param\xE8tres de contr\xF4le"
     m_Metadata:
       m_Items: []
   - m_Id: 10088295366656
-    m_Localized: Dans le jeu
+    m_Localized: "Param\xE8tres de jeu"
     m_Metadata:
       m_Items: []
   - m_Id: 254637521436672
@@ -111,7 +107,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1050106937933824
-    m_Localized: "Qualit\xE9 graphique"
+    m_Localized: "Qualit\xE9 de l'image"
     m_Metadata:
       m_Items: []
   - m_Id: 1050159270264832
@@ -143,7 +139,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1095181931839488
-    m_Localized: "Restaurer par d\xE9faut"
+    m_Localized: Restaurer
     m_Metadata:
       m_Items: []
   - m_Id: 1420052943536128
@@ -151,7 +147,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1420139782406144
-    m_Localized: Explication du guide de terrain
+    m_Localized: Voir les objets dans le jeu !
     m_Metadata:
       m_Items: []
   - m_Id: 1421490587369472
@@ -159,27 +155,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10506081658929152
-    m_Localized: Taux de rafra?chissement
+    m_Localized: "Taux de rafra\xEEchissement"
     m_Metadata:
       m_Items: []
   - m_Id: 10506161380065280
-    m_Localized: Taux de cadre
+    m_Localized: Taux de trame
     m_Metadata:
       m_Items: []
   - m_Id: 10507522779840512
-    m_Localized: Note de synchronisation verticale
+    m_Localized: Activer pour de meilleurs graphismes mais peut affecter les performances
     m_Metadata:
       m_Items: []
   - m_Id: 10507645219962880
-    m_Localized: Note de langue
+    m_Localized: Ajuster la langue du jeu
     m_Metadata:
       m_Items: []
   - m_Id: 10507784730902528
-    m_Localized: "Note de r\xE9solution"
+    m_Localized: "Ajuster la taille de la r\xE9solution du jeu"
     m_Metadata:
       m_Items: []
   - m_Id: 10507905518469120
-    m_Localized: Note de volume principal
+    m_Localized: Ajuster le volume global du jeu
     m_Metadata:
       m_Items: []
   - m_Id: 14406028984778752
@@ -203,11 +199,34 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14464154740129792
-    m_Localized: "Passer \xE0 diff\xE9rents modes de couleur"
+    m_Localized: "Passer \xE0 diff\xE9rents styles de th\xE8me"
     m_Metadata:
       m_Items: []
   - m_Id: 14806689454948352
-    m_Localized: Enable cheating
+    m_Localized: Activer les triches
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15150003609862144
+    m_Localized: "D\xE9marrer le jeu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145874481152000
+    m_Localized: Appuyer sur F11 pour activer les triches
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145037172244480
+    m_Localized: "Auteur du mod\nArt\nProgrammation\nConception\nGestion de la communaut\xE9\nChef
+      de produit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145364525088768
+    m_Localized: "Sam\nWei\nJack\nNe fais pas\nQuoi\nAu nom du p\xE8re\n\xC9legance
+      pourpre"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15153430293315584
+    m_Localized: "Score le plus \xE9lev\xE9\r\nNombre d'ondes le plus \xE9lev\xE9\r\nD\xE9g\xE2ts
+      par seconde\r\nD\xE9bloquer les r\xE9alisations\r\n\r\nNombre de niveaux"
     m_Metadata:
       m_Items: []
   references:

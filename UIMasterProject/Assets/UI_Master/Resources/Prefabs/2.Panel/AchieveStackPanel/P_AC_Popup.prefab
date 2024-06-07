@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4156545457627285294}
   - component: {fileID: 4156545457627285280}
   - component: {fileID: 4156545457627285295}
+  - component: {fileID: 1177090312866650048}
   m_Layer: 5
   m_Name: T_Progress
   m_TagString: Untagged
@@ -211,6 +212,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1177090312866650048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156545457627285293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 0
 --- !u!1 &4156545458221024043
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,6 +236,7 @@ GameObject:
   - component: {fileID: 4156545458221024044}
   - component: {fileID: 4156545458221024046}
   - component: {fileID: 4156545458221024045}
+  - component: {fileID: 7651274147117970532}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -287,6 +302,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7651274147117970532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156545458221024043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 4
 --- !u!1 &4348058556713639202
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +461,7 @@ GameObject:
   - component: {fileID: 7612151344351541803}
   - component: {fileID: 7612151344351541797}
   - component: {fileID: 7612151344351541802}
+  - component: {fileID: 3106306539867896799}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -557,6 +586,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3106306539867896799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612151344351541800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 3
 --- !u!1 &7612151345533677441
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +610,7 @@ GameObject:
   - component: {fileID: 7612151345533677440}
   - component: {fileID: 7612151345533677442}
   - component: {fileID: 7612151345533677443}
+  - component: {fileID: 5132321941265180589}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -692,6 +735,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5132321941265180589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612151345533677441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 2
 --- !u!1 &7612439391162454123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,6 +1169,7 @@ GameObject:
   - component: {fileID: 7691662308854189019}
   - component: {fileID: 7689108358114175835}
   - component: {fileID: 7689108358114175836}
+  - component: {fileID: 5713358515512774194}
   m_Layer: 5
   m_Name: Bar_Progress
   m_TagString: Untagged
@@ -1180,6 +1237,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5713358515512774194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7613226034789337675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 2
 --- !u!1 &7613293417088067035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,6 +1264,7 @@ GameObject:
   - component: {fileID: 7508781225559198141}
   - component: {fileID: 1625365072738108754}
   - component: {fileID: 7689002474135462154}
+  - component: {fileID: 7221197070636796853}
   m_Layer: 5
   m_Name: P_AC_Popup
   m_TagString: Untagged
@@ -1281,7 +1352,6 @@ MonoBehaviour:
   ProgressBar: {fileID: 7509151749377403375}
   SpoilerOverlay: {fileID: 9141631096840675976}
   SpoilerText: {fileID: 4328306424133685133}
-  AS: {fileID: 0}
 --- !u!95 &1625365072738108754
 Animator:
   serializedVersion: 5
@@ -1314,6 +1384,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &7221197070636796853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7613293417088067035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 1
 --- !u!1 &7613315606986837119
 GameObject:
   m_ObjectHideFlags: 0

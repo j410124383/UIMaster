@@ -328,7 +328,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"F:/Project/0423_UI大师/UIMaster/UIMasterProject/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll"
+-r:"F:/Project/0423_UIMaster/Unity/UIMasterProject/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.burst@1.8.2/Runtime/BurstCompileAttribute.cs"

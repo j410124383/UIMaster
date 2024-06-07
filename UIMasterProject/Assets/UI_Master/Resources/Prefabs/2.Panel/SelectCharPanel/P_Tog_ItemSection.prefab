@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5333358193649574800}
   - component: {fileID: 6051742025912031034}
   - component: {fileID: 1909691935566614461}
+  - component: {fileID: 4395369046507638871}
+  - component: {fileID: 2658868875987786246}
   m_Layer: 5
   m_Name: P_Tog_ItemSection
   m_TagString: Untagged
@@ -71,7 +73,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1758590623, guid: 5c17822e918c1bb4794bebdcf8ff4958, type: 3}
+  m_Sprite: {fileID: 470907681, guid: 5c17822e918c1bb4794bebdcf8ff4958, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -139,7 +141,7 @@ Animator:
   m_GameObject: {fileID: 873053404668384574}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: a65e3996df9584842b1a584f059efdeb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2858507023f4f734ab602989d12dce0b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -161,7 +163,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5375022fbc9aa458887ab296dd8d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: id_click_03
+  presskey: id_click_01
+  selectkey: id_click_02
+  isShake: 0
+--- !u!225 &4395369046507638871
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873053404668384574}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &2658868875987786246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873053404668384574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 1
 --- !u!1 &5152446171064750427
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   m_TableCollectionName: UITable
   m_TableCollectionNameGuidString: 51f5245bc279b9c40a2a4dbf73a9fa58
   m_Entries:
-  - m_Id: 3481402540032
+  - m_Id: 15150003609862144
     m_Key: "id_\u5F00\u59CB"
     m_Metadata:
       m_Items: []
@@ -205,6 +205,22 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14806689454948352
     m_Key: "id_\u91D1\u624B\u6307\u8BB8\u53EF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145874481152000
+    m_Key: "id_\u91D1\u624B\u6307\u8BB8\u53EF\u6CE8\u91CA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145037172244480
+    m_Key: id_Credit_Post
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145364525088768
+    m_Key: id_Credit_Names
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15153430293315584
+    m_Key: id_Grade_Datas
     m_Metadata:
       m_Items: []
   m_Metadata:

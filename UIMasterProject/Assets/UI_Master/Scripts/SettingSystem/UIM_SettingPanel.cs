@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
-
+using System.Reflection;
 
 [AddComponentMenu("UIMaster/Setting/SettingPanel")]
 [DisallowMultipleComponent]
@@ -18,8 +18,8 @@ public class UIM_SettingPanel : MonoBehaviour
 
     public TMP_Dropdown ddQuality;
     public TMP_Dropdown ddMasterVol;
-    public TMP_Dropdown ddBGM;
-    public TMP_Dropdown ddSE;
+    public TMP_Dropdown ddBGMVol;
+    public TMP_Dropdown ddSEVol;
     public TMP_Dropdown ddFullScreen;
     public TMP_Dropdown ddAntiAliasing;
     public TMP_Dropdown ddvSync;
@@ -56,6 +56,7 @@ public class UIM_SettingPanel : MonoBehaviour
         sData = SM.curSetData;
         sOptions = SM.settingOtions;
 
+
         dataListSlider = new List<TMP_Dropdown.OptionData>();
         //初始化两种常用options
         for (int i = 0; i < sOptions.sliderStep; i++)
@@ -88,8 +89,8 @@ public class UIM_SettingPanel : MonoBehaviour
         ddLanguage.onValueChanged.AddListener(delegate { SM.OnChangeLanguage(ddLanguage.value); });
         ddQuality.onValueChanged.AddListener(delegate { SM.OnChangeQuality(ddQuality.value); });
         ddMasterVol.onValueChanged.AddListener(delegate { SM.OnChangeVolume("MasterVol", ddMasterVol.value); });
-        ddBGM.onValueChanged.AddListener(delegate { SM.OnChangeVolume("BGMVol", ddBGM.value); });
-        ddSE.onValueChanged.AddListener(delegate { SM.OnChangeVolume("SFVol", ddSE.value); });
+        ddBGMVol.onValueChanged.AddListener(delegate { SM.OnChangeVolume("BGMVol", ddBGMVol.value); });
+        ddSEVol.onValueChanged.AddListener(delegate { SM.OnChangeVolume("SFVol", ddSEVol.value); });
         //bdFullScreen.onValueChanged.AddListener(delegate { us.OnChangeFullScreen(bdFullScreen.value); });
         ddvSync.onValueChanged.AddListener(delegate { SM.OnChangevSync(ddvSync.value); });
         ddAntiAliasing.onValueChanged.AddListener(delegate { SM.OnChangeAntiAliasing(ddAntiAliasing.value); });
@@ -134,9 +135,9 @@ public class UIM_SettingPanel : MonoBehaviour
         InitiaOptions(ddAllowedGF, DPmod.布尔);
 
         //线性slider选项生成
-        InitiaOptions(ddMasterVol, DPmod.线性);
-        InitiaOptions(ddBGM, DPmod.线性);
-        InitiaOptions(ddSE, DPmod.线性);
+        InitiaOptions(ddMasterVol, DPmod.步进);
+        InitiaOptions(ddBGMVol, DPmod.步进);
+        InitiaOptions(ddSEVol, DPmod.步进);
     }
 
 
@@ -290,102 +291,31 @@ public class UIM_SettingPanel : MonoBehaviour
     public void DropdownWRData(WRmod mod)
     {
         #region 校对UI实际数据与SO数据
-        List<int> bdValues = new List<int>() {
-        ddLanguage.value ,
-        ddMasterVol.value ,
-        ddSE.value ,
-        ddBGM.value ,
-        ddQuality.value ,
-        ddFullScreen.value ,
-        ddvSync.value,
-        ddAntiAliasing.value ,
-        ddResolution.value,
-        ddTheme.value ,
-        ddChromaticAberration.value ,
-        ddFlimGrain.value ,
-        ddVignette.value ,
-        ddAllowedGF.value
-        };
-
-        List<int> sDataValues = new List<int>()
-        {
-        sData.num_Language ,
-        sData.num_MasterVol,
-        sData.num_SEVol ,
-        sData.num_BGMVol ,
-        sData.num_Quality ,
-        sData.num_FullScreen ,
-        sData.num_vSync,
-        sData.num_AntiAliasing ,
-        sData.num_Resoulution,
-        sData.num_Theme ,
-        sData.num_ChromaticAberration ,
-        sData.num_FlimGrain,
-        sData.num_Vignette ,
-        sData.num_AllowedGF
-        };
-        /// <summary>
-        /// 为Dropdown的value赋值，ui读取数据
-        /// </summary>
         void DropdownReadData()
         {
-
-            ddLanguage.value = sData.num_Language;
-            ddQuality.value = sData.num_Quality;
-
-            ddMasterVol.value = sData.num_MasterVol;
-            ddSE.value = sData.num_SEVol;
-            ddBGM.value = sData.num_BGMVol;
-          
-            ddFullScreen.value = sData.num_FullScreen;
-            ddAntiAliasing.value = sData.num_AntiAliasing;
-            ddvSync.value = sData.num_vSync;
-
-            ddResolution.value = sData.num_Resoulution;
-            ddFrameRate.value = sData.num_FrameRate;
-            ddRefreshRate.value= sData.num_RefreshRate ;
-
-            ddTheme.value = sData.num_Theme;
-            ddChromaticAberration.value = sData.num_ChromaticAberration;
-            ddFlimGrain.value = sData.num_FlimGrain;
-            ddVignette.value = sData.num_Vignette;
-            ddAllowedGF.value = sData.num_AllowedGF;
-
-
-
+            foreach (FieldInfo field in sData.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance))
+            {
+                var tfield = "dd" + field.Name.Substring(4);
+                //Debug.Log("dataName: "+tfield+"  fileName: "+ field.Name);
+                TMP_Dropdown dropdown = (TMP_Dropdown)GetType().GetField(tfield).GetValue(this);
+                Debug.Log(dropdown.name);
+                dropdown.value = (int)field.GetValue(sData);
+            }
         }
 
-        /// <summary>
-        /// 写入数据
-        /// </summary>
         void DropdownWriteData()
         {
-            sData.num_Language = ddLanguage.value;
-            sData.num_Quality = ddQuality.value;
-
-            sData.num_MasterVol = ddMasterVol.value;
-            sData.num_SEVol = ddSE.value;
-            sData.num_BGMVol = ddBGM.value;
- 
-            sData.num_FullScreen = ddFullScreen.value;
-            sData.num_AntiAliasing = ddAntiAliasing.value;
-            sData.num_vSync = ddvSync.value;
-
-            sData.num_Resoulution = ddResolution.value;
-            sData.num_FrameRate = ddFrameRate.value;
-            sData.num_RefreshRate = ddRefreshRate.value;
-
-            sData.num_Theme = ddTheme.value;
-            sData.num_ChromaticAberration = ddChromaticAberration.value;
-            sData.num_FlimGrain = ddFlimGrain.value;
-            sData.num_Vignette = ddVignette.value;
-            sData.num_AllowedGF = ddAllowedGF.value;
-
+            foreach (FieldInfo field in sData.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance))
+            {
+                var tfield = "dd" + field.Name.Substring(4);
+                //Debug.Log("dataName: " + tfield + "  fileName: " + field.Name);
+                TMP_Dropdown dropdown = (TMP_Dropdown)GetType().GetField(tfield).GetValue(this);
+                field.SetValue(sData, dropdown.value);
+            }
         }
 
 
-
-
+       
         #endregion
 
         switch (mod)
@@ -424,7 +354,7 @@ public class UIM_SettingPanel : MonoBehaviour
 
     public enum DPmod
     {
-        布尔, 线性
+        布尔, 步进
     }
 
     public void InitiaOptions(TMP_Dropdown dropdown, DPmod dPmod)
@@ -438,7 +368,7 @@ public class UIM_SettingPanel : MonoBehaviour
             dataListBool.Add(new TMP_Dropdown.OptionData("OFF"));
             dropdown.AddOptions(dataListBool);
         }
-        else if (dPmod == DPmod.线性)
+        else if (dPmod == DPmod.步进)
         {
             dropdown.AddOptions(dataListSlider);
         }

@@ -41,8 +41,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 860, y: 0}
-  m_SizeDelta: {x: 1720, y: 0}
+  m_AnchoredPosition: {x: 860.00006, y: 0}
+  m_SizeDelta: {x: 1720.0001, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &141978804
 CanvasRenderer:
@@ -183,7 +183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7239389887612703106, guid: 8f6cf4715194b7e4cbcec33b7b250447, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 860
+      value: 860.00006
       objectReference: {fileID: 0}
     - target: {fileID: 7239389887612703106, guid: 8f6cf4715194b7e4cbcec33b7b250447, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -698,7 +698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5793527950452248875, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1720
+      value: 1720.0001
       objectReference: {fileID: 0}
     - target: {fileID: 5793527950452248875, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_SizeDelta.y
@@ -762,7 +762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6160712313197212761, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 6458322431810751180, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_SizeDelta.x

@@ -10,6 +10,7 @@ using UnityEngine.UI;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
+
 [AddComponentMenu("UIMaster/Setting/SettingManager")]
 [DisallowMultipleComponent]
 public class UIM_SettingManager : MonoBehaviour
@@ -41,7 +42,28 @@ public class UIM_SettingManager : MonoBehaviour
         UIM_SaveLoad.LoadData(curSetData, "SettingData"); //游戏开始时，先读取设置数据
         volume = GetComponent<Volume>();
         RefreshSetting();
+
+        //基础设置
+        Cursor.lockState = CursorLockMode.Confined;
+        Application.runInBackground = true;
+
     }
+
+
+    private void Update()
+    {
+        // 在后台时也继续播放声音
+        if (Application.isFocused)
+        {
+            AudioListener.pause = false;
+        }
+        else
+        {
+            AudioListener.pause = false; // 确保声音在后台时不暂停
+        }
+    }
+
+
 
     /// <summary>
     /// 刷新目前的设置，也相当于读取，游戏开始时，默认调用一次。
@@ -55,7 +77,7 @@ public class UIM_SettingManager : MonoBehaviour
         OnChangeVolume("SFVol", curSetData.num_SEVol);
         OnChangevSync(curSetData.num_vSync);
         OnChangeAntiAliasing(curSetData.num_AntiAliasing);
-        OnChangeResolustion(curSetData.num_Resoulution, curSetData.num_FullScreen, curSetData.num_RefreshRate);
+        OnChangeResolustion(curSetData.num_Resolution, curSetData.num_FullScreen, curSetData.num_RefreshRate);
         OnChangeLanguage(curSetData.num_Language);
         //OnChangeFullScreen(curSetData.num_FullScreen);
         OnChangeFrameRate(curSetData.num_FrameRate);

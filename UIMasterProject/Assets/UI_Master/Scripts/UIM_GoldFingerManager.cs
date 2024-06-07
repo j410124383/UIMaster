@@ -15,13 +15,9 @@ public class UIM_GoldFingerManager : MonoBehaviour
         inputActions.Enable();
     }
 
-    private void OnEnable()
-    {
-      
-    }
-
     void Update()
     {
+        if (UIM_SettingManager.instance.curSetData.num_AllowedGF != 0) return;
 
         if (inputActions.UI.CallGold.triggered)
         {

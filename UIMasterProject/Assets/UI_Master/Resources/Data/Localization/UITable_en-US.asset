@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5252694867968
-    m_Localized: Quit
+    m_Localized: Exit
     m_Metadata:
       m_Items: []
   - m_Id: 4616880324608
-    m_Localized: Credits
+    m_Localized: Team
     m_Metadata:
       m_Items: []
   - m_Id: 4549138120704
@@ -42,20 +42,16 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
-  - m_Id: 3481402540032
-    m_Localized: Start Game
-    m_Metadata:
-      m_Items: []
   - m_Id: 6724580999168
-    m_Localized: Complete Achievements, Claim Rewards
+    m_Localized: Achievement Earned!
     m_Metadata:
       m_Items: []
   - m_Id: 7394054832128
-    m_Localized: View Development Team's Update Progress
+    m_Localized: Check the developer updates!
     m_Metadata:
       m_Items: []
   - m_Id: 7535323185152
-    m_Localized: Keep Challenging Higher Levels!
+    m_Localized: Keep challenging for higher ranks!
     m_Metadata:
       m_Items: []
   - m_Id: 8541209559040
@@ -63,27 +59,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8618154065920
-    m_Localized: View This Score
+    m_Localized: View Results
     m_Metadata:
       m_Items: []
   - m_Id: 9944447516672
-    m_Localized: General
+    m_Localized: General Settings
     m_Metadata:
       m_Items: []
   - m_Id: 9993676062720
-    m_Localized: Graphics
+    m_Localized: Graphics Settings
     m_Metadata:
       m_Items: []
   - m_Id: 10018594422784
-    m_Localized: Audio
+    m_Localized: Audio Settings
     m_Metadata:
       m_Items: []
   - m_Id: 10058666803200
-    m_Localized: Controls
+    m_Localized: Control Settings
     m_Metadata:
       m_Items: []
   - m_Id: 10088295366656
-    m_Localized: Gameplay
+    m_Localized: Gameplay Settings
     m_Metadata:
       m_Items: []
   - m_Id: 254637521436672
@@ -111,11 +107,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1050106937933824
-    m_Localized: Graphics Quality
+    m_Localized: Image Quality
     m_Metadata:
       m_Items: []
   - m_Id: 1050159270264832
-    m_Localized: Anti-aliasing
+    m_Localized: Anti-Aliasing
     m_Metadata:
       m_Items: []
   - m_Id: 1050239876399104
@@ -131,7 +127,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1050443421777920
-    m_Localized: Sound Volume
+    m_Localized: Sound Effects Volume
     m_Metadata:
       m_Items: []
   - m_Id: 1054394833633280
@@ -143,7 +139,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1095181931839488
-    m_Localized: Restore Default Settings
+    m_Localized: Restore Defaults
     m_Metadata:
       m_Items: []
   - m_Id: 1420052943536128
@@ -151,7 +147,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1420139782406144
-    m_Localized: Field Guide Explanation
+    m_Localized: View in-game objects!
     m_Metadata:
       m_Items: []
   - m_Id: 1421490587369472
@@ -159,7 +155,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10507905518469120
-    m_Localized: Master Volume Note
+    m_Localized: Adjust overall game volume
     m_Metadata:
       m_Items: []
   - m_Id: 10506081658929152
@@ -171,15 +167,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10507522779840512
-    m_Localized: Vertical Sync Note
+    m_Localized: Enable for better graphics but may affect performance
     m_Metadata:
       m_Items: []
   - m_Id: 10507645219962880
-    m_Localized: Language Note
+    m_Localized: Adjust game language
     m_Metadata:
       m_Items: []
   - m_Id: 10507784730902528
-    m_Localized: Resolution Note
+    m_Localized: Adjust game resolution size
     m_Metadata:
       m_Items: []
   - m_Id: 14406028984778752
@@ -203,11 +199,56 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 14464154740129792
-    m_Localized: Switch to different color modes
+    m_Localized: Switch to different theme styles
     m_Metadata:
       m_Items: []
   - m_Id: 14806689454948352
-    m_Localized: Activer la tricherie
+    m_Localized: Enable Cheats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15150003609862144
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145874481152000
+    m_Localized: Enable cheats by pressing F11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145037172244480
+    m_Localized: 'Mod Author
+
+      Art
+
+      Programming
+
+      Design
+
+      Community
+      Management
+
+      Product Manager'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15145364525088768
+    m_Localized: 'Sam
+
+      Wei
+
+      Jack
+
+      Don''t
+
+      What
+
+      In
+      Father''s Name
+
+      Purple Elegance'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15153430293315584
+    m_Localized: "Highest score\r\nMaximum wavenumber\r\nDamage per second\r\r\nAchievement
+      Unlocked\r\n\r\nNumber of levels"
     m_Metadata:
       m_Items: []
   references:

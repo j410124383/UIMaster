@@ -1473,7 +1473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -1603,7 +1603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -1733,7 +1733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -1863,7 +1863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -1993,7 +1993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -2128,7 +2128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x
@@ -2462,7 +2462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2612680990484256968, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 2772550340510652068, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_IsActive
@@ -2550,7 +2550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6160712313197212761, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 6458322431395618450, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_RootOrder
@@ -2644,7 +2644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250051171911715057, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 5889779857762106119, guid: d2b377a617253ef46b5e865f87d5e4d4, type: 3}
       propertyPath: m_Pivot.x

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2851665753054188072}
   - component: {fileID: 2037681845964584056}
   - component: {fileID: 9178774357886739251}
+  - component: {fileID: 5373569746078059564}
   m_Layer: 5
   m_Name: I_Icon
   m_TagString: Untagged
@@ -59,14 +60,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.37647063, g: 0.37647063, b: 0.37254903, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 2010554794, guid: 46b2460062a5dbb41a000bf94a3596c3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -76,6 +77,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5373569746078059564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4281903213897118269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 3
 --- !u!1 &6901001336955162676
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +106,8 @@ GameObject:
   - component: {fileID: 8390594440484459777}
   - component: {fileID: 2878042977591121186}
   - component: {fileID: 1761150397951002007}
+  - component: {fileID: 424864430686448925}
+  - component: {fileID: 3580248113804209801}
   m_Layer: 5
   m_Name: P_But_Option
   m_TagString: Untagged
@@ -142,14 +158,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+  m_Color: {r: 0.65882355, g: 0.64705884, b: 0.6392157, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1315659944, guid: 5c17822e918c1bb4794bebdcf8ff4958, type: 3}
+  m_Sprite: {fileID: 488433190, guid: 5c17822e918c1bb4794bebdcf8ff4958, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -275,7 +291,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5375022fbc9aa458887ab296dd8d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: id_click_02
+  presskey: id_click_01
+  selectkey: id_click_02
+  isShake: 0
+--- !u!225 &424864430686448925
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901001336955162676}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &3580248113804209801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901001336955162676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 1
 --- !u!1 &6901001337043412589
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +332,7 @@ GameObject:
   - component: {fileID: 6901001337043412499}
   - component: {fileID: 5096671634934438610}
   - component: {fileID: 1638105614907283968}
+  - component: {fileID: 6904180478444387569}
   m_Layer: 5
   m_Name: T_OptionName
   m_TagString: Untagged
@@ -311,9 +355,9 @@ RectTransform:
   m_Father: {fileID: 6901001336955162683}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 20, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -25}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &6901001337043412498
@@ -353,8 +397,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288914856
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284440672
+  m_fontColor: {r: 0.37647063, g: 0.37647063, b: 0.37254903, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -467,3 +511,16 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!114 &6904180478444387569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901001337043412589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6890fffe561ae43b8d839242edb256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palatteNum: 3

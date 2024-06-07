@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74e47115213ed8429336546cacbf655, type: 3}
+  m_Name: 03_Pixel
+  m_EditorClassIdentifier: 
+  paletteName: Pixel
+  colors:
+  - {r: 0.26666668, g: 0.24705884, b: 0.27450982, a: 1}
+  - {r: 0.3372549, g: 0.39607847, b: 0.61960787, a: 1}
+  - {r: 0.5647059, g: 0.54901963, b: 0.6392157, a: 1}
+  - {r: 0.96470594, g: 0.8705883, b: 0.72156864, a: 1}
+  - {r: 1, g: 0.35686275, b: 0.3803922, a: 1}

@@ -663,9 +663,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8623035320199839214}
     m_Modifications:
+    - target: {fileID: 571847941477292744, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3653442815081905018, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
       propertyPath: m_text
-      value: "\u6A21\u5F0F\n\u5206\u6570\n\u79FB\u52A8\u8DDD\u79BB\n\u5E73\u5747\u4F24\u5BB3\n\u6700\u9AD8\u4F24\u5BB3\n"
+      value: "\u6700\u9AD8\u5206\u6570\r\n\u6700\u9AD8\u6CE2\u6570\r\n\u6BCF\u79D2\u4F24\u5BB3\r\n\u89E3\u9501\u6210\u5C31\r\n\u5173\u5361\u6570"
       objectReference: {fileID: 0}
     - target: {fileID: 3653442815081905018, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
       propertyPath: m_fontSize
@@ -701,7 +705,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3653442816064757912, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
       propertyPath: m_text
-      value: "\u65E0\u5C3D\u6A21\u5F0F\n750304\n12342\n1730/\u79D2\n334321\n"
+      value: '750304
+
+        12342
+
+        1730
+
+        334
+
+        21
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 3653442816064757912, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
       propertyPath: m_fontSize
@@ -822,6 +836,10 @@ PrefabInstance:
     - target: {fileID: 3653442816401457523, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894650600190160093, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 15153430293315584
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ed2060af2515a34ea2cce6efa180665, type: 3}
@@ -1363,7 +1381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6160712313197212761, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4294967295
+      value: 4284440672
       objectReference: {fileID: 0}
     - target: {fileID: 6458322431395618450, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_RootOrder
@@ -1387,7 +1405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8055512581144424720, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8055512581144424720, guid: edd20efaf18b2f54ab02962de7aa48e0, type: 3}
       propertyPath: m_Enabled

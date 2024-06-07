@@ -57,14 +57,9 @@ public class UIM_PanelManager : MonoBehaviour
     void OnEnable()
     {
         // 确保EventSystem存在
-        if (EventSystem.current == null)
-        {
-            Debug.LogError("No EventSystem found in the scene. Please add an EventSystem.");
-            return;
+        if (!EventSystem.current) {
+            RebackFirstBut();
         }
-
-        RebackFirstBut();
-
 
     }
 
@@ -82,6 +77,7 @@ public class UIM_PanelManager : MonoBehaviour
 
     void RebackFirstBut()
     {
+
         // 设置按钮为第一个选择
         EventSystem.current.firstSelectedGameObject = butFirst.gameObject;
         //Debug.Log("默认已跳转到:" + butFirst.gameObject.name);
@@ -111,34 +107,33 @@ public class UIM_PanelManager : MonoBehaviour
 
 
             //开启模式
-            if (butContent.isOpen)
-            {
-                item.SetActive(true);
-                anim.SetBool("ISSWITCH",false);
-            }
-            else
-            {
-                anim.SetBool("ISSWITCH", true);
+            item.SetActive(butContent.isOpen ? true : item.activeInHierarchy);
+            anim.SetBool("ISSWITCH", !butContent.isOpen);
 
-            }
+            //if (butContent.isOpen)
+            //{
+            //    item.SetActive(butContent.isOpen?true:item.activeInHierarchy);
+            //    anim.SetBool("ISSWITCH",!butContent.isOpen);
+            //}
+            //else
+            //{
+            //    anim.SetBool("ISSWITCH", true);
+
+            //}
 
             UIM_UIManager.Instance.RefreshLayoutsRecursively();
         }
 
         //判断是不是要关闭自身
-        if (butContent.autoCloseSelf)
+        if (!butContent.autoCloseSelf) return;
+        if (GetComponent<Animator>())
         {
-            if (GetComponent<Animator>())
-            {
-                GetComponent<Animator>().SetBool("ISSWITCH", true);
-            }
-            else
-            {
-                gameObject.SetActive(false);
-            }
-            
+            GetComponent<Animator>().SetBool("ISSWITCH", true);
         }
-
+        else
+        {
+            gameObject.SetActive(false);
+        }
     }
 
 

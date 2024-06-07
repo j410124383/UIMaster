@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: OrignSettingData
   m_EditorClassIdentifier: 
   num_Language: 0
-  num_Quality: 1
-  num_MasterVol: 8
-  num_BGMVol: 8
-  num_SEVol: 8
+  num_Theme: 0
   num_FullScreen: 0
-  num_AntiAliasing: 0
+  num_Quality: 2
+  num_AntiAliasing: 2
   num_vSync: 0
   num_Resoulution: 10
   num_RefreshRate: 3
   num_FrameRate: 2
-  num_Theme: 0
+  num_MasterVol: 8
+  num_BGMVol: 8
+  num_SEVol: 8
   num_ChromaticAberration: 0
   num_FlimGrain: 0
   num_Vignette: 0
